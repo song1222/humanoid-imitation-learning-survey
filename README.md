@@ -2,6 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
+![Method Taxonomy](assets/years.png)
+
 This repository collects papers from **A Survey of Humanoid Imitation Learning** and organizes them according to the survey's **Methods of Humanoid Imitation Learning** taxonomy.
 
 Data source, simulator, robot platform, project links, and code links are kept as metadata in `data/papers.json`, but the README classification follows only the method categories and subcategories used in the paper.

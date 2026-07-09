@@ -87,6 +87,8 @@ def main() -> int:
         "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]"
         "(http://makeapullrequest.com)",
         "",
+        "![Method Taxonomy](assets/years.png)",
+        "",
         "This repository collects papers from **A Survey of Humanoid Imitation Learning** "
         "and organizes them according to the survey's **Methods of Humanoid Imitation Learning** "
         "taxonomy.",
