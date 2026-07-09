@@ -18,14 +18,6 @@ CATEGORY_ORDER = [
     ("generalist-humanoid-policies", "Generalist Humanoid Policies"),
 ]
 
-DATA_SOURCE_ORDER = [
-    ("MoCap", "Motion Capture", "Data from Humans"),
-    ("Video", "Video-based Reconstruction", "Data from Humans"),
-    ("Learned Motion Priors", "Data from Learned Motion Priors", ""),
-    ("Teleoperation", "Data from Teleoperation", ""),
-    ("Unspecified", "Unspecified Data Source", ""),
-]
-
 CATEGORY_SCOPE = {
     "motion-retargeting-and-tracking": (
         "Human-to-robot motion transfer, retargeting, and physics-based reference tracking."
@@ -38,54 +30,6 @@ CATEGORY_SCOPE = {
         "Broad-coverage policies, multi-skill controllers, and foundation/VLA-style humanoid policies."
     ),
 }
-
-DATA_SOURCE_SCOPE = {
-    "MoCap": (
-        "High-fidelity human motion demonstrations recorded by optical or inertial motion "
-        "capture systems."
-    ),
-    "Video": (
-        "Human demonstrations reconstructed from monocular, broadcast, Internet, or other "
-        "video sources."
-    ),
-    "Learned Motion Priors": (
-        "Generated or synthesized motions from learned behavior or motion-generation models."
-    ),
-    "Teleoperation": (
-        "Robot embodiment-specific demonstrations collected through humanoid teleoperation."
-    ),
-    "Unspecified": "The survey table does not specify a data source for this entry.",
-}
-
-EVALUATION_GROUPS = [
-    (
-        "Evaluation Metrics",
-        [
-            "Motion Fidelity Metrics: position, orientation, velocity/acceleration, and distribution similarity.",
-            "Physical Feasibility Metrics: energy, contact quality, and stability.",
-            "Task Performance Metrics: success rate, survival time, and task duration.",
-            "Sim-to-Real Metrics: zero-shot transfer, robustness, and sim-to-real gap.",
-        ],
-    ),
-    (
-        "Evaluation Tasks",
-        [
-            "Locomotion",
-            "Stationary Manipulation",
-            "Loco-Manipulation",
-            "Scene Interaction",
-            "Human-Human Interaction",
-            "Open-World Embodied Tasks",
-        ],
-    ),
-    (
-        "Simulation Platforms and Real-World Deployment",
-        [
-            "Physical simulation platforms: Isaac and MuJoCo.",
-            "Real-world deployment: Unitree humanoid platforms, Booster humanoid platforms, and large-scale sim-to-real evaluation.",
-        ],
-    ),
-]
 
 
 def paper_line(paper: dict) -> str:
@@ -122,71 +66,29 @@ def main() -> int:
         "(http://makeapullrequest.com)",
         "",
         "This repository collects papers from **A Survey of Humanoid Imitation Learning** "
-        "and organizes them with the taxonomy used in the survey.",
+        "and organizes them according to the survey's **Methods of Humanoid Imitation Learning** "
+        "taxonomy.",
         "",
-        "Different from a general humanoid-robot-learning list, this repository mirrors the "
-        "survey's **data-method-evaluation** pipeline. Papers can be browsed by data source "
-        "and by the method taxonomy, while simulator, robot platform, project links, and code "
-        "links are stored as metadata in `data/papers.json`.",
+        "Data source, simulator, robot platform, project links, and code links are kept as "
+        "metadata in `data/papers.json`, but the README classification follows only the "
+        "method categories used in the paper.",
         "",
         "## Contents",
         "",
-        "- [Data Sources](#data-sources)",
-        "- [Methods of Humanoid Imitation Learning](#methods-of-humanoid-imitation-learning)",
     ]
 
-    lines.extend(
-        [
-            "- [Evaluation Metrics and Platforms](#evaluation-metrics-and-platforms)",
-            "- [Data Format](#data-format)",
-            "- [Contributing](#contributing)",
-            "",
-            "---",
-            "",
-            "## Data Sources",
-            "",
-            "This section follows the survey's data-source taxonomy. Papers with multiple data "
-            "sources appear in multiple data-source subsections.",
-            "",
-        ]
-    )
-
-    for source_name, heading, parent in DATA_SOURCE_ORDER:
-        papers = [p for p in data["papers"] if source_name in p.get("data_sources", [])]
-        if not papers:
-            continue
-        title = f"{parent}: {heading}" if parent else heading
-        lines.extend([f"### {title}", "", DATA_SOURCE_SCOPE[source_name], ""])
-        for paper in sorted(
-            papers, key=lambda p: (p["year"], p["venue"], p.get("method_name", p["title"]).lower())
-        ):
-            lines.append(paper_line(paper))
-        lines.append("")
-
-    lines.extend(
-        [
-            "## Methods of Humanoid Imitation Learning",
-            "",
-            "This section follows the survey's method taxonomy and the representative-methods "
-            "table.",
-            "",
-        ]
-    )
+    for _, name in CATEGORY_ORDER:
+        anchor = name.lower().replace(" ", "-")
+        lines.append(f"- [{name}](#{anchor})")
+    lines.extend(["- [Data Format](#data-format)", "- [Contributing](#contributing)", "", "---", ""])
 
     for category_id, category_name in CATEGORY_ORDER:
         papers = [p for p in data["papers"] if p["primary_category"] == category_id]
-        lines.extend([f"### {category_name}", "", CATEGORY_SCOPE[category_id], ""])
+        lines.extend([f"## {category_name}", "", CATEGORY_SCOPE[category_id], ""])
         for paper in sorted(
             papers, key=lambda p: (p["year"], p["venue"], p.get("method_name", p["title"]).lower())
         ):
             lines.append(paper_line(paper))
-        lines.append("")
-
-    lines.extend(["## Evaluation Metrics and Platforms", ""])
-    for group_name, items in EVALUATION_GROUPS:
-        lines.extend([f"### {group_name}", ""])
-        for item in items:
-            lines.append(f"- {item}")
         lines.append("")
 
     lines.extend(

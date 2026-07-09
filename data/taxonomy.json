@@ -2,20 +2,11 @@
   "schema_version": "0.1.0",
   "source": {
     "paper_title": "A Survey of Humanoid Imitation Learning",
-    "basis": "Survey taxonomy and representative-methods table",
-    "pipeline": "data-method-evaluation"
+    "basis": "Methods of Humanoid Imitation Learning section and representative-methods table",
+    "primary_axis": "method taxonomy"
   },
-  "classification_rule": "Mirror the survey's data-method-evaluation pipeline. Data sources are multi-label metadata; representative papers are assigned to the method category used by the survey table.",
+  "classification_rule": "README classification follows only the survey method taxonomy. Data sources, platforms, and other cross-cutting attributes are kept as metadata.",
   "paper_sections": [
-    {
-      "id": "data-sources",
-      "name": "Data Sources",
-      "subsections": [
-        "Data from Humans",
-        "Data from Learned Motion Priors",
-        "Data from Teleoperation"
-      ]
-    },
     {
       "id": "methods-of-humanoid-imitation-learning",
       "name": "Methods of Humanoid Imitation Learning",
@@ -24,15 +15,6 @@
         "Skill Acquisition",
         "Interaction Learning",
         "Generalist Humanoid Policies"
-      ]
-    },
-    {
-      "id": "evaluation-metrics-and-platforms",
-      "name": "Evaluation Metrics and Platforms",
-      "subsections": [
-        "Evaluation Metrics",
-        "Evaluation Tasks",
-        "Simulation Platforms"
       ]
     }
   ],
