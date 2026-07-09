@@ -1,0 +1,55 @@
+name: Add or update a paper
+description: Suggest a new paper entry or a correction to an existing entry.
+title: "[Paper] "
+labels: ["paper"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper or method name
+      placeholder: DeepMimic
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+      placeholder: SIGGRAPH 2018
+    validations:
+      required: true
+  - type: dropdown
+    id: primary-category
+    attributes:
+      label: Primary category
+      options:
+        - Motion Retargeting and Tracking
+        - Skill Acquisition
+        - Interaction Learning
+        - Generalist Humanoid Policies
+    validations:
+      required: true
+  - type: checkboxes
+    id: data-sources
+    attributes:
+      label: Data sources
+      options:
+        - label: MoCap
+        - label: Video
+        - label: Learned Motion Priors
+        - label: Teleoperation
+        - label: Unspecified
+  - type: input
+    id: platform
+    attributes:
+      label: Platform or simulator
+      placeholder: Isaac Gym, MuJoCo, Unitree G1
+  - type: textarea
+    id: links
+    attributes:
+      label: Links
+      description: Add paper, code, and project links when available.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Classification notes
+      description: Explain why this is the primary category if the paper spans multiple categories.

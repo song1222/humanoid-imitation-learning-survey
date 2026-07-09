@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.1.0",
+  "source": {
+    "paper_title": "A Survey of Humanoid Imitation Learning",
+    "basis": "Survey taxonomy and representative-methods table",
+    "primary_axis": "method capability"
+  },
+  "classification_rule": "Assign each paper to the single method category that best captures its dominant humanoid-imitation pipeline contribution. Store overlap as metadata.",
+  "primary_categories": [
+    {
+      "id": "motion-retargeting-and-tracking",
+      "name": "Motion Retargeting and Tracking",
+      "description": "Transfers human motions to humanoid embodiments and executes reference motions under physical constraints.",
+      "subcategories": [
+        "Motion Retargeting",
+        "Physics-based Motion Tracking"
+      ]
+    },
+    {
+      "id": "skill-acquisition",
+      "name": "Skill Acquisition",
+      "description": "Learns physically executable task-oriented behaviors beyond basic tracking.",
+      "subcategories": [
+        "Sports Skills",
+        "Acrobatic Skills",
+        "Long-Horizon Skills"
+      ]
+    },
+    {
+      "id": "interaction-learning",
+      "name": "Interaction Learning",
+      "description": "Learns humanoid interaction with objects, environments, and other humans.",
+      "subcategories": [
+        "Humanoid-Object Interaction",
+        "Humanoid-Scene Interaction",
+        "Humanoid-Human Interaction"
+      ]
+    },
+    {
+      "id": "generalist-humanoid-policies",
+      "name": "Generalist Humanoid Policies",
+      "description": "Builds scalable policies for broad behavioral coverage and cross-task generalization.",
+      "subcategories": [
+        "Skill-Guided Policies",
+        "Task-Guided Policies",
+        "Vision-Language-Guided Policies"
+      ]
+    }
+  ],
+  "data_sources": [
+    {
+      "id": "mocap",
+      "name": "MoCap",
+      "group": "Data from Humans"
+    },
+    {
+      "id": "video",
+      "name": "Video",
+      "group": "Data from Humans"
+    },
+    {
+      "id": "learned-motion-priors",
+      "name": "Learned Motion Priors",
+      "group": "Data from Learned Motion Priors"
+    },
+    {
+      "id": "teleoperation",
+      "name": "Teleoperation",
+      "group": "Data from Teleoperation"
+    },
+    {
+      "id": "unspecified",
+      "name": "Unspecified",
+      "group": "Unspecified"
+    }
+  ],
+  "evaluation_categories": [
+    {
+      "id": "motion-fidelity-metrics",
+      "name": "Motion Fidelity Metrics",
+      "subcategories": [
+        "Position Error",
+        "Orientation Error",
+        "Velocity or Acceleration Error",
+        "Distribution Similarity Metrics"
+      ]
+    },
+    {
+      "id": "physical-feasibility-metrics",
+      "name": "Physical Feasibility Metrics",
+      "subcategories": [
+        "Energy Consumption",
+        "Contact Quality",
+        "Stability Metrics"
+      ]
+    },
+    {
+      "id": "task-performance-metrics",
+      "name": "Task Performance Metrics",
+      "subcategories": [
+        "Success Rate",
+        "Survival Time",
+        "Task Duration"
+      ]
+    },
+    {
+      "id": "sim-to-real-metrics",
+      "name": "Sim-to-Real Metrics",
+      "subcategories": [
+        "Zero-shot Transfer",
+        "Robustness",
+        "Sim-to-Real Gap"
+      ]
+    }
+  ],
+  "task_levels": [
+    "Locomotion",
+    "Stationary Manipulation",
+    "Loco-Manipulation",
+    "Scene Interaction",
+    "Human-Human Interaction",
+    "Open-World Embodied Tasks"
+  ],
+  "platform_groups": [
+    "Physical Simulation Platforms",
+    "Real-World Deployment"
+  ],
+  "supporting_concepts": [
+    "Kinematic Motion Priors",
+    "Physics-based Humanoid Control",
+    "Hybrid Architectures",
+    "Domain Randomization",
+    "System Identification",
+    "Domain Adaptation",
+    "Teacher-Student Distillation"
+  ]
+}
