@@ -9,8 +9,9 @@ Contributions should preserve the survey's method taxonomy instead of turning th
 3. Fill both `method_name` and the full article `title`.
 4. Add `links.paper` whenever a paper page, DOI, OpenReview, CVF, or arXiv URL is available.
 5. Choose exactly one method `primary_category` from the survey's representative-methods table.
-6. Add all secondary information as metadata.
-7. Run:
+6. Choose exactly one `subcategory` under that method category.
+7. Add all secondary information as metadata.
+8. Run:
 
 ```bash
 python scripts/generate_readme.py

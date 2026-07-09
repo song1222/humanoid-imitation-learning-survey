@@ -22,6 +22,7 @@ REQUIRED_FIELDS = {
     "venue",
     "data_sources",
     "primary_category",
+    "subcategory",
     "platforms",
     "tags",
     "links",
@@ -40,6 +41,13 @@ def main() -> int:
 
     method_categories = taxonomy.get("method_categories", taxonomy.get("primary_categories", []))
     allowed_categories = {item["id"] for item in method_categories}
+    allowed_subcategories = {
+        category["id"]: {
+            subcategory["id"] if isinstance(subcategory, dict) else subcategory
+            for subcategory in category.get("subcategories", [])
+        }
+        for category in method_categories
+    }
     allowed_data_sources = {item["name"] for item in taxonomy["data_sources"]}
     papers = papers_doc.get("papers", [])
 
@@ -78,6 +86,9 @@ def main() -> int:
             errors.append(f"{label}: unknown primary_category: {category}")
         else:
             category_counts[category] += 1
+            subcategory = paper.get("subcategory")
+            if subcategory not in allowed_subcategories.get(category, set()):
+                errors.append(f"{label}: unknown subcategory for {category}: {subcategory}")
 
         data_sources = paper.get("data_sources")
         if not isinstance(data_sources, list) or not data_sources:

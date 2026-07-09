@@ -12,6 +12,7 @@ Copy this object into `data/papers.json` and fill in the fields.
   "venue": "Conference or journal",
   "data_sources": ["MoCap"],
   "primary_category": "motion-retargeting-and-tracking",
+  "subcategory": "physics-based-motion-tracking",
   "platforms": ["Isaac Gym"],
   "tags": ["representative-method"],
   "links": {
@@ -46,3 +47,17 @@ Allowed `data_sources` values:
 - `Learned Motion Priors`
 - `Teleoperation`
 - `Unspecified`
+
+Allowed `subcategory` values:
+
+- `motion-retargeting`
+- `physics-based-motion-tracking`
+- `sports-skills`
+- `acrobatic-skills`
+- `long-horizon-skills`
+- `humanoid-object-interaction`
+- `humanoid-scene-interaction`
+- `humanoid-human-interaction`
+- `skill-guided-policies`
+- `task-guided-policies`
+- `vision-language-guided-policies`

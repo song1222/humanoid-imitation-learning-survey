@@ -31,6 +31,28 @@ CATEGORY_SCOPE = {
     ),
 }
 
+SUBCATEGORY_ORDER = {
+    "motion-retargeting-and-tracking": [
+        ("motion-retargeting", "Motion Retargeting"),
+        ("physics-based-motion-tracking", "Physics-based Motion Tracking"),
+    ],
+    "skill-acquisition": [
+        ("sports-skills", "Sports Skills"),
+        ("acrobatic-skills", "Acrobatic Skills"),
+        ("long-horizon-skills", "Long-Horizon Skills"),
+    ],
+    "interaction-learning": [
+        ("humanoid-object-interaction", "Humanoid-Object Interaction"),
+        ("humanoid-scene-interaction", "Humanoid-Scene Interaction"),
+        ("humanoid-human-interaction", "Humanoid-Human Interaction"),
+    ],
+    "generalist-humanoid-policies": [
+        ("skill-guided-policies", "Skill-Guided Policies"),
+        ("task-guided-policies", "Task-Guided Policies"),
+        ("vision-language-guided-policies", "Vision-Language-Guided Policies"),
+    ],
+}
+
 
 def paper_line(paper: dict) -> str:
     venue = f"{paper['venue']} {paper['year']}"
@@ -71,7 +93,7 @@ def main() -> int:
         "",
         "Data source, simulator, robot platform, project links, and code links are kept as "
         "metadata in `data/papers.json`, but the README classification follows only the "
-        "method categories used in the paper.",
+        "method categories and subcategories used in the paper.",
         "",
         "## Contents",
         "",
@@ -83,13 +105,19 @@ def main() -> int:
     lines.extend(["- [Data Format](#data-format)", "- [Contributing](#contributing)", "", "---", ""])
 
     for category_id, category_name in CATEGORY_ORDER:
-        papers = [p for p in data["papers"] if p["primary_category"] == category_id]
+        category_papers = [p for p in data["papers"] if p["primary_category"] == category_id]
         lines.extend([f"## {category_name}", "", CATEGORY_SCOPE[category_id], ""])
-        for paper in sorted(
-            papers, key=lambda p: (p["year"], p["venue"], p.get("method_name", p["title"]).lower())
-        ):
-            lines.append(paper_line(paper))
-        lines.append("")
+
+        for subcategory_id, subcategory_name in SUBCATEGORY_ORDER[category_id]:
+            papers = [p for p in category_papers if p.get("subcategory") == subcategory_id]
+            if not papers:
+                continue
+            lines.extend([f"### {subcategory_name}", ""])
+            for paper in sorted(
+                papers, key=lambda p: (p["year"], p["venue"], p.get("method_name", p["title"]).lower())
+            ):
+                lines.append(paper_line(paper))
+            lines.append("")
 
     lines.extend(
         [
@@ -97,7 +125,7 @@ def main() -> int:
             "",
             "The canonical data file is [`data/papers.json`](data/papers.json). Each entry keeps "
             "the full paper title, method name, venue, year, data source, method category, "
-            "platform, and links.",
+            "method subcategory, platform, and links.",
             "",
             "```json",
             "{",
@@ -107,6 +135,7 @@ def main() -> int:
             '  "venue": "SIGGRAPH",',
             '  "data_sources": ["MoCap"],',
             '  "primary_category": "motion-retargeting-and-tracking",',
+            '  "subcategory": "physics-based-motion-tracking",',
             '  "platforms": ["Bullet"],',
             '  "links": {"paper": "https://doi.org/10.1145/3197517.3201311", "code": "", "project": ""}',
             "}",
@@ -114,8 +143,9 @@ def main() -> int:
             "",
             "## Contributing",
             "",
-            "Please keep exactly one `primary_category` per paper. If a paper spans multiple ideas, "
-            "put the overlap in `data_sources`, `tags`, `platforms`, `links`, and `notes`.",
+            "Please keep exactly one `primary_category` and one `subcategory` per paper. If a paper "
+            "spans multiple ideas, put the overlap in `data_sources`, `tags`, `platforms`, `links`, "
+            "and `notes`.",
             "",
             "After editing `data/papers.json`, regenerate and validate the list:",
             "",

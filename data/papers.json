@@ -27,7 +27,8 @@
       },
       "notes": "",
       "method_name": "DeepMimic",
-      "bib_key": "deepmimic"
+      "bib_key": "deepmimic",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "sfv",
@@ -51,7 +52,8 @@
       },
       "notes": "",
       "method_name": "SFV",
-      "bib_key": "SFV"
+      "bib_key": "SFV",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "npmp",
@@ -75,7 +77,8 @@
       },
       "notes": "",
       "method_name": "NPMP",
-      "bib_key": "NPMP"
+      "bib_key": "NPMP",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "rfc",
@@ -99,7 +102,8 @@
       },
       "notes": "",
       "method_name": "RFC",
-      "bib_key": "RFC"
+      "bib_key": "RFC",
+      "subcategory": "acrobatic-skills"
     },
     {
       "id": "amp",
@@ -124,7 +128,8 @@
       },
       "notes": "",
       "method_name": "AMP",
-      "bib_key": "AMP"
+      "bib_key": "AMP",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "ase",
@@ -149,7 +154,8 @@
       },
       "notes": "",
       "method_name": "ASE",
-      "bib_key": "ASE"
+      "bib_key": "ASE",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "controlvae",
@@ -173,7 +179,8 @@
       },
       "notes": "",
       "method_name": "ControlVAE",
-      "bib_key": "ControlVAE"
+      "bib_key": "ControlVAE",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "dancehat",
@@ -197,7 +204,8 @@
       },
       "notes": "Full paper title and link still need verification.",
       "method_name": "DanceHAT",
-      "bib_key": ""
+      "bib_key": "",
+      "subcategory": "sports-skills"
     },
     {
       "id": "phc",
@@ -222,7 +230,8 @@
       },
       "notes": "",
       "method_name": "PHC",
-      "bib_key": "PHC"
+      "bib_key": "PHC",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "insactor",
@@ -246,7 +255,8 @@
       },
       "notes": "",
       "method_name": "InsActor",
-      "bib_key": "InsActor"
+      "bib_key": "InsActor",
+      "subcategory": "long-horizon-skills"
     },
     {
       "id": "interphys",
@@ -270,7 +280,8 @@
       },
       "notes": "Full paper title and link still need verification.",
       "method_name": "InterPhys",
-      "bib_key": ""
+      "bib_key": "",
+      "subcategory": "humanoid-object-interaction"
     },
     {
       "id": "calm",
@@ -295,7 +306,8 @@
       },
       "notes": "",
       "method_name": "CALM",
-      "bib_key": "CALM"
+      "bib_key": "CALM",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "tennis-skills",
@@ -321,7 +333,8 @@
       },
       "notes": "",
       "method_name": "Tennis Skills",
-      "bib_key": "TennisSkills-Videos"
+      "bib_key": "TennisSkills-Videos",
+      "subcategory": "sports-skills"
     },
     {
       "id": "mhc",
@@ -346,7 +359,8 @@
       },
       "notes": "",
       "method_name": "MHC",
-      "bib_key": "MHC"
+      "bib_key": "MHC",
+      "subcategory": "task-guided-policies"
     },
     {
       "id": "omnih2o",
@@ -372,7 +386,8 @@
       },
       "notes": "",
       "method_name": "OmniH2O",
-      "bib_key": "OmniH2O"
+      "bib_key": "OmniH2O",
+      "subcategory": "humanoid-object-interaction"
     },
     {
       "id": "humanplus",
@@ -398,7 +413,8 @@
       },
       "notes": "",
       "method_name": "HumanPlus",
-      "bib_key": "HumanPlus"
+      "bib_key": "HumanPlus",
+      "subcategory": "skill-guided-policies"
     },
     {
       "id": "unihsi",
@@ -422,7 +438,8 @@
       },
       "notes": "",
       "method_name": "UniHSI",
-      "bib_key": "UniHSI"
+      "bib_key": "UniHSI",
+      "subcategory": "humanoid-scene-interaction"
     },
     {
       "id": "humanvla",
@@ -447,7 +464,8 @@
       },
       "notes": "The survey table lists this method as HumanVLA; the bibliography entry uses Humanoid-VLA.",
       "method_name": "HumanVLA",
-      "bib_key": "HumanoidVLA"
+      "bib_key": "HumanoidVLA",
+      "subcategory": "vision-language-guided-policies"
     },
     {
       "id": "xgb",
@@ -472,7 +490,8 @@
       },
       "notes": "The survey table spells the method as XGB; the bibliography entry uses XBG.",
       "method_name": "XGB",
-      "bib_key": "XBG"
+      "bib_key": "XBG",
+      "subcategory": "humanoid-human-interaction"
     },
     {
       "id": "pdp",
@@ -497,7 +516,8 @@
       },
       "notes": "",
       "method_name": "PDP",
-      "bib_key": "PDP"
+      "bib_key": "PDP",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "maskedmimic",
@@ -522,7 +542,8 @@
       },
       "notes": "",
       "method_name": "MaskedMimic",
-      "bib_key": "MaskedMimic"
+      "bib_key": "MaskedMimic",
+      "subcategory": "task-guided-policies"
     },
     {
       "id": "twist",
@@ -547,7 +568,8 @@
       },
       "notes": "",
       "method_name": "TWIST",
-      "bib_key": "TWIST"
+      "bib_key": "TWIST",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "skillmimic",
@@ -573,7 +595,8 @@
       },
       "notes": "Video spelling normalized from the survey table.",
       "method_name": "SkillMimic",
-      "bib_key": "SkillMimic"
+      "bib_key": "SkillMimic",
+      "subcategory": "skill-guided-policies"
     },
     {
       "id": "intermimic",
@@ -597,7 +620,8 @@
       },
       "notes": "",
       "method_name": "InterMimic",
-      "bib_key": "xu2025intermimic"
+      "bib_key": "xu2025intermimic",
+      "subcategory": "humanoid-object-interaction"
     },
     {
       "id": "tokenhsi",
@@ -621,7 +645,8 @@
       },
       "notes": "",
       "method_name": "TokenHSI",
-      "bib_key": "TokenHSI"
+      "bib_key": "TokenHSI",
+      "subcategory": "humanoid-scene-interaction"
     },
     {
       "id": "closd",
@@ -646,7 +671,8 @@
       },
       "notes": "",
       "method_name": "CLoSD",
-      "bib_key": "CLoSD"
+      "bib_key": "CLoSD",
+      "subcategory": "task-guided-policies"
     },
     {
       "id": "kungfubot",
@@ -673,7 +699,8 @@
       },
       "notes": "",
       "method_name": "KungfuBot",
-      "bib_key": "KungfuBot"
+      "bib_key": "KungfuBot",
+      "subcategory": "acrobatic-skills"
     },
     {
       "id": "parc",
@@ -698,7 +725,8 @@
       },
       "notes": "",
       "method_name": "PARC",
-      "bib_key": "PARC"
+      "bib_key": "PARC",
+      "subcategory": "sports-skills"
     },
     {
       "id": "diffuse-cloc",
@@ -723,7 +751,8 @@
       },
       "notes": "",
       "method_name": "Diffuse-CLoC",
-      "bib_key": "Diffuse-CLoC"
+      "bib_key": "Diffuse-CLoC",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "learning-to-ball",
@@ -749,7 +778,8 @@
       },
       "notes": "",
       "method_name": "Learning to Ball",
-      "bib_key": "Learning-to-Ball"
+      "bib_key": "Learning-to-Ball",
+      "subcategory": "sports-skills"
     },
     {
       "id": "amo",
@@ -774,7 +804,8 @@
       },
       "notes": "",
       "method_name": "AMO",
-      "bib_key": "AMO"
+      "bib_key": "AMO",
+      "subcategory": "humanoid-object-interaction"
     },
     {
       "id": "beyond-mimicry",
@@ -799,7 +830,8 @@
       },
       "notes": "",
       "method_name": "Beyond Mimicry",
-      "bib_key": "BeyondMimic"
+      "bib_key": "BeyondMimic",
+      "subcategory": "humanoid-scene-interaction"
     },
     {
       "id": "pvp",
@@ -824,7 +856,8 @@
       },
       "notes": "",
       "method_name": "PvP",
-      "bib_key": "PvP"
+      "bib_key": "PvP",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "viral",
@@ -850,7 +883,8 @@
       },
       "notes": "",
       "method_name": "VIRAL",
-      "bib_key": "VIRAL"
+      "bib_key": "VIRAL",
+      "subcategory": "humanoid-object-interaction"
     },
     {
       "id": "sentinel",
@@ -876,7 +910,8 @@
       },
       "notes": "",
       "method_name": "SENTINEL",
-      "bib_key": "SENTINEL"
+      "bib_key": "SENTINEL",
+      "subcategory": "vision-language-guided-policies"
     },
     {
       "id": "crisp",
@@ -901,7 +936,8 @@
       },
       "notes": "",
       "method_name": "CRISP",
-      "bib_key": "CRISP"
+      "bib_key": "CRISP",
+      "subcategory": "long-horizon-skills"
     },
     {
       "id": "bibo",
@@ -925,7 +961,8 @@
       },
       "notes": "Full paper title and link still need verification.",
       "method_name": "BiBo",
-      "bib_key": ""
+      "bib_key": "",
+      "subcategory": "task-guided-policies"
     },
     {
       "id": "exbody2",
@@ -950,7 +987,8 @@
       },
       "notes": "",
       "method_name": "ExBody2",
-      "bib_key": "ExBody2"
+      "bib_key": "ExBody2",
+      "subcategory": "skill-guided-policies"
     },
     {
       "id": "any2track",
@@ -976,7 +1014,8 @@
       },
       "notes": "",
       "method_name": "Any2Track",
-      "bib_key": "Any2Track"
+      "bib_key": "Any2Track",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "dribble-master",
@@ -1002,7 +1041,8 @@
       },
       "notes": "The survey table marks data as unspecified.",
       "method_name": "Dribble Master",
-      "bib_key": "Dribble-Master"
+      "bib_key": "Dribble-Master",
+      "subcategory": "sports-skills"
     },
     {
       "id": "dreamcontrol",
@@ -1028,7 +1068,8 @@
       },
       "notes": "",
       "method_name": "DreamControl",
-      "bib_key": "DreamControl"
+      "bib_key": "DreamControl",
+      "subcategory": "task-guided-policies"
     },
     {
       "id": "humanoidexo",
@@ -1054,7 +1095,8 @@
       },
       "notes": "",
       "method_name": "HumanoidExo",
-      "bib_key": "HumanoidExo"
+      "bib_key": "HumanoidExo",
+      "subcategory": "skill-guided-policies"
     },
     {
       "id": "omniretarget",
@@ -1080,7 +1122,8 @@
       },
       "notes": "",
       "method_name": "OmniRetarget",
-      "bib_key": "OmniRetarget"
+      "bib_key": "OmniRetarget",
+      "subcategory": "motion-retargeting"
     },
     {
       "id": "adamimic",
@@ -1106,7 +1149,8 @@
       },
       "notes": "",
       "method_name": "AdaMimic",
-      "bib_key": "AdaMimic"
+      "bib_key": "AdaMimic",
+      "subcategory": "physics-based-motion-tracking"
     },
     {
       "id": "haic",
@@ -1131,7 +1175,8 @@
       },
       "notes": "",
       "method_name": "HAIC",
-      "bib_key": "HAIC"
+      "bib_key": "HAIC",
+      "subcategory": "humanoid-object-interaction"
     }
   ]
 }

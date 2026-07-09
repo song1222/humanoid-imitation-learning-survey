@@ -24,8 +24,14 @@
       "name": "Motion Retargeting and Tracking",
       "description": "Transfers human motions to humanoid embodiments and executes reference motions under physical constraints.",
       "subcategories": [
-        "Motion Retargeting",
-        "Physics-based Motion Tracking"
+        {
+          "id": "motion-retargeting",
+          "name": "Motion Retargeting"
+        },
+        {
+          "id": "physics-based-motion-tracking",
+          "name": "Physics-based Motion Tracking"
+        }
       ]
     },
     {
@@ -33,9 +39,18 @@
       "name": "Skill Acquisition",
       "description": "Learns physically executable task-oriented behaviors beyond basic tracking.",
       "subcategories": [
-        "Sports Skills",
-        "Acrobatic Skills",
-        "Long-Horizon Skills"
+        {
+          "id": "sports-skills",
+          "name": "Sports Skills"
+        },
+        {
+          "id": "acrobatic-skills",
+          "name": "Acrobatic Skills"
+        },
+        {
+          "id": "long-horizon-skills",
+          "name": "Long-Horizon Skills"
+        }
       ]
     },
     {
@@ -43,9 +58,18 @@
       "name": "Interaction Learning",
       "description": "Learns humanoid interaction with objects, environments, and other humans.",
       "subcategories": [
-        "Humanoid-Object Interaction",
-        "Humanoid-Scene Interaction",
-        "Humanoid-Human Interaction"
+        {
+          "id": "humanoid-object-interaction",
+          "name": "Humanoid-Object Interaction"
+        },
+        {
+          "id": "humanoid-scene-interaction",
+          "name": "Humanoid-Scene Interaction"
+        },
+        {
+          "id": "humanoid-human-interaction",
+          "name": "Humanoid-Human Interaction"
+        }
       ]
     },
     {
@@ -53,9 +77,18 @@
       "name": "Generalist Humanoid Policies",
       "description": "Builds scalable policies for broad behavioral coverage and cross-task generalization.",
       "subcategories": [
-        "Skill-Guided Policies",
-        "Task-Guided Policies",
-        "Vision-Language-Guided Policies"
+        {
+          "id": "skill-guided-policies",
+          "name": "Skill-Guided Policies"
+        },
+        {
+          "id": "task-guided-policies",
+          "name": "Task-Guided Policies"
+        },
+        {
+          "id": "vision-language-guided-policies",
+          "name": "Vision-Language-Guided Policies"
+        }
       ]
     }
   ],

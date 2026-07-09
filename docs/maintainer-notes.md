@@ -18,6 +18,7 @@ Many humanoid imitation papers combine several ingredients. A paper may use huma
 Instead:
 
 - `primary_category` records the paper's method category from the survey table.
+- `subcategory` records the paper's method subsection under that category.
 - `data_sources` records where the supervision comes from.
 - `platforms` records simulator or hardware.
 - `tags` records secondary mechanisms.
