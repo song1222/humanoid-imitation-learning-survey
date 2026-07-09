@@ -5,7 +5,9 @@ Copy this object into `data/papers.json` and fill in the fields.
 ```json
 {
   "id": "short-lowercase-id",
-  "title": "Paper or method name",
+  "method_name": "Short method name",
+  "title": "Full Paper Title: Subtitle If Any",
+  "bib_key": "BibTeXKey",
   "year": 2026,
   "venue": "Conference or journal",
   "data_sources": ["MoCap"],
@@ -13,13 +15,22 @@ Copy this object into `data/papers.json` and fill in the fields.
   "platforms": ["Isaac Gym"],
   "tags": ["representative-method"],
   "links": {
-    "paper": "",
-    "code": "",
-    "project": ""
+    "paper": "https://arxiv.org/abs/xxxx.xxxxx",
+    "code": "https://github.com/owner/repo",
+    "project": "https://project-page.example"
   },
   "notes": ""
 }
 ```
+
+Field meanings:
+
+- `method_name`: short name shown in bold, such as `DeepMimic`.
+- `title`: full article title.
+- `bib_key`: citation key from the survey BibTeX file when available.
+- `links.paper`: paper, DOI, OpenReview, CVF, or arXiv page.
+- `links.project`: project website.
+- `links.code`: code repository.
 
 Allowed `primary_category` values:
 

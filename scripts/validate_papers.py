@@ -15,7 +15,9 @@ TAXONOMY_PATH = ROOT / "data" / "taxonomy.json"
 
 REQUIRED_FIELDS = {
     "id",
+    "method_name",
     "title",
+    "bib_key",
     "year",
     "venue",
     "data_sources",
@@ -60,6 +62,15 @@ def main() -> int:
 
         if not isinstance(paper.get("year"), int):
             errors.append(f"{label}: year must be an integer")
+
+        for text_field in ("method_name", "title", "venue", "bib_key", "notes"):
+            if not isinstance(paper.get(text_field), str):
+                errors.append(f"{label}: {text_field} must be a string")
+
+        if paper.get("title") == paper.get("method_name") and not paper.get("notes"):
+            errors.append(
+                f"{label}: title still looks like a method name; add a full title or a note"
+            )
 
         category = paper.get("primary_category")
         if category not in allowed_categories:

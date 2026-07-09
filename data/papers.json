@@ -7,543 +7,1131 @@
   "papers": [
     {
       "id": "deepmimic",
-      "title": "DeepMimic",
+      "title": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",
       "year": 2018,
       "venue": "SIGGRAPH",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Bullet"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Bullet"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3197517.3201311",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "DeepMimic",
+      "bib_key": "deepmimic"
     },
     {
       "id": "sfv",
-      "title": "SFV",
+      "title": "SFV: Reinforcement Learning of Physical Skills from Videos",
       "year": 2018,
       "venue": "SIGGRAPH Asia",
-      "data_sources": ["Video"],
+      "data_sources": [
+        "Video"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Bullet"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Bullet"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/1810.03599",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "SFV",
+      "bib_key": "SFV"
     },
     {
       "id": "npmp",
-      "title": "NPMP",
+      "title": "Neural Probabilistic Motor Primitives for Humanoid Control",
       "year": 2019,
       "venue": "ICLR",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["MuJoCo"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "MuJoCo"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "https://openreview.net/forum?id=BJl6TjRcY7",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "NPMP",
+      "bib_key": "NPMP"
     },
     {
       "id": "rfc",
-      "title": "RFC",
+      "title": "Residual Force Control for Agile Human Behavior Imitation and Extended Motion Synthesis",
       "year": 2020,
       "venue": "NIPS",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "skill-acquisition",
-      "platforms": ["MuJoCo"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "MuJoCo"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "https://proceedings.neurips.cc/paper/2020/hash/f76a89f0cb91bc419542ce9fa43902dc-Abstract.html",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "RFC",
+      "bib_key": "RFC"
     },
     {
       "id": "amp",
-      "title": "AMP",
+      "title": "AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control",
       "year": 2021,
       "venue": "SIGGRAPH",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Bullet"],
-      "tags": ["representative-method", "adversarial-imitation"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Bullet"
+      ],
+      "tags": [
+        "representative-method",
+        "adversarial-imitation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3450626.3459670",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "AMP",
+      "bib_key": "AMP"
     },
     {
       "id": "ase",
-      "title": "ASE",
+      "title": "ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters",
       "year": 2022,
       "venue": "SIGGRAPH",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "latent-skill"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "latent-skill"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3528223.3530110",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "ASE",
+      "bib_key": "ASE"
     },
     {
       "id": "controlvae",
-      "title": "ControlVAE",
+      "title": "ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters",
       "year": 2022,
       "venue": "SIGGRAPH Asia",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["ODE"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "ODE"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3550454.3555434",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "ControlVAE",
+      "bib_key": "ControlVAE"
     },
     {
       "id": "dancehat",
       "title": "DanceHAT",
       "year": 2022,
       "venue": "ICRA",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "skill-acquisition",
-      "platforms": ["NAO"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "NAO"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Full paper title and link still need verification.",
+      "method_name": "DanceHAT",
+      "bib_key": ""
     },
     {
       "id": "phc",
-      "title": "PHC",
+      "title": "Perpetual Humanoid Control for Real-Time Simulated Avatars",
       "year": 2023,
       "venue": "ICCV",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "physics-based-tracking"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "physics-based-tracking"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1109/ICCV51070.2023.01000",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "PHC",
+      "bib_key": "PHC"
     },
     {
       "id": "insactor",
-      "title": "InsActor",
+      "title": "InsActor: Instruction-Driven Physics-Based Characters",
       "year": 2023,
       "venue": "NIPS",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "skill-acquisition",
-      "platforms": ["Brax"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Brax"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2312.17135",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "InsActor",
+      "bib_key": "InsActor"
     },
     {
       "id": "interphys",
       "title": "InterPhys",
       "year": 2023,
       "venue": "SIGGRAPH",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Full paper title and link still need verification.",
+      "method_name": "InterPhys",
+      "bib_key": ""
     },
     {
       "id": "calm",
-      "title": "CALM",
+      "title": "CALM: Conditional Adversarial Latent Models for Directable Virtual Characters",
       "year": 2023,
       "venue": "SIGGRAPH",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "latent-motion"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "latent-motion"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3588432.3591541",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "CALM",
+      "bib_key": "CALM"
     },
     {
       "id": "tennis-skills",
-      "title": "Tennis Skills",
+      "title": "Learning Physically Simulated Tennis Skills from Broadcast Videos",
       "year": 2023,
       "venue": "SIGGRAPH",
-      "data_sources": ["MoCap", "Video"],
+      "data_sources": [
+        "MoCap",
+        "Video"
+      ],
       "primary_category": "skill-acquisition",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "sports-skill"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "sports-skill"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3592408",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "Tennis Skills",
+      "bib_key": "TennisSkills-Videos"
     },
     {
       "id": "mhc",
-      "title": "MHC",
+      "title": "Generating Physically Realistic and Directable Human Motions from Multi-Modal Inputs",
       "year": 2024,
       "venue": "ECCV",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "masked-control"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "masked-control"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.05641",
+        "code": "",
+        "project": "https://masked-humanoid.github.io/mhc/"
+      },
+      "notes": "",
+      "method_name": "MHC",
+      "bib_key": "MHC"
     },
     {
       "id": "omnih2o",
-      "title": "OmniH2O",
+      "title": "OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning",
       "year": 2024,
       "venue": "CoRL",
-      "data_sources": ["MoCap", "Teleoperation"],
+      "data_sources": [
+        "MoCap",
+        "Teleoperation"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["Unitree H1"],
-      "tags": ["representative-method", "teleoperation"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree H1"
+      ],
+      "tags": [
+        "representative-method",
+        "teleoperation"
+      ],
+      "links": {
+        "paper": "https://proceedings.mlr.press/v270/he25b.html",
+        "code": "https://github.com/LeCAR-Lab/human2humanoid",
+        "project": "https://omni.human2humanoid.com/"
+      },
+      "notes": "",
+      "method_name": "OmniH2O",
+      "bib_key": "OmniH2O"
     },
     {
       "id": "humanplus",
-      "title": "HumanPlus",
+      "title": "HumanPlus: Humanoid Shadowing and Imitation from Humans",
       "year": 2024,
       "venue": "CoRL",
-      "data_sources": ["MoCap", "Teleoperation"],
+      "data_sources": [
+        "MoCap",
+        "Teleoperation"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Unitree H1"],
-      "tags": ["representative-method", "teacher-student"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree H1"
+      ],
+      "tags": [
+        "representative-method",
+        "teacher-student"
+      ],
+      "links": {
+        "paper": "https://proceedings.mlr.press/v270/fu25a.html",
+        "code": "https://github.com/MarkFzp/humanplus",
+        "project": "https://humanoid-ai.github.io/"
+      },
+      "notes": "",
+      "method_name": "HumanPlus",
+      "bib_key": "HumanPlus"
     },
     {
       "id": "unihsi",
-      "title": "UniHSI",
+      "title": "Unified Human-Scene Interaction via Prompted Chain-of-Contacts",
       "year": 2024,
       "venue": "ICLR",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2309.07918",
+        "code": "",
+        "project": "https://github.com/OpenRobotLab/UniHSI"
+      },
+      "notes": "",
+      "method_name": "UniHSI",
+      "bib_key": "UniHSI"
     },
     {
       "id": "humanvla",
-      "title": "HumanVLA",
+      "title": "Humanoid-VLA: Towards Universal Humanoid Control with Visual Integration",
       "year": 2024,
       "venue": "NIPS",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "vision-language-action"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "vision-language-action"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.14795",
+        "code": "",
+        "project": ""
+      },
+      "notes": "The survey table lists this method as HumanVLA; the bibliography entry uses Humanoid-VLA.",
+      "method_name": "HumanVLA",
+      "bib_key": "HumanoidVLA"
     },
     {
       "id": "xgb",
-      "title": "XGB",
+      "title": "XBG: End-to-End Imitation Learning for Autonomous Behaviour in Human-Robot Interaction and Collaboration",
       "year": 2024,
       "venue": "RAL",
-      "data_sources": ["Teleoperation"],
+      "data_sources": [
+        "Teleoperation"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["ErgoCub"],
-      "tags": ["representative-method", "teleoperation"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "ErgoCub"
+      ],
+      "tags": [
+        "representative-method",
+        "teleoperation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1109/LRA.2024.3495577",
+        "code": "",
+        "project": ""
+      },
+      "notes": "The survey table spells the method as XGB; the bibliography entry uses XBG.",
+      "method_name": "XGB",
+      "bib_key": "XBG"
     },
     {
       "id": "pdp",
-      "title": "PDP",
+      "title": "PDP: Physics-Based Character Animation via Diffusion Policy",
       "year": 2024,
       "venue": "SIGGRAPH Asia",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["MuJoCo"],
-      "tags": ["representative-method", "diffusion-policy"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "MuJoCo"
+      ],
+      "tags": [
+        "representative-method",
+        "diffusion-policy"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3680528.3687683",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "PDP",
+      "bib_key": "PDP"
     },
     {
       "id": "maskedmimic",
-      "title": "MaskedMimic",
+      "title": "MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting",
       "year": 2024,
       "venue": "SIGGRAPH Asia",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "masked-motion-inpainting"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "masked-motion-inpainting"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3687951",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "MaskedMimic",
+      "bib_key": "MaskedMimic"
     },
     {
       "id": "twist",
-      "title": "TWIST",
+      "title": "TWIST: Teleoperated Whole-Body Imitation System",
       "year": 2025,
       "venue": "CoRL",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.02833",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "TWIST",
+      "bib_key": "TWIST"
     },
     {
       "id": "skillmimic",
-      "title": "SkillMimic",
+      "title": "SkillMimic: Learning Basketball Interaction Skills from Demonstrations",
       "year": 2025,
       "venue": "CVPR",
-      "data_sources": ["MoCap", "Video"],
+      "data_sources": [
+        "MoCap",
+        "Video"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "skill-guided-policy"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": "Video spelling normalized from the survey table."
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "skill-guided-policy"
+      ],
+      "links": {
+        "paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SkillMimic_Learning_Basketball_Interaction_Skills_from_Demonstrations_CVPR_2025_paper.html",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Video spelling normalized from the survey table.",
+      "method_name": "SkillMimic",
+      "bib_key": "SkillMimic"
     },
     {
       "id": "intermimic",
-      "title": "InterMimic",
+      "title": "InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions",
       "year": 2025,
       "venue": "CVPR",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.20390",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "InterMimic",
+      "bib_key": "xu2025intermimic"
     },
     {
       "id": "tokenhsi",
-      "title": "TokenHSI",
+      "title": "TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization",
       "year": 2025,
       "venue": "CVPR",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2503.19901",
+        "code": "",
+        "project": "https://liangpan99.github.io/TokenHSI/"
+      },
+      "notes": "",
+      "method_name": "TokenHSI",
+      "bib_key": "TokenHSI"
     },
     {
       "id": "closd",
-      "title": "CLoSD",
+      "title": "CLoSD: Closing the Loop between Simulation and Diffusion for Multi-Task Character Control",
       "year": 2025,
       "venue": "ICLR",
-      "data_sources": ["Learned Motion Priors"],
+      "data_sources": [
+        "Learned Motion Priors"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "learned-motion-prior"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "learned-motion-prior"
+      ],
+      "links": {
+        "paper": "https://openreview.net/forum?id=pZISppZSTv",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "CLoSD",
+      "bib_key": "CLoSD"
     },
     {
       "id": "kungfubot",
-      "title": "KungfuBot",
+      "title": "KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills",
       "year": 2025,
       "venue": "NIPS",
-      "data_sources": ["MoCap", "Video"],
+      "data_sources": [
+        "MoCap",
+        "Video"
+      ],
       "primary_category": "skill-acquisition",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "acrobatic-skill", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "acrobatic-skill",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2506.12851",
+        "code": "",
+        "project": "https://kungfu-bot.github.io/"
+      },
+      "notes": "",
+      "method_name": "KungfuBot",
+      "bib_key": "KungfuBot"
     },
     {
       "id": "parc",
-      "title": "PARC",
+      "title": "PARC: Physics-Based Augmentation with Reinforcement Learning for Character Controllers",
       "year": 2025,
       "venue": "SIGGRAPH",
-      "data_sources": ["Learned Motion Priors"],
+      "data_sources": [
+        "Learned Motion Priors"
+      ],
       "primary_category": "skill-acquisition",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "sports-skill"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "sports-skill"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3721238.3730616",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "PARC",
+      "bib_key": "PARC"
     },
     {
       "id": "diffuse-cloc",
-      "title": "Diffuse-CLoC",
+      "title": "Diffuse-CLoC: Guided Diffusion for Physics-Based Character Look-Ahead Control",
       "year": 2025,
       "venue": "SIGGRAPH",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "diffusion"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "diffusion"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3731206",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "Diffuse-CLoC",
+      "bib_key": "Diffuse-CLoC"
     },
     {
       "id": "learning-to-ball",
-      "title": "Learning to Ball",
+      "title": "Learning to Ball: Composing Policies for Long-Horizon Basketball Moves",
       "year": 2025,
       "venue": "SIGGRAPH Asia",
-      "data_sources": ["MoCap", "Video"],
+      "data_sources": [
+        "MoCap",
+        "Video"
+      ],
       "primary_category": "skill-acquisition",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "sports-skill"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "sports-skill"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3763367",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "Learning to Ball",
+      "bib_key": "Learning-to-Ball"
     },
     {
       "id": "amo",
-      "title": "AMO",
+      "title": "AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control",
       "year": 2025,
       "venue": "RSS",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.03738",
+        "code": "",
+        "project": "https://amo-humanoid.github.io/"
+      },
+      "notes": "",
+      "method_name": "AMO",
+      "bib_key": "AMO"
     },
     {
       "id": "beyond-mimicry",
-      "title": "Beyond Mimicry",
+      "title": "BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion",
       "year": 2026,
       "venue": "CVPR",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2508.08241",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "Beyond Mimicry",
+      "bib_key": "BeyondMimic"
     },
     {
       "id": "pvp",
-      "title": "PvP",
+      "title": "PvP: Data-Efficient Humanoid Robot Learning with Proprioceptive-Privileged Contrastive Representations",
       "year": 2026,
       "venue": "CVPR",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["LimX Oli"],
-      "tags": ["representative-method", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "LimX Oli"
+      ],
+      "tags": [
+        "representative-method",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2512.13093",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "PvP",
+      "bib_key": "PvP"
     },
     {
       "id": "viral",
-      "title": "VIRAL",
+      "title": "VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation",
       "year": 2026,
       "venue": "CVPR",
-      "data_sources": ["Teleoperation"],
+      "data_sources": [
+        "Teleoperation"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "teleoperation", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "teleoperation",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2511.15200",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "VIRAL",
+      "bib_key": "VIRAL"
     },
     {
       "id": "sentinel",
-      "title": "SENTINEL",
+      "title": "SENTINEL: A Fully End-to-End Language-Action Model for Humanoid Whole Body Control",
       "year": 2026,
       "venue": "CVPR",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "language-conditioned", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "language-conditioned",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2511.19236",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "SENTINEL",
+      "bib_key": "SENTINEL"
     },
     {
       "id": "crisp",
-      "title": "CRISP",
+      "title": "CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives",
       "year": 2026,
       "venue": "ICLR",
-      "data_sources": ["Video"],
+      "data_sources": [
+        "Video"
+      ],
       "primary_category": "skill-acquisition",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method", "video-based"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method",
+        "video-based"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2512.14696",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "CRISP",
+      "bib_key": "CRISP"
     },
     {
       "id": "bibo",
       "title": "BiBo",
       "year": 2026,
       "venue": "ICLR",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Isaac Gym"],
-      "tags": ["representative-method"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "representative-method"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Full paper title and link still need verification.",
+      "method_name": "BiBo",
+      "bib_key": ""
     },
     {
       "id": "exbody2",
-      "title": "ExBody2",
+      "title": "ExBody2: Advanced Expressive Humanoid Whole-Body Control",
       "year": 2026,
       "venue": "ICLR",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2412.13196",
+        "code": "",
+        "project": "https://exbody2.github.io/"
+      },
+      "notes": "",
+      "method_name": "ExBody2",
+      "bib_key": "ExBody2"
     },
     {
       "id": "any2track",
-      "title": "Any2Track",
+      "title": "Track Any Motions under Any Disturbances",
       "year": 2026,
       "venue": "AAAI",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "motion-tracking", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "motion-tracking",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2509.13833",
+        "code": "",
+        "project": "https://zzk273.github.io/Any2Track/"
+      },
+      "notes": "",
+      "method_name": "Any2Track",
+      "bib_key": "Any2Track"
     },
     {
       "id": "dribble-master",
-      "title": "Dribble Master",
+      "title": "Dribble Master: Learning Agile Humanoid Dribbling Through Legged Locomotion",
       "year": 2026,
       "venue": "ICRA",
-      "data_sources": ["Unspecified"],
+      "data_sources": [
+        "Unspecified"
+      ],
       "primary_category": "skill-acquisition",
-      "platforms": ["Booster T1"],
-      "tags": ["representative-method", "sports-skill", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": "The survey table marks data as unspecified."
+      "platforms": [
+        "Booster T1"
+      ],
+      "tags": [
+        "representative-method",
+        "sports-skill",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.12679",
+        "code": "",
+        "project": ""
+      },
+      "notes": "The survey table marks data as unspecified.",
+      "method_name": "Dribble Master",
+      "bib_key": "Dribble-Master"
     },
     {
       "id": "dreamcontrol",
-      "title": "DreamControl",
+      "title": "DreamControl: Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion",
       "year": 2026,
       "venue": "ICRA",
-      "data_sources": ["Learned Motion Priors"],
+      "data_sources": [
+        "Learned Motion Priors"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "learned-motion-prior", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "learned-motion-prior",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2509.14353",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "DreamControl",
+      "bib_key": "DreamControl"
     },
     {
       "id": "humanoidexo",
-      "title": "HumanoidExo",
+      "title": "HumanoidExo: Scalable Whole-Body Humanoid Manipulation via Wearable Exoskeleton",
       "year": 2026,
       "venue": "ICRA",
-      "data_sources": ["Teleoperation"],
+      "data_sources": [
+        "Teleoperation"
+      ],
       "primary_category": "generalist-humanoid-policies",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "teleoperation", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "teleoperation",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2510.03022",
+        "code": "",
+        "project": "https://humanoid-exo.github.io/"
+      },
+      "notes": "",
+      "method_name": "HumanoidExo",
+      "bib_key": "HumanoidExo"
     },
     {
       "id": "omniretarget",
-      "title": "OmniRetarget",
+      "title": "OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction",
       "year": 2026,
       "venue": "ICRA",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "retargeting", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "retargeting",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2509.26633",
+        "code": "",
+        "project": "https://omniretarget.github.io/"
+      },
+      "notes": "",
+      "method_name": "OmniRetarget",
+      "bib_key": "OmniRetarget"
     },
     {
       "id": "adamimic",
-      "title": "AdaMimic",
+      "title": "AdaMimic: Towards Adaptable Humanoid Control via Adaptive Motion Tracking",
       "year": 2026,
       "venue": "ICRA",
-      "data_sources": ["Video"],
+      "data_sources": [
+        "Video"
+      ],
       "primary_category": "motion-retargeting-and-tracking",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "adaptive-tracking", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "adaptive-tracking",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2510.14454",
+        "code": "",
+        "project": "https://taohuang13.github.io/adamimic.github.io/"
+      },
+      "notes": "",
+      "method_name": "AdaMimic",
+      "bib_key": "AdaMimic"
     },
     {
       "id": "haic",
-      "title": "HAIC",
+      "title": "HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model",
       "year": 2026,
       "venue": "RSS",
-      "data_sources": ["MoCap"],
+      "data_sources": [
+        "MoCap"
+      ],
       "primary_category": "interaction-learning",
-      "platforms": ["Unitree G1"],
-      "tags": ["representative-method", "real-robot"],
-      "links": {"paper": "", "code": "", "project": ""},
-      "notes": ""
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "representative-method",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2602.11758",
+        "code": "",
+        "project": "https://haic-humanoid.github.io/"
+      },
+      "notes": "",
+      "method_name": "HAIC",
+      "bib_key": "HAIC"
     }
   ]
 }
