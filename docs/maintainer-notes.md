@@ -2,14 +2,20 @@
 
 ## Main Design Choice
 
-The repository uses the survey's method taxonomy as the primary browsing axis:
+The repository mirrors the survey's data-method-evaluation pipeline:
+
+1. Data Sources
+2. Methods of Humanoid Imitation Learning
+3. Evaluation Metrics and Platforms
+
+The method taxonomy used by the representative-methods table is:
 
 1. Motion Retargeting and Tracking
 2. Skill Acquisition
 3. Interaction Learning
 4. Generalist Humanoid Policies
 
-This keeps the repository easy to browse. Data source, simulator, robot, language, vision, teacher-student training, and sim-to-real information should be metadata, not competing top-level folders.
+The README therefore provides a Data Sources index, a Method Taxonomy list, and an Evaluation summary. Simulator, robot, language, vision, teacher-student training, and sim-to-real information should remain metadata unless the survey adds them as explicit categories.
 
 ## Why Not Multi-Folder Duplication
 
@@ -17,8 +23,8 @@ Many humanoid imitation papers combine several ingredients. A paper may use huma
 
 Instead:
 
-- `primary_category` records the paper's main contribution.
-- `data_sources` records where the supervision comes from.
+- `primary_category` records the paper's method category from the survey table.
+- `data_sources` records where the supervision comes from and drives the Data Sources index.
 - `platforms` records simulator or hardware.
 - `tags` records secondary mechanisms.
 - `notes` records short classification caveats.

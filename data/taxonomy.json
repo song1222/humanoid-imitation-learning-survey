@@ -3,10 +3,40 @@
   "source": {
     "paper_title": "A Survey of Humanoid Imitation Learning",
     "basis": "Survey taxonomy and representative-methods table",
-    "primary_axis": "method capability"
+    "pipeline": "data-method-evaluation"
   },
-  "classification_rule": "Assign each paper to the single method category that best captures its dominant humanoid-imitation pipeline contribution. Store overlap as metadata.",
-  "primary_categories": [
+  "classification_rule": "Mirror the survey's data-method-evaluation pipeline. Data sources are multi-label metadata; representative papers are assigned to the method category used by the survey table.",
+  "paper_sections": [
+    {
+      "id": "data-sources",
+      "name": "Data Sources",
+      "subsections": [
+        "Data from Humans",
+        "Data from Learned Motion Priors",
+        "Data from Teleoperation"
+      ]
+    },
+    {
+      "id": "methods-of-humanoid-imitation-learning",
+      "name": "Methods of Humanoid Imitation Learning",
+      "subsections": [
+        "Motion Retargeting and Tracking",
+        "Skill Acquisition",
+        "Interaction Learning",
+        "Generalist Humanoid Policies"
+      ]
+    },
+    {
+      "id": "evaluation-metrics-and-platforms",
+      "name": "Evaluation Metrics and Platforms",
+      "subsections": [
+        "Evaluation Metrics",
+        "Evaluation Tasks",
+        "Simulation Platforms"
+      ]
+    }
+  ],
+  "method_categories": [
     {
       "id": "motion-retargeting-and-tracking",
       "name": "Motion Retargeting and Tracking",

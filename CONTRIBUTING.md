@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions should preserve the survey taxonomy instead of turning the repository into a flat paper dump.
+Contributions should preserve the survey's data-method-evaluation taxonomy instead of turning the repository into a flat paper dump.
 
 ## Add a Paper
 
@@ -8,7 +8,7 @@ Contributions should preserve the survey taxonomy instead of turning the reposit
 2. Add one entry to the `papers` array.
 3. Fill both `method_name` and the full article `title`.
 4. Add `links.paper` whenever a paper page, DOI, OpenReview, CVF, or arXiv URL is available.
-5. Choose exactly one `primary_category`.
+5. Choose exactly one method `primary_category` from the survey's representative-methods table.
 6. Add all secondary information as metadata.
 7. Run:
 
@@ -18,6 +18,8 @@ python scripts/validate_papers.py
 ```
 
 ## Primary Category Rules
+
+`primary_category` refers to the method taxonomy in the survey, not the whole repository structure. The README also generates a separate Data Sources section from `data_sources`.
 
 - `motion-retargeting-and-tracking`: the main contribution is transferring, retargeting, or physically tracking reference motion.
 - `skill-acquisition`: the main contribution is acquiring a concrete task skill such as sports, acrobatics, recovery, or long-horizon behavior.

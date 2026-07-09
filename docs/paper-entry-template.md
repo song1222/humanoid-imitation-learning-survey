@@ -32,7 +32,7 @@ Field meanings:
 - `links.project`: project website.
 - `links.code`: code repository.
 
-Allowed `primary_category` values:
+Allowed method `primary_category` values:
 
 - `motion-retargeting-and-tracking`
 - `skill-acquisition`

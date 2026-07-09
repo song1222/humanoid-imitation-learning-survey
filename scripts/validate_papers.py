@@ -38,7 +38,8 @@ def main() -> int:
     taxonomy = load_json(TAXONOMY_PATH)
     papers_doc = load_json(PAPERS_PATH)
 
-    allowed_categories = {item["id"] for item in taxonomy["primary_categories"]}
+    method_categories = taxonomy.get("method_categories", taxonomy.get("primary_categories", []))
+    allowed_categories = {item["id"] for item in method_categories}
     allowed_data_sources = {item["name"] for item in taxonomy["data_sources"]}
     papers = papers_doc.get("papers", [])
 
