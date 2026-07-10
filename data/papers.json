@@ -1117,7 +1117,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2509.26633",
-        "code": "",
+        "code": "https://github.com/amazon-far/holosoma",
         "project": "https://omniretarget.github.io/"
       },
       "notes": "",
@@ -1144,7 +1144,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2510.14454",
-        "code": "",
+        "code": "https://github.com/InternRobotics/AdaMimic",
         "project": "https://taohuang13.github.io/adamimic.github.io/"
       },
       "notes": "",
@@ -1170,7 +1170,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2602.11758",
-        "code": "",
+        "code": "https://github.com/ldt29/HAIC",
         "project": "https://haic-humanoid.github.io/"
       },
       "notes": "",
@@ -1246,7 +1246,7 @@
       ],
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2510.02252",
-        "code": "",
+        "code": "https://github.com/YanjieZe/GMR",
         "project": ""
       },
       "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
@@ -1271,7 +1271,7 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1145/3610548.3618206",
-        "code": "",
+        "code": "https://github.com/sunny-Codes/SAME",
         "project": ""
       },
       "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
@@ -1295,7 +1295,7 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "https://doi.org/10.1109/ICRA48506.2021.9560860",
+        "paper": "https://arxiv.org/abs/2103.06447",
         "code": "",
         "project": ""
       },
@@ -1321,8 +1321,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2603.22201",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/NJU3DV-HumanoidGroup/MakeTrackingEasy",
+        "project": "https://nju3dv-humanoidgroup.github.io/nmr.github.io/"
       },
       "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
       "method_name": "NMR",
@@ -1345,7 +1345,7 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
+        "paper": "https://arxiv.org/html/2606.03476",
         "code": "",
         "project": ""
       },
@@ -1370,7 +1370,7 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "https://openreview.net/forum?id=BJfYvo09Y7",
+        "paper": "https://arxiv.org/abs/1811.09656",
         "code": "",
         "project": ""
       },
@@ -1397,15 +1397,15 @@
       "links": {
         "paper": "http://papers.nips.cc/paper_files/paper/2024/hash/90afd20dc776bc8849c31d61a0763a0b-Abstract-Conference.html",
         "code": "",
-        "project": ""
+        "project": "Humanoid Locomotion as Next Token Prediction"
       },
       "notes": "Added from the survey Method section citation under Physics-based Motion Tracking; data source and platform need verification.",
       "method_name": "Next Token",
       "bib_key": "HumanoidLocoTransformer"
     },
     {
-      "id": "robot-parkour",
-      "title": "Robot Parkour Learning",
+      "id": "HumanoidParkour",
+      "title": "Humanoid Parkour Learning",
       "year": 2023,
       "venue": "CoRL",
       "data_sources": [
@@ -1414,30 +1414,30 @@
       "primary_category": "skill-acquisition",
       "subcategory": "acrobatic-skills",
       "platforms": [
-        "Unspecified"
+        "Unitree H1"
       ],
       "tags": [
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
+        "paper": "https://arxiv.org/abs/2406.10759",
         "code": "",
         "project": ""
       },
       "notes": "Added from the survey Method section citation under Acrobatic Skills; data source and platform need verification.",
-      "method_name": "Robot Parkour",
-      "bib_key": "PARK"
+      "method_name": "HumanoidParkour",
+      "bib_key": "HumanoidParkour"
     },
     {
-      "id": "extreme-parkour",
-      "title": "Extreme Parkour with Legged Robots",
-      "year": 2024,
+      "id": "pace",
+      "title": "PACE: Physics Augmentation for Coordinated End-to-end Reinforcement Learning toward Versatile Humanoid Table Tennis",
+      "year": 2026,
       "venue": "ICRA",
       "data_sources": [
         "Unspecified"
       ],
       "primary_category": "skill-acquisition",
-      "subcategory": "acrobatic-skills",
+      "subcategory": "sports-skills",
       "platforms": [
         "Unspecified"
       ],
@@ -1445,13 +1445,13 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2509.21690",
+        "code": "https://github.com/purdue-tracelab/PACE-ICRA2026",
+        "project": "https://purdue-tracelab.github.io/ttrobot.github.io/"
       },
-      "notes": "Added from the survey Method section citation under Acrobatic Skills; data source and platform need verification.",
-      "method_name": "Extreme Parkour",
-      "bib_key": "EPARK"
+      "notes": "",
+      "method_name": "pace",
+      "bib_key": "pace"
     },
     {
       "id": "kungfubot2",
@@ -1471,8 +1471,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2509.16638",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/TeleHuman/PBHC",
+        "project": "https://kungfubot2-humanoid.github.io/"
       },
       "notes": "Added from the survey Method section citation under Acrobatic Skills; data source and platform need verification.",
       "method_name": "KungfuBot2",
@@ -1496,8 +1496,8 @@
       ],
       "links": {
         "paper": "https://proceedings.mlr.press/v270/zhang25a.html",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/LeCAR-Lab/wococo",
+        "project": "https://lecar-lab.github.io/wococo/"
       },
       "notes": "Added from the survey Method section citation under Long-Horizon Skills; data source and platform need verification.",
       "method_name": "WoCoCo",
@@ -1545,9 +1545,9 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "https://openreview.net/forum?id=OrOd8PxOO2",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2310.04582v1",
+        "code": "https://github.com/ZhengyiLuo/PULSE",
+        "project": "https://www.zhengyiluo.com/PULSE-Site/"
       },
       "notes": "Added from the survey Method section citation under Long-Horizon Skills; data source and platform need verification.",
       "method_name": "PULSE",
@@ -1586,8 +1586,8 @@
       "data_sources": [
         "Unspecified"
       ],
-      "primary_category": "interaction-learning",
-      "subcategory": "humanoid-object-interaction",
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "task-guided-policies",
       "platforms": [
         "Unspecified"
       ],
@@ -1596,10 +1596,10 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1109/ICRA55743.2025.11128549",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/NVlabs/HOVER/",
+        "project": "HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots"
       },
-      "notes": "Added from the survey Method section citation under Humanoid-Object Interaction; data source and platform need verification.",
+      "notes": "",
       "method_name": "HOVER",
       "bib_key": "HOVER"
     },
@@ -1621,8 +1621,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1109/ICRA55743.2025.11127809",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/NVlabs/dexmimicgen/",
+        "project": "https://dexmimicgen.github.io/"
       },
       "notes": "Added from the survey Method section citation under Humanoid-Object Interaction; data source and platform need verification.",
       "method_name": "DexMimicGen",
@@ -1645,7 +1645,7 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
+        "paper": "https://arxiv.org/abs/2603.01126",
         "code": "",
         "project": ""
       },
@@ -1670,9 +1670,9 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
+        "paper": "https://arxiv.org/abs/2508.14120",
         "code": "",
-        "project": ""
+        "project": "https://xingxingzuo.github.io/simgen_hoi/"
       },
       "notes": "Added from the survey Method section citation under Humanoid-Object Interaction; data source and platform need verification.",
       "method_name": "SimGenHOI",
@@ -1682,7 +1682,7 @@
       "id": "mimickingbench",
       "title": "Mimicking-Bench: A Benchmark for Generalizable Humanoid-Scene Interaction Learning via Human Mimicking",
       "year": 2024,
-      "venue": "arXiv",
+      "venue": "CVPR Workshop",
       "data_sources": [
         "Unspecified"
       ],
@@ -1697,7 +1697,7 @@
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2412.17730",
         "code": "",
-        "project": ""
+        "project": "https://mimicking-bench.github.io/"
       },
       "notes": "Added from the survey Method section citation under Humanoid-Scene Interaction; data source and platform need verification.",
       "method_name": "MimickingBench",
@@ -1745,9 +1745,9 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2510.11072",
+        "code": "https://github.com/InternRobotics/PhysHSI",
+        "project": "https://why618188.github.io/physhsi/"
       },
       "notes": "Added from the survey Method section citation under Humanoid-Scene Interaction; data source and platform need verification.",
       "method_name": "PhysHSI",
@@ -1770,9 +1770,9 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2508.02106",
+        "code": "https://github.com/humanx-interaction/Human-X-Interaction",
+        "project": "https://humanx-interaction.github.io/"
       },
       "notes": "Added from the survey Method section citation under Humanoid-Human Interaction; data source and platform need verification.",
       "method_name": "Human-X",
@@ -1795,39 +1795,15 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2604.18557",
+        "code": "https://github.com/yw0208/SynAgent",
+        "project": "https://yw0208.github.io/synagent/"
       },
       "notes": "Added from the survey Method section citation under Humanoid-Human Interaction; data source and platform need verification.",
       "method_name": "SynAgent",
       "bib_key": "SynAgent"
     },
-    {
-      "id": "d-star",
-      "title": "Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations",
-      "year": 2026,
-      "venue": "arXiv",
-      "data_sources": [
-        "Unspecified"
-      ],
-      "primary_category": "interaction-learning",
-      "subcategory": "humanoid-human-interaction",
-      "platforms": [
-        "Unspecified"
-      ],
-      "tags": [
-        "method-section-citation"
-      ],
-      "links": {
-        "paper": "",
-        "code": "",
-        "project": ""
-      },
-      "notes": "Added from the survey Method section citation under Humanoid-Human Interaction; data source and platform need verification.",
-      "method_name": "D-STAR",
-      "bib_key": "DSTAR"
-    },
+    
     {
       "id": "humanx",
       "title": "HumanX: Toward Agile and Generalizable Humanoid Interaction Skills from Human Videos",
