@@ -101,20 +101,22 @@ def main() -> int:
         "",
     ]
 
+    lines.append("- [Awesome Humanoid Imitation Learning](#awesome-humanoid-imitation-learning)")
     for _, name in CATEGORY_ORDER:
         anchor = name.lower().replace(" ", "-")
-        lines.append(f"- [{name}](#{anchor})")
+        lines.append(f"  - [{name}](#{anchor})")
     lines.extend(["- [Data Format](#data-format)", "- [Contributing](#contributing)", "", "---", ""])
+    lines.extend(["## Awesome Humanoid Imitation Learning", ""])
 
     for category_id, category_name in CATEGORY_ORDER:
         category_papers = [p for p in data["papers"] if p["primary_category"] == category_id]
-        lines.extend([f"## {category_name}", "", CATEGORY_SCOPE[category_id], ""])
+        lines.extend([f"### {category_name}", "", CATEGORY_SCOPE[category_id], ""])
 
         for subcategory_id, subcategory_name in SUBCATEGORY_ORDER[category_id]:
             papers = [p for p in category_papers if p.get("subcategory") == subcategory_id]
             if not papers:
                 continue
-            lines.extend([f"### {subcategory_name}", ""])
+            lines.extend([f"#### {subcategory_name}", ""])
             for paper in sorted(
                 papers, key=lambda p: (p["year"], p["venue"], p.get("method_name", p["title"]).lower())
             ):

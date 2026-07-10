@@ -10,20 +10,23 @@ Data source, simulator, robot platform, project links, and code links are kept a
 
 ## Contents
 
-- [Motion Retargeting and Tracking](#motion-retargeting-and-tracking)
-- [Skill Acquisition](#skill-acquisition)
-- [Interaction Learning](#interaction-learning)
-- [Generalist Humanoid Policies](#generalist-humanoid-policies)
+- [Awesome Humanoid Imitation Learning](#awesome-humanoid-imitation-learning)
+  - [Motion Retargeting and Tracking](#motion-retargeting-and-tracking)
+  - [Skill Acquisition](#skill-acquisition)
+  - [Interaction Learning](#interaction-learning)
+  - [Generalist Humanoid Policies](#generalist-humanoid-policies)
 - [Data Format](#data-format)
 - [Contributing](#contributing)
 
 ---
 
-## Motion Retargeting and Tracking
+## Awesome Humanoid Imitation Learning
+
+### Motion Retargeting and Tracking
 
 Human-to-robot motion transfer, retargeting, and physics-based reference tracking.
 
-### Motion Retargeting
+#### Motion Retargeting
 
 - [T-RO 2017](https://doi.org/10.1109/TRO.2017.2752711), **Ayusawa et al.**: Motion Retargeting for Humanoid Robots Based on Simultaneous Morphing Parameter Identification and Motion Optimization (`Unspecified`; `Unspecified`)
 - [Humanoids 2019](https://doi.org/10.1109/Humanoids43949.2019.9035059), **Whole-Body Geometric Retargeting**: Whole-Body Geometric Retargeting for Humanoid Robots (`Unspecified`; `Unspecified`)
@@ -34,7 +37,7 @@ Human-to-robot motion transfer, retargeting, and physics-based reference trackin
 - arXiv 2026, **Human2Humanoid**: Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots (`Unspecified`; `Unspecified`)
 - [arXiv 2026](https://doi.org/10.48550/arXiv.2603.22201), **NMR**: Make Tracking Easy: Neural Motion Retargeting for Humanoid Whole-body Control (`Unspecified`; `Unspecified`)
 
-### Physics-based Motion Tracking
+#### Physics-based Motion Tracking
 
 - [SIGGRAPH 2018](https://doi.org/10.1145/3197517.3201311), **DeepMimic**: DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills (`MoCap`; `Bullet`)
 - [SIGGRAPH Asia 2018](https://arxiv.org/abs/1810.03599), **SFV**: SFV: Reinforcement Learning of Physical Skills from Videos (`Video`; `Bullet`)
@@ -50,11 +53,11 @@ Human-to-robot motion transfer, retargeting, and physics-based reference trackin
 - [CVPR 2026](https://arxiv.org/abs/2512.13093), **PvP**: PvP: Data-Efficient Humanoid Robot Learning with Proprioceptive-Privileged Contrastive Representations (`MoCap`; `LimX Oli`)
 - [ICRA 2026](https://arxiv.org/abs/2510.14454), **AdaMimic**: AdaMimic: Towards Adaptable Humanoid Control via Adaptive Motion Tracking, [website](https://taohuang13.github.io/adamimic.github.io/) (`Video`; `Unitree G1`)
 
-## Skill Acquisition
+### Skill Acquisition
 
 Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behavior.
 
-### Sports Skills
+#### Sports Skills
 
 - [arXiv 2021](https://arxiv.org/abs/2105.12196), **Humanoid Football**: From Motor Control to Team Play in Simulated Humanoid Football (`MoCap`; `MuJoCo`)
 - ICRA 2022, **DanceHAT**: DanceHAT (`MoCap`; `NAO`)
@@ -68,7 +71,7 @@ Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behav
 - ICRA 2026, **MAKP**: MAKP: Multi-Mode Accurate Kicking Policy for Humanoid Robots (`MoCap`; `Booster T1, Isaac Gym, MuJoCo`)
 - [arXiv 2026](https://arxiv.org/abs/2510.18002), **Humanoid Goalkeeper**: Humanoid Goalkeeper: Learning from Position Conditioned Task-Motion Constraints (`Video`; `Unitree G1, Isaac Gym`)
 
-### Acrobatic Skills
+#### Acrobatic Skills
 
 - [NIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/f76a89f0cb91bc419542ce9fa43902dc-Abstract.html), **RFC**: Residual Force Control for Agile Human Behavior Imitation and Extended Motion Synthesis (`MoCap`; `MuJoCo`)
 - CoRL 2023, **Robot Parkour**: Robot Parkour Learning (`Unspecified`; `Unspecified`)
@@ -78,7 +81,7 @@ Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behav
 - [arXiv 2025](https://arxiv.org/abs/2502.10363), **BeamDojo**: BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds, [website](https://why618188.github.io/beamdojo) (`Unspecified`; `Unitree G1, Isaac Gym`)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2509.16638), **KungfuBot2**: KungfuBot2: Learning Versatile Motion Skills for Humanoid Whole-Body Control (`Unspecified`; `Unspecified`)
 
-### Long-Horizon Skills
+#### Long-Horizon Skills
 
 - [CoRL 2024](https://proceedings.mlr.press/v270/zhang25a.html), **WoCoCo**: WoCoCo: Learning Whole-Body Humanoid Control with Sequential Contacts (`Unspecified`; `Unspecified`)
 - [ICLR 2024](https://openreview.net/forum?id=OrOd8PxOO2), **PULSE**: Universal Humanoid Motion Representations for Physics-Based Control (`Unspecified`; `Unspecified`)
@@ -90,11 +93,11 @@ Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behav
 - [arXiv 2026](https://arxiv.org/abs/2602.21723), **LessMimic**: LessMimic: Long-Horizon Humanoid Interaction with Unified Distance Field Representations, [website](https://lessmimic.github.io) (`Unspecified`; `Unspecified`)
 - [arXiv 2026](https://doi.org/10.48550/arXiv.2604.14834), **Switch**: Switch: Learning Agile Skills Switching for Humanoid Robots (`Unspecified`; `Unspecified`)
 
-## Interaction Learning
+### Interaction Learning
 
 Object, scene, and human interaction behaviors.
 
-### Humanoid-Object Interaction
+#### Humanoid-Object Interaction
 
 - [TOG 2020](https://doi.org/10.1145/3386569.3392474), **Catch & Carry**: Catch & Carry: Reusable Neural Controllers for Vision-Guided Whole-Body Tasks (`MoCap`; `Unspecified`)
 - [arXiv 2023](https://doi.org/10.48550/arXiv.2312.04393), **PhysHOI**: PhysHOI: Physics-Based Imitation of Dynamic Human-Object Interaction, [website](https://wyhuai.github.io/physhoi-page/) (`MoCap`; `Unspecified`)
@@ -117,7 +120,7 @@ Object, scene, and human interaction behaviors.
 - [RSS 2026](https://arxiv.org/abs/2602.11758), **HAIC**: HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model, [website](https://haic-humanoid.github.io/) (`MoCap`; `Unitree G1`)
 - arXiv 2026, **Pro-HOI**: Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction (`Unspecified`; `Unspecified`)
 
-### Humanoid-Scene Interaction
+#### Humanoid-Scene Interaction
 
 - ICCV 2021, **SAMP**: Stochastic Scene-Aware Motion Prediction, [website](https://samp.is.tue.mpg.de) (`MoCap`; `Virtual human`)
 - SIGGRAPH 2023, **InterPhys**: InterPhys (`MoCap`; `Isaac Gym`)
@@ -130,7 +133,7 @@ Object, scene, and human interaction behaviors.
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2506.13751), **LeVERB**: LeVERB: Humanoid Whole-Body Control with Latent Vision-Language Instruction (`Unspecified`; `Unspecified`)
 - arXiv 2025, **PhysHSI**: PhysHSI: Towards a Real-World Generalizable and Natural Humanoid-Scene Interaction System (`Unspecified`; `Unspecified`)
 
-### Humanoid-Human Interaction
+#### Humanoid-Human Interaction
 
 - [RAL 2024](https://doi.org/10.1109/LRA.2024.3495577), **XGB**: XBG: End-to-End Imitation Learning for Autonomous Behaviour in Human-Robot Interaction and Collaboration (`Teleoperation`; `ErgoCub`)
 - [arXiv 2024](https://arxiv.org/abs/2402.04768), **ECHO**: Robot Interaction Behavior Generation based on Social Motion Forecasting for Human-Robot Interaction, [website](https://evm7.github.io/ECHO) (`Unspecified`; `JVRC-1, TIAGo++`)
@@ -141,11 +144,11 @@ Object, scene, and human interaction behaviors.
 - arXiv 2026, **D-STAR**: Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations (`Unspecified`; `Unspecified`)
 - arXiv 2026, **SynAgent**: SynAgent: Generalizable Cooperative Humanoid Manipulation via Solo-to-Cooperative Agent Synergy (`Unspecified`; `Unspecified`)
 
-## Generalist Humanoid Policies
+### Generalist Humanoid Policies
 
 Broad-coverage policies, multi-skill controllers, and foundation/VLA-style humanoid policies.
 
-### Skill-Guided Policies
+#### Skill-Guided Policies
 
 - [SIGGRAPH Asia 2022](https://doi.org/10.1145/3550454.3555434), **ControlVAE**: ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters (`MoCap`; `ODE`)
 - [CVPR 2025](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SkillMimic_Learning_Basketball_Interaction_Skills_from_Demonstrations_CVPR_2025_paper.html), **SkillMimic**: SkillMimic: Learning Basketball Interaction Skills from Demonstrations (`MoCap, Video`; `Isaac Gym`)
@@ -158,7 +161,7 @@ Broad-coverage policies, multi-skill controllers, and foundation/VLA-style human
 - arXiv 2026, **HumanX**: HumanX: Toward Agile and Generalizable Humanoid Interaction Skills from Human Videos (`Unspecified`; `Unspecified`)
 - [arXiv 2026](https://doi.org/10.48550/arXiv.2605.24592), **MuGen**: MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots (`Unspecified`; `Unspecified`)
 
-### Task-Guided Policies
+#### Task-Guided Policies
 
 - [SIGGRAPH 2022](https://doi.org/10.1145/3528223.3530110), **ASE**: ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters (`MoCap`; `Isaac Gym`)
 - [SIGGRAPH 2023](https://doi.org/10.1145/3588432.3591541), **CALM**: CALM: Conditional Adversarial Latent Models for Directable Virtual Characters (`MoCap`; `Isaac Gym`)
@@ -170,7 +173,7 @@ Broad-coverage policies, multi-skill controllers, and foundation/VLA-style human
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2509.13780), **BFM-for-HR**: Behavior Foundation Model for Humanoid Robots (`Unspecified`; `Unspecified`)
 - arXiv 2025, **BFM-Zero**: BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning (`Unspecified`; `Unspecified`)
 
-### Vision-Language-Guided Policies
+#### Vision-Language-Guided Policies
 
 - [NIPS 2023](https://arxiv.org/abs/2312.17135), **InsActor**: InsActor: Instruction-Driven Physics-Based Characters (`MoCap`; `Brax`)
 - [CoRL 2024](https://proceedings.mlr.press/v270/fu25a.html), **HumanPlus**: HumanPlus: Humanoid Shadowing and Imitation from Humans, [website](https://humanoid-ai.github.io/) / [code](https://github.com/MarkFzp/humanplus) (`MoCap, Teleoperation`; `Unitree H1`)
