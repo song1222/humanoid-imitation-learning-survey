@@ -139,7 +139,7 @@
       "data_sources": [
         "MoCap"
       ],
-      "primary_category": "motion-retargeting-and-tracking",
+      "primary_category": "generalist-humanoid-policies",
       "platforms": [
         "Isaac Gym"
       ],
@@ -155,7 +155,7 @@
       "notes": "",
       "method_name": "ASE",
       "bib_key": "ASE",
-      "subcategory": "physics-based-motion-tracking"
+      "subcategory": "task-guided-policies"
     },
     {
       "id": "controlvae",
@@ -165,7 +165,7 @@
       "data_sources": [
         "MoCap"
       ],
-      "primary_category": "motion-retargeting-and-tracking",
+      "primary_category": "generalist-humanoid-policies",
       "platforms": [
         "ODE"
       ],
@@ -180,7 +180,7 @@
       "notes": "",
       "method_name": "ControlVAE",
       "bib_key": "ControlVAE",
-      "subcategory": "physics-based-motion-tracking"
+      "subcategory": "skill-guided-policies"
     },
     {
       "id": "dancehat",
@@ -241,7 +241,7 @@
       "data_sources": [
         "MoCap"
       ],
-      "primary_category": "skill-acquisition",
+      "primary_category": "generalist-humanoid-policies",
       "platforms": [
         "Brax"
       ],
@@ -256,7 +256,7 @@
       "notes": "",
       "method_name": "InsActor",
       "bib_key": "InsActor",
-      "subcategory": "long-horizon-skills"
+      "subcategory": "vision-language-guided-policies"
     },
     {
       "id": "interphys",
@@ -281,7 +281,7 @@
       "notes": "Full paper title and link still need verification.",
       "method_name": "InterPhys",
       "bib_key": "",
-      "subcategory": "humanoid-object-interaction"
+      "subcategory": "humanoid-scene-interaction"
     },
     {
       "id": "calm",
@@ -291,7 +291,7 @@
       "data_sources": [
         "MoCap"
       ],
-      "primary_category": "motion-retargeting-and-tracking",
+      "primary_category": "generalist-humanoid-policies",
       "platforms": [
         "Isaac Gym"
       ],
@@ -307,7 +307,7 @@
       "notes": "",
       "method_name": "CALM",
       "bib_key": "CALM",
-      "subcategory": "physics-based-motion-tracking"
+      "subcategory": "task-guided-policies"
     },
     {
       "id": "tennis-skills",
@@ -414,7 +414,7 @@
       "notes": "",
       "method_name": "HumanPlus",
       "bib_key": "HumanPlus",
-      "subcategory": "skill-guided-policies"
+      "subcategory": "vision-language-guided-policies"
     },
     {
       "id": "unihsi",
@@ -672,7 +672,7 @@
       "notes": "",
       "method_name": "CLoSD",
       "bib_key": "CLoSD",
-      "subcategory": "task-guided-policies"
+      "subcategory": "vision-language-guided-policies"
     },
     {
       "id": "kungfubot",
@@ -831,7 +831,7 @@
       "notes": "",
       "method_name": "Beyond Mimicry",
       "bib_key": "BeyondMimic",
-      "subcategory": "humanoid-scene-interaction"
+      "subcategory": "humanoid-human-interaction"
     },
     {
       "id": "pvp",
@@ -962,7 +962,7 @@
       "notes": "Full paper title and link still need verification.",
       "method_name": "BiBo",
       "bib_key": "",
-      "subcategory": "task-guided-policies"
+      "subcategory": "vision-language-guided-policies"
     },
     {
       "id": "exbody2",
@@ -1052,7 +1052,7 @@
       "data_sources": [
         "Learned Motion Priors"
       ],
-      "primary_category": "generalist-humanoid-policies",
+      "primary_category": "interaction-learning",
       "platforms": [
         "Unitree G1"
       ],
@@ -1069,7 +1069,7 @@
       "notes": "",
       "method_name": "DreamControl",
       "bib_key": "DreamControl",
-      "subcategory": "task-guided-policies"
+      "subcategory": "humanoid-object-interaction"
     },
     {
       "id": "humanoidexo",
@@ -1096,7 +1096,7 @@
       "notes": "",
       "method_name": "HumanoidExo",
       "bib_key": "HumanoidExo",
-      "subcategory": "skill-guided-policies"
+      "subcategory": "vision-language-guided-policies"
     },
     {
       "id": "omniretarget",
