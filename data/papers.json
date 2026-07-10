@@ -22,8 +22,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1145/3197517.3201311",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/xbpeng/DeepMimic",
+        "project": "https://xbpeng.github.io/projects/DeepMimic/index.html"
       },
       "notes": "",
       "method_name": "DeepMimic",
@@ -47,8 +47,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/1810.03599",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/akanazawa/motion_reconstruction",
+        "project": "https://xbpeng.github.io/projects/SFV/index.html"
       },
       "notes": "",
       "method_name": "SFV",
@@ -97,8 +97,8 @@
       ],
       "links": {
         "paper": "https://proceedings.neurips.cc/paper/2020/hash/f76a89f0cb91bc419542ce9fa43902dc-Abstract.html",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/Khrylx/RFC",
+        "project": "https://ye-yuan.com/rfc/"
       },
       "notes": "",
       "method_name": "RFC",
@@ -122,9 +122,9 @@
         "adversarial-imitation"
       ],
       "links": {
-        "paper": "https://doi.org/10.1145/3450626.3459670",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2104.02180",
+        "code": "https://github.com/xbpeng/DeepMimic",
+        "project": "https://xbpeng.github.io/projects/AMP/index.html"
       },
       "notes": "",
       "method_name": "AMP",
@@ -148,9 +148,9 @@
         "latent-skill"
       ],
       "links": {
-        "paper": "https://doi.org/10.1145/3528223.3530110",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2205.01906",
+        "code": "https://github.com/nv-tlabs/ASE",
+        "project": "https://research.nvidia.com/labs/toronto-ai/ASE/"
       },
       "notes": "",
       "method_name": "ASE",
@@ -174,8 +174,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1145/3550454.3555434",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/heyuanYao-pku/Control-VAE",
+        "project": "https://heyuanyao-pku.github.io/Control-VAE/"
       },
       "notes": "",
       "method_name": "ControlVAE",
@@ -184,7 +184,7 @@
     },
     {
       "id": "dancehat",
-      "title": "DanceHAT",
+      "title": "DanceHAT: Generate Stable Dances for Humanoid Robots with Adversarial Training",
       "year": 2022,
       "venue": "ICRA",
       "data_sources": [
@@ -198,7 +198,7 @@
         "representative-method"
       ],
       "links": {
-        "paper": "",
+        "paper": "https://ieeexplore.ieee.org/document/9811649",
         "code": "",
         "project": ""
       },
@@ -225,8 +225,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1109/ICCV51070.2023.01000",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/ZhengyiLuo/PHC",
+        "project": "https://github.com/ZhengyiLuo/PHC"
       },
       "notes": "",
       "method_name": "PHC",
@@ -250,8 +250,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2312.17135",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/MotrixLab/insactor",
+        "project": "https://jiawei-ren.github.io/projects/insactor/index.html"
       },
       "notes": "",
       "method_name": "InsActor",
@@ -260,7 +260,7 @@
     },
     {
       "id": "interphys",
-      "title": "InterPhys",
+      "title": "Synthesizing Physical Character-Scene Interactions",
       "year": 2023,
       "venue": "SIGGRAPH",
       "data_sources": [
@@ -274,9 +274,9 @@
         "representative-method"
       ],
       "links": {
-        "paper": "",
+        "paper": "https://arxiv.org/abs/2302.00883",
         "code": "",
-        "project": ""
+        "project": "https://arxiv.org/abs/2302.00883"
       },
       "notes": "Full paper title and link still need verification.",
       "method_name": "InterPhys",
@@ -300,9 +300,9 @@
         "latent-motion"
       ],
       "links": {
-        "paper": "https://doi.org/10.1145/3588432.3591541",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2305.02195",
+        "code": "https://github.com/NVlabs/CALM/",
+        "project": "https://xbpeng.github.io/projects/CALM/index.html"
       },
       "notes": "",
       "method_name": "CALM",
@@ -328,8 +328,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1145/3592408",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/nv-tlabs/vid2player3d",
+        "project": "https://research.nvidia.com/labs/toronto-ai/vid2player3d/"
       },
       "notes": "",
       "method_name": "Tennis Skills",
@@ -354,8 +354,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2502.05641",
-        "code": "",
-        "project": "https://masked-humanoid.github.io/mhc/"
+        "code": "https://github.com/osudrl/masked-humanoid-controller",
+        "project": "https://idigitopia.github.io/projects/mhc/"
       },
       "notes": "",
       "method_name": "MHC",
@@ -380,7 +380,7 @@
         "teleoperation"
       ],
       "links": {
-        "paper": "https://proceedings.mlr.press/v270/he25b.html",
+        "paper": "https://arxiv.org/abs/2406.08858",
         "code": "https://github.com/LeCAR-Lab/human2humanoid",
         "project": "https://omni.human2humanoid.com/"
       },
@@ -407,7 +407,7 @@
         "teacher-student"
       ],
       "links": {
-        "paper": "https://proceedings.mlr.press/v270/fu25a.html",
+        "paper": "https://arxiv.org/abs/2406.10454",
         "code": "https://github.com/MarkFzp/humanplus",
         "project": "https://humanoid-ai.github.io/"
       },
@@ -433,8 +433,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2309.07918",
-        "code": "",
-        "project": "https://github.com/OpenRobotLab/UniHSI"
+        "code": "https://github.com/InternRobotics/UniHSI",
+        "project": "https://xizaoqu.github.io/unihsi/"
       },
       "notes": "",
       "method_name": "UniHSI",
@@ -484,9 +484,9 @@
         "teleoperation"
       ],
       "links": {
-        "paper": "https://doi.org/10.1109/LRA.2024.3495577",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2406.15833",
+        "code": "https://github.com/ami-iit/paper_cardenas_2024_ral_xbg",
+        "project": "https://ami-iit.github.io/xbg/"
       },
       "notes": "The survey table spells the method as XGB; the bibliography entry uses XBG.",
       "method_name": "XGB",
@@ -510,9 +510,9 @@
         "diffusion-policy"
       ],
       "links": {
-        "paper": "https://doi.org/10.1145/3680528.3687683",
-        "code": "",
-        "project": ""
+        "paper": "https://dl.acm.org/doi/full/10.1145/3680528.3687683",
+        "code": "https://github.com/Stanford-TML/PDP",
+        "project": "https://tml.stanford.edu/PDP.github.io/"
       },
       "notes": "",
       "method_name": "PDP",
@@ -537,7 +537,7 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1145/3687951",
-        "code": "",
+        "code": "https://github.com/DanielTruong99/MaskedMimic",
         "project": ""
       },
       "notes": "",
@@ -563,8 +563,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2505.02833",
-        "code": "",
-        "project": ""
+        "code": "https://arxiv.org/abs/2505.02833",
+        "project": "https://yanjieze.com/projects/TWIST/"
       },
       "notes": "",
       "method_name": "TWIST",
@@ -589,9 +589,9 @@
         "skill-guided-policy"
       ],
       "links": {
-        "paper": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SkillMimic_Learning_Basketball_Interaction_Skills_from_Demonstrations_CVPR_2025_paper.html",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2408.15270",
+        "code": "https://github.com/wyhuai/SkillMimic",
+        "project": "SkillMimic: Learning Basketball Interaction Skills from Demonstrations"
       },
       "notes": "Video spelling normalized from the survey table.",
       "method_name": "SkillMimic",
@@ -615,8 +615,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2502.20390",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/Sirui-Xu/InterMimic",
+        "project": "https://sirui-xu.github.io/InterMimic/"
       },
       "notes": "",
       "method_name": "InterMimic",
@@ -640,7 +640,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2503.19901",
-        "code": "",
+        "code": "https://github.com/liangpan99/TokenHSI",
         "project": "https://liangpan99.github.io/TokenHSI/"
       },
       "notes": "",
@@ -2996,7 +2996,7 @@
         "code": "",
         "project": "https://jiashunwang.github.io/"
       },
-      "notes": "Added from local Skill Acquisition folder: Sports Skills/Table Tennis.pdf; metadata inferred from local PDF and may need verification.",
+      "notes": "",
       "method_name": "Table Tennis Skill",
       "bib_key": "Table-Tennis-skill"
     },
@@ -3024,9 +3024,10 @@
         "code": "",
         "project": "https://opendrivelab.com/WholeBodyVLA"
       },
-      "notes": "Added from local Generalist Humanoid Policies folder: Vision-Language-Guided Policies/WholeBodyVLA.pdf; metadata inferred from local PDF and may need verification.",
+      "notes": "",
       "method_name": "WholeBodyVLA",
       "bib_key": "WholeBodyVLA"
     }
+    
   ]
 }
