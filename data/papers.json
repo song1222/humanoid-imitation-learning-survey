@@ -2674,6 +2674,331 @@
       "notes": "Added from local Interaction Learning folder: Humanoid-Scene Interaction/SAMP.pdf; metadata inferred from local PDF and may need verification.",
       "method_name": "SAMP",
       "bib_key": "SAMP"
+    },
+    {
+      "id": "beamdojo",
+      "title": "BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "acrobatic-skills",
+      "platforms": [
+        "Unitree G1",
+        "Isaac Gym"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.10363",
+        "code": "",
+        "project": "https://why618188.github.io/beamdojo"
+      },
+      "notes": "Added from local Skill Acquisition folder: Acrobatic Skills/BeamDojo.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "BeamDojo",
+      "bib_key": "BeamDojo"
+    },
+    {
+      "id": "humanoid-parkour",
+      "title": "Humanoid Parkour Learning",
+      "year": 2024,
+      "venue": "CoRL",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "acrobatic-skills",
+      "platforms": [
+        "Unitree H1",
+        "Isaac Gym"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://proceedings.mlr.press/v270/zhuang25a.html",
+        "code": "",
+        "project": "https://humanoid4parkour.github.io"
+      },
+      "notes": "Added from local Skill Acquisition folder: Acrobatic Skills/Humanoid Parkour.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Humanoid Parkour",
+      "bib_key": "HumanoidParkour"
+    },
+    {
+      "id": "clone",
+      "title": "CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks",
+      "year": 2025,
+      "venue": "CoRL",
+      "data_sources": [
+        "Teleoperation",
+        "MoCap"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "long-horizon-skills",
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition",
+        "teleoperation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": "https://humanoid-clone.github.io/"
+      },
+      "notes": "Added from local Skill Acquisition folder: Long-Horizon Skills/Clone.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "CLONE",
+      "bib_key": "CLONE"
+    },
+    {
+      "id": "hiwet",
+      "title": "HiWET: Hierarchical World-Frame End-Effector Tracking for Long-Horizon Humanoid Loco-Manipulation",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "long-horizon-skills",
+      "platforms": [
+        "Unitree G1",
+        "Isaac Lab",
+        "MuJoCo"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2602.06341",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Skill Acquisition folder: Long-Horizon Skills/HiWET.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "HiWET",
+      "bib_key": "HiWET"
+    },
+    {
+      "id": "lessmimic",
+      "title": "LessMimic: Long-Horizon Humanoid Interaction with Unified Distance Field Representations",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "long-horizon-skills",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2602.21723",
+        "code": "",
+        "project": "https://lessmimic.github.io"
+      },
+      "notes": "Added from local Skill Acquisition folder: Long-Horizon Skills/LessMimic.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "LessMimic",
+      "bib_key": "LessMimic"
+    },
+    {
+      "id": "robotdancing",
+      "title": "RobotDancing: Residual-Action Reinforcement Learning Enables Robust Long-Horizon Humanoid Motion Tracking",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "long-horizon-skills",
+      "platforms": [
+        "Unitree G1",
+        "Unitree H1/H1-2",
+        "Isaac Gym",
+        "MuJoCo"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2509.20717",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Skill Acquisition folder: Long-Horizon Skills/RobotDancing.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "RobotDancing",
+      "bib_key": "RobotDancing"
+    },
+    {
+      "id": "hitter",
+      "title": "HITTER: A HumanoId Table TEnnis Robot via Hierarchical Planning and Learning",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "sports-skills",
+      "platforms": [
+        "Unitree G1",
+        "Isaac Lab"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2508.21043",
+        "code": "",
+        "project": "https://humanoid-table-tennis.github.io"
+      },
+      "notes": "Added from local Skill Acquisition folder: Sports Skills/HITTER.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "HITTER",
+      "bib_key": "HITTER"
+    },
+    {
+      "id": "humanoid-football",
+      "title": "From Motor Control to Team Play in Simulated Humanoid Football",
+      "year": 2021,
+      "venue": "arXiv",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "sports-skills",
+      "platforms": [
+        "MuJoCo"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2105.12196",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Skill Acquisition folder: Sports Skills/Humanoid Football.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Humanoid Football",
+      "bib_key": "HumanoidFootball"
+    },
+    {
+      "id": "humanoid-goalkeeper",
+      "title": "Humanoid Goalkeeper: Learning from Position Conditioned Task-Motion Constraints",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Video"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "sports-skills",
+      "platforms": [
+        "Unitree G1",
+        "Isaac Gym"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2510.18002",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Skill Acquisition folder: Sports Skills/Humanoid Goalkeeper.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Humanoid Goalkeeper",
+      "bib_key": "HumanoidGoalkeeper"
+    },
+    {
+      "id": "learning-soccer-juggling",
+      "title": "Learning Soccer Juggling Skills with Layer-wise Mixture-of-Experts",
+      "year": 2022,
+      "venue": "SIGGRAPH",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "sports-skills",
+      "platforms": [
+        "Physics-based simulation"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3528233.3530735",
+        "code": "https://github.com/ZhaomingXie/soccer_juggle_release",
+        "project": ""
+      },
+      "notes": "Added from local Skill Acquisition folder: Sports Skills/Learning Soccer.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Learning Soccer Juggling",
+      "bib_key": "SoccerJuggle"
+    },
+    {
+      "id": "makp",
+      "title": "MAKP: Multi-Mode Accurate Kicking Policy for Humanoid Robots",
+      "year": 2026,
+      "venue": "ICRA",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "sports-skills",
+      "platforms": [
+        "Booster T1",
+        "Isaac Gym",
+        "MuJoCo"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Skill Acquisition folder: Sports Skills/MAKP.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "MAKP",
+      "bib_key": "MAKP"
+    },
+    {
+      "id": "table-tennis-skill",
+      "title": "Strategy and Skill Learning for Physics-based Table Tennis Animation",
+      "year": 2024,
+      "venue": "SIGGRAPH",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "sports-skills",
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "local-folder-import",
+        "skill-acquisition"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3641519.3657437",
+        "code": "",
+        "project": "https://jiashunwang.github.io/"
+      },
+      "notes": "Added from local Skill Acquisition folder: Sports Skills/Table Tennis.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Table Tennis Skill",
+      "bib_key": "Table-Tennis-skill"
     }
   ]
 }

@@ -56,18 +56,26 @@ Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behav
 
 ### Sports Skills
 
+- [arXiv 2021](https://arxiv.org/abs/2105.12196), **Humanoid Football**: From Motor Control to Team Play in Simulated Humanoid Football (`MoCap`; `MuJoCo`)
 - ICRA 2022, **DanceHAT**: DanceHAT (`MoCap`; `NAO`)
+- [SIGGRAPH 2022](https://doi.org/10.1145/3528233.3530735), **Learning Soccer Juggling**: Learning Soccer Juggling Skills with Layer-wise Mixture-of-Experts, [code](https://github.com/ZhaomingXie/soccer_juggle_release) (`MoCap`; `Physics-based simulation`)
 - [SIGGRAPH 2023](https://doi.org/10.1145/3592408), **Tennis Skills**: Learning Physically Simulated Tennis Skills from Broadcast Videos (`MoCap, Video`; `Isaac Gym`)
+- [SIGGRAPH 2024](https://doi.org/10.1145/3641519.3657437), **Table Tennis Skill**: Strategy and Skill Learning for Physics-based Table Tennis Animation, [website](https://jiashunwang.github.io/) (`MoCap`; `Isaac Gym`)
 - [SIGGRAPH 2025](https://doi.org/10.1145/3721238.3730616), **PARC**: PARC: Physics-Based Augmentation with Reinforcement Learning for Character Controllers (`Learned Motion Priors`; `Isaac Gym`)
 - [SIGGRAPH Asia 2025](https://doi.org/10.1145/3763367), **Learning to Ball**: Learning to Ball: Composing Policies for Long-Horizon Basketball Moves (`MoCap, Video`; `Isaac Gym`)
+- [arXiv 2025](https://doi.org/10.48550/arXiv.2508.21043), **HITTER**: HITTER: A HumanoId Table TEnnis Robot via Hierarchical Planning and Learning, [website](https://humanoid-table-tennis.github.io) (`MoCap`; `Unitree G1, Isaac Lab`)
 - [ICRA 2026](https://arxiv.org/abs/2505.12679), **Dribble Master**: Dribble Master: Learning Agile Humanoid Dribbling Through Legged Locomotion (`Unspecified`; `Booster T1`)
+- ICRA 2026, **MAKP**: MAKP: Multi-Mode Accurate Kicking Policy for Humanoid Robots (`MoCap`; `Booster T1, Isaac Gym, MuJoCo`)
+- [arXiv 2026](https://arxiv.org/abs/2510.18002), **Humanoid Goalkeeper**: Humanoid Goalkeeper: Learning from Position Conditioned Task-Motion Constraints (`Video`; `Unitree G1, Isaac Gym`)
 
 ### Acrobatic Skills
 
 - [NIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/f76a89f0cb91bc419542ce9fa43902dc-Abstract.html), **RFC**: Residual Force Control for Agile Human Behavior Imitation and Extended Motion Synthesis (`MoCap`; `MuJoCo`)
 - CoRL 2023, **Robot Parkour**: Robot Parkour Learning (`Unspecified`; `Unspecified`)
+- [CoRL 2024](https://proceedings.mlr.press/v270/zhuang25a.html), **Humanoid Parkour**: Humanoid Parkour Learning, [website](https://humanoid4parkour.github.io) (`Unspecified`; `Unitree H1, Isaac Gym`)
 - ICRA 2024, **Extreme Parkour**: Extreme Parkour with Legged Robots (`Unspecified`; `Unspecified`)
 - [NIPS 2025](https://arxiv.org/abs/2506.12851), **KungfuBot**: KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills, [website](https://kungfu-bot.github.io/) (`MoCap, Video`; `Unitree G1`)
+- [arXiv 2025](https://arxiv.org/abs/2502.10363), **BeamDojo**: BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds, [website](https://why618188.github.io/beamdojo) (`Unspecified`; `Unitree G1, Isaac Gym`)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2509.16638), **KungfuBot2**: KungfuBot2: Learning Versatile Motion Skills for Humanoid Whole-Body Control (`Unspecified`; `Unspecified`)
 
 ### Long-Horizon Skills
@@ -75,7 +83,11 @@ Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behav
 - [CoRL 2024](https://proceedings.mlr.press/v270/zhang25a.html), **WoCoCo**: WoCoCo: Learning Whole-Body Humanoid Control with Sequential Contacts (`Unspecified`; `Unspecified`)
 - [ICLR 2024](https://openreview.net/forum?id=OrOd8PxOO2), **PULSE**: Universal Humanoid Motion Representations for Physics-Based Control (`Unspecified`; `Unspecified`)
 - [ICRA 2024](https://doi.org/10.1109/ICRA57147.2024.10610977), **Box Loco-Manipulation**: Sim-to-Real Learning for Humanoid Box Loco-Manipulation (`Unspecified`; `Unspecified`)
+- CoRL 2025, **CLONE**: CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks, [website](https://humanoid-clone.github.io/) (`Teleoperation, MoCap`; `Unitree G1`)
+- [arXiv 2025](https://arxiv.org/abs/2509.20717), **RobotDancing**: RobotDancing: Residual-Action Reinforcement Learning Enables Robust Long-Horizon Humanoid Motion Tracking (`MoCap`; `Unitree G1, Unitree H1/H1-2, Isaac Gym, MuJoCo`)
 - [ICLR 2026](https://arxiv.org/abs/2512.14696), **CRISP**: CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives (`Video`; `Isaac Gym`)
+- [arXiv 2026](https://arxiv.org/abs/2602.06341), **HiWET**: HiWET: Hierarchical World-Frame End-Effector Tracking for Long-Horizon Humanoid Loco-Manipulation (`Unspecified`; `Unitree G1, Isaac Lab, MuJoCo`)
+- [arXiv 2026](https://arxiv.org/abs/2602.21723), **LessMimic**: LessMimic: Long-Horizon Humanoid Interaction with Unified Distance Field Representations, [website](https://lessmimic.github.io) (`Unspecified`; `Unspecified`)
 - [arXiv 2026](https://doi.org/10.48550/arXiv.2604.14834), **Switch**: Switch: Learning Agile Skills Switching for Humanoid Robots (`Unspecified`; `Unspecified`)
 
 ## Interaction Learning
