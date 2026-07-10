@@ -1177,6 +1177,1056 @@
       "method_name": "HAIC",
       "bib_key": "HAIC",
       "subcategory": "humanoid-object-interaction"
+    },
+    {
+      "id": "ayusawa-et-al",
+      "title": "Motion Retargeting for Humanoid Robots Based on Simultaneous Morphing Parameter Identification and Motion Optimization",
+      "year": 2017,
+      "venue": "T-RO",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "motion-retargeting",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1109/TRO.2017.2752711",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
+      "method_name": "Ayusawa et al.",
+      "bib_key": "Ayusawa2017"
+    },
+    {
+      "id": "whole-body-geometric-retargeting",
+      "title": "Whole-Body Geometric Retargeting for Humanoid Robots",
+      "year": 2019,
+      "venue": "Humanoids",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "motion-retargeting",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1109/Humanoids43949.2019.9035059",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
+      "method_name": "Whole-Body Geometric Retargeting",
+      "bib_key": "Darvish2019"
+    },
+    {
+      "id": "gmr",
+      "title": "Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "motion-retargeting",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2510.02252",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
+      "method_name": "GMR",
+      "bib_key": "GMR"
+    },
+    {
+      "id": "same",
+      "title": "SAME: Skeleton-Agnostic Motion Embedding for Character Animation",
+      "year": 2023,
+      "venue": "SIGGRAPH Asia",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "motion-retargeting",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3610548.3618206",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
+      "method_name": "SAME",
+      "bib_key": "SAME"
+    },
+    {
+      "id": "s3le",
+      "title": "Self-Supervised Motion Retargeting with Safety Guarantee",
+      "year": 2021,
+      "venue": "ICRA",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "motion-retargeting",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1109/ICRA48506.2021.9560860",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
+      "method_name": "S3LE",
+      "bib_key": "S3LE"
+    },
+    {
+      "id": "nmr",
+      "title": "Make Tracking Easy: Neural Motion Retargeting for Humanoid Whole-body Control",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "motion-retargeting",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2603.22201",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
+      "method_name": "NMR",
+      "bib_key": "NMR"
+    },
+    {
+      "id": "human2humanoid",
+      "title": "Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "motion-retargeting",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
+      "method_name": "Human2Humanoid",
+      "bib_key": "H2H"
+    },
+    {
+      "id": "hvc",
+      "title": "Hierarchical Visuomotor Control of Humanoids",
+      "year": 2019,
+      "venue": "ICLR",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://openreview.net/forum?id=BJfYvo09Y7",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Physics-based Motion Tracking; data source and platform need verification.",
+      "method_name": "HVC",
+      "bib_key": "HVC"
+    },
+    {
+      "id": "next-token",
+      "title": "Humanoid Locomotion as Next Token Prediction",
+      "year": 2024,
+      "venue": "NeurIPS",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "http://papers.nips.cc/paper_files/paper/2024/hash/90afd20dc776bc8849c31d61a0763a0b-Abstract-Conference.html",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Physics-based Motion Tracking; data source and platform need verification.",
+      "method_name": "Next Token",
+      "bib_key": "HumanoidLocoTransformer"
+    },
+    {
+      "id": "robot-parkour",
+      "title": "Robot Parkour Learning",
+      "year": 2023,
+      "venue": "CoRL",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "acrobatic-skills",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Acrobatic Skills; data source and platform need verification.",
+      "method_name": "Robot Parkour",
+      "bib_key": "PARK"
+    },
+    {
+      "id": "extreme-parkour",
+      "title": "Extreme Parkour with Legged Robots",
+      "year": 2024,
+      "venue": "ICRA",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "acrobatic-skills",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Acrobatic Skills; data source and platform need verification.",
+      "method_name": "Extreme Parkour",
+      "bib_key": "EPARK"
+    },
+    {
+      "id": "kungfubot2",
+      "title": "KungfuBot2: Learning Versatile Motion Skills for Humanoid Whole-Body Control",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "acrobatic-skills",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2509.16638",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Acrobatic Skills; data source and platform need verification.",
+      "method_name": "KungfuBot2",
+      "bib_key": "KungfuBot2"
+    },
+    {
+      "id": "wococo",
+      "title": "WoCoCo: Learning Whole-Body Humanoid Control with Sequential Contacts",
+      "year": 2024,
+      "venue": "CoRL",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "long-horizon-skills",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://proceedings.mlr.press/v270/zhang25a.html",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Long-Horizon Skills; data source and platform need verification.",
+      "method_name": "WoCoCo",
+      "bib_key": "WoCoCo"
+    },
+    {
+      "id": "box-loco-manipulation",
+      "title": "Sim-to-Real Learning for Humanoid Box Loco-Manipulation",
+      "year": 2024,
+      "venue": "ICRA",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "long-horizon-skills",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1109/ICRA57147.2024.10610977",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Long-Horizon Skills; data source and platform need verification.",
+      "method_name": "Box Loco-Manipulation",
+      "bib_key": "HumanoidBoxLoco"
+    },
+    {
+      "id": "pulse",
+      "title": "Universal Humanoid Motion Representations for Physics-Based Control",
+      "year": 2024,
+      "venue": "ICLR",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "long-horizon-skills",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://openreview.net/forum?id=OrOd8PxOO2",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Long-Horizon Skills; data source and platform need verification.",
+      "method_name": "PULSE",
+      "bib_key": "PULSE"
+    },
+    {
+      "id": "switch",
+      "title": "Switch: Learning Agile Skills Switching for Humanoid Robots",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "skill-acquisition",
+      "subcategory": "long-horizon-skills",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2604.14834",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Long-Horizon Skills; data source and platform need verification.",
+      "method_name": "Switch",
+      "bib_key": "Switch"
+    },
+    {
+      "id": "hover",
+      "title": "HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots",
+      "year": 2025,
+      "venue": "ICRA",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1109/ICRA55743.2025.11128549",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Object Interaction; data source and platform need verification.",
+      "method_name": "HOVER",
+      "bib_key": "HOVER"
+    },
+    {
+      "id": "dexmimicgen",
+      "title": "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning",
+      "year": 2025,
+      "venue": "ICRA",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1109/ICRA55743.2025.11127809",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Object Interaction; data source and platform need verification.",
+      "method_name": "DexMimicGen",
+      "bib_key": "DexMimicGen"
+    },
+    {
+      "id": "pro-hoi",
+      "title": "Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Object Interaction; data source and platform need verification.",
+      "method_name": "Pro-HOI",
+      "bib_key": "prohoi"
+    },
+    {
+      "id": "simgenhoi",
+      "title": "SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and Reinforcement Learning",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Object Interaction; data source and platform need verification.",
+      "method_name": "SimGenHOI",
+      "bib_key": "SimGenHOI"
+    },
+    {
+      "id": "mimickingbench",
+      "title": "Mimicking-Bench: A Benchmark for Generalizable Humanoid-Scene Interaction Learning via Human Mimicking",
+      "year": 2024,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-scene-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2412.17730",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Scene Interaction; data source and platform need verification.",
+      "method_name": "MimickingBench",
+      "bib_key": "Mimicking-Bench"
+    },
+    {
+      "id": "leverb",
+      "title": "LeVERB: Humanoid Whole-Body Control with Latent Vision-Language Instruction",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-scene-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2506.13751",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Scene Interaction; data source and platform need verification.",
+      "method_name": "LeVERB",
+      "bib_key": "LeVERB"
+    },
+    {
+      "id": "physhsi",
+      "title": "PhysHSI: Towards a Real-World Generalizable and Natural Humanoid-Scene Interaction System",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-scene-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Scene Interaction; data source and platform need verification.",
+      "method_name": "PhysHSI",
+      "bib_key": "PhysHSI"
+    },
+    {
+      "id": "human-x",
+      "title": "Towards Immersive Human-X Interaction: A Real-Time Framework for Physically Plausible Motion Synthesis",
+      "year": 2025,
+      "venue": "ICCV",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-human-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Human Interaction; data source and platform need verification.",
+      "method_name": "Human-X",
+      "bib_key": "JiSJCXMYW25"
+    },
+    {
+      "id": "synagent",
+      "title": "SynAgent: Generalizable Cooperative Humanoid Manipulation via Solo-to-Cooperative Agent Synergy",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-human-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Human Interaction; data source and platform need verification.",
+      "method_name": "SynAgent",
+      "bib_key": "SynAgent"
+    },
+    {
+      "id": "d-star",
+      "title": "Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-human-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Humanoid-Human Interaction; data source and platform need verification.",
+      "method_name": "D-STAR",
+      "bib_key": "DSTAR"
+    },
+    {
+      "id": "humanx",
+      "title": "HumanX: Toward Agile and Generalizable Humanoid Interaction Skills from Human Videos",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "skill-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
+      "method_name": "HumanX",
+      "bib_key": "Human-x-agile"
+    },
+    {
+      "id": "skillmimic-v2",
+      "title": "SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations",
+      "year": 2025,
+      "venue": "SIGGRAPH",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "skill-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3721238.3730640",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
+      "method_name": "SkillMimic-V2",
+      "bib_key": "SkillMimic-V2"
+    },
+    {
+      "id": "haml",
+      "title": "HAML: Humanoid Adversarial Multi-Skill Learning via a Single Policy",
+      "year": 2026,
+      "venue": "Actuators",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "skill-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://www.mdpi.com/2076-0825/15/4/212",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
+      "method_name": "HAML",
+      "bib_key": "HAML"
+    },
+    {
+      "id": "mugen",
+      "title": "MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "skill-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2605.24592",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
+      "method_name": "MuGen",
+      "bib_key": "MuGen"
+    },
+    {
+      "id": "codeact",
+      "title": "CodeAct: Codebook-Guided Multi-Skill Integration for Dynamic Humanoid Whole-Body Control",
+      "year": 2026,
+      "venue": "RA-L",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "skill-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
+      "method_name": "CodeAct",
+      "bib_key": "CodeAct"
+    },
+    {
+      "id": "skillblender",
+      "title": "SkillBlender: Towards Versatile Humanoid Whole-Body Loco-Manipulation via Skill Blending",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "skill-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
+      "method_name": "SkillBlender",
+      "bib_key": "skillblender"
+    },
+    {
+      "id": "r2s2",
+      "title": "Unleashing Humanoid Reaching Potential via Real-world-Ready Skill Space",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "skill-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.10918",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
+      "method_name": "R2S2",
+      "bib_key": "R2S2"
+    },
+    {
+      "id": "c-ase",
+      "title": "C-ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters",
+      "year": 2023,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "task-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2309.11351",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Task-Guided Policies; data source and platform need verification.",
+      "method_name": "C-ASE",
+      "bib_key": "case"
+    },
+    {
+      "id": "bfm-for-hr",
+      "title": "Behavior Foundation Model for Humanoid Robots",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "task-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2509.13780",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Task-Guided Policies; data source and platform need verification.",
+      "method_name": "BFM-for-HR",
+      "bib_key": "BFM_for_HR"
+    },
+    {
+      "id": "fb-aw",
+      "title": "Finer Behavioral Foundation Models via Auto-Regressive Features and Advantage Weighting",
+      "year": 2024,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "task-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2412.04368",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Task-Guided Policies; data source and platform need verification.",
+      "method_name": "FB-AW",
+      "bib_key": "FB-AW"
+    },
+    {
+      "id": "motivo",
+      "title": "Zero-Shot Whole-Body Humanoid Control via Behavioral Foundation Models",
+      "year": 2025,
+      "venue": "ICLR",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "task-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://openreview.net/forum?id=9sOR0nYLtz",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Task-Guided Policies; data source and platform need verification.",
+      "method_name": "MOTIVO",
+      "bib_key": "MOTIVO"
+    },
+    {
+      "id": "bfm-zero",
+      "title": "BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "task-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Task-Guided Policies; data source and platform need verification.",
+      "method_name": "BFM-Zero",
+      "bib_key": "BFM-Zero"
+    },
+    {
+      "id": "humanoid-lla",
+      "title": "Humanoid-LLA: Open-Vocabulary Humanoid Whole-Body Control with Large Language Action Model",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "vision-language-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Vision-Language-Guided Policies; data source and platform need verification.",
+      "method_name": "Humanoid-LLA",
+      "bib_key": "humanoid-LLA"
+    },
+    {
+      "id": "langwbc",
+      "title": "LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning",
+      "year": 2025,
+      "venue": "RSS",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "vision-language-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Vision-Language-Guided Policies; data source and platform need verification.",
+      "method_name": "LangWBC",
+      "bib_key": "LangWBC"
+    },
+    {
+      "id": "psi0",
+      "title": "Psi0: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "vision-language-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Vision-Language-Guided Policies; data source and platform need verification.",
+      "method_name": "Psi0",
+      "bib_key": "Psi0"
+    },
+    {
+      "id": "gr00t-n1",
+      "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "vision-language-guided-policies",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "method-section-citation"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2503.14734",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from the survey Method section citation under Vision-Language-Guided Policies; data source and platform need verification.",
+      "method_name": "GR00T N1",
+      "bib_key": "GR00T-N1"
     }
   ]
 }
