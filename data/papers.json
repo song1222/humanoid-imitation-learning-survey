@@ -1063,8 +1063,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2509.14353",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/GenRobo/DreamControl/tree/main",
+        "project": "https://genrobo.github.io/DreamControl/"
       },
       "notes": "",
       "method_name": "DreamControl",
