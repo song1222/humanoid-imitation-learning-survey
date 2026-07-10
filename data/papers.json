@@ -665,9 +665,9 @@
         "learned-motion-prior"
       ],
       "links": {
-        "paper": "https://openreview.net/forum?id=pZISppZSTv",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2410.03441",
+        "code": "https://github.com/GuyTevet/CLoSD",
+        "project": "https://guytevet.github.io/CLoSD-page/"
       },
       "notes": "",
       "method_name": "CLoSD",
@@ -694,7 +694,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2506.12851",
-        "code": "",
+        "code": "https://github.com/TeleHuman/PBHC",
         "project": "https://kungfu-bot.github.io/"
       },
       "notes": "",
@@ -719,9 +719,9 @@
         "sports-skill"
       ],
       "links": {
-        "paper": "https://doi.org/10.1145/3721238.3730616",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2505.04002",
+        "code": "https://github.com/mshoe/PARC",
+        "project": "https://michaelx.io/parc/"
       },
       "notes": "",
       "method_name": "PARC",
@@ -745,7 +745,7 @@
         "diffusion"
       ],
       "links": {
-        "paper": "https://doi.org/10.1145/3731206",
+        "paper": "https://arxiv.org/abs/2503.11801",
         "code": "",
         "project": ""
       },
@@ -773,8 +773,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1145/3763367",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/xupei0610/basketball",
+        "project": "https://pei-xu.github.io/basketball"
       },
       "notes": "",
       "method_name": "Learning to Ball",
@@ -799,7 +799,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2505.03738",
-        "code": "",
+        "code": "https://github.com/OpenTeleVision/AMO",
         "project": "https://amo-humanoid.github.io/"
       },
       "notes": "",
@@ -809,7 +809,7 @@
     },
     {
       "id": "beyond-mimicry",
-      "title": "BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion",
+      "title": "Beyond Mimicry: Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations",
       "year": 2026,
       "venue": "CVPR",
       "data_sources": [
@@ -824,7 +824,7 @@
         "real-robot"
       ],
       "links": {
-        "paper": "https://arxiv.org/abs/2508.08241",
+        "paper": "https://arxiv.org/pdf/2601.09518",
         "code": "",
         "project": ""
       },
@@ -867,7 +867,7 @@
       "data_sources": [
         "Teleoperation"
       ],
-      "primary_category": "interaction-learning",
+      "primary_category": "generalist-humanoid-policies",
       "platforms": [
         "Unitree G1"
       ],
@@ -884,7 +884,7 @@
       "notes": "",
       "method_name": "VIRAL",
       "bib_key": "VIRAL",
-      "subcategory": "humanoid-object-interaction"
+      "subcategory": "vision-language-guided-policies"
     },
     {
       "id": "sentinel",
@@ -931,8 +931,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2512.14696",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/Z1hanW/CRISP-Real2Sim",
+        "project": "https://crisp-real2sim.github.io/CRISP-Real2Sim/"
       },
       "notes": "",
       "method_name": "CRISP",
@@ -941,7 +941,7 @@
     },
     {
       "id": "bibo",
-      "title": "BiBo",
+      "title": "Endowing GPT-4 with a Humanoid Body: Building the Bridge Between Off-the-Shelf VLMs and the Physical World",
       "year": 2026,
       "venue": "ICLR",
       "data_sources": [
@@ -955,8 +955,8 @@
         "representative-method"
       ],
       "links": {
-        "paper": "",
-        "code": "",
+        "paper": "https://arxiv.org/abs/2511.00041",
+        "code": "https://github.com/Shadow-Dream/BiBo",
         "project": ""
       },
       "notes": "Full paper title and link still need verification.",
@@ -1009,7 +1009,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2509.13833",
-        "code": "",
+        "code": "https://github.com/GalaxyGeneralRobotics/OpenTrack",
         "project": "https://zzk273.github.io/Any2Track/"
       },
       "notes": "",
