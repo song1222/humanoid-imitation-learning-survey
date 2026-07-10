@@ -2999,6 +2999,34 @@
       "notes": "Added from local Skill Acquisition folder: Sports Skills/Table Tennis.pdf; metadata inferred from local PDF and may need verification.",
       "method_name": "Table Tennis Skill",
       "bib_key": "Table-Tennis-skill"
+    },
+    {
+      "id": "wholebodyvla",
+      "title": "WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Control",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Video",
+        "Teleoperation"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "vision-language-guided-policies",
+      "platforms": [
+        "AgiBot X2"
+      ],
+      "tags": [
+        "local-folder-import",
+        "generalist-policy",
+        "vision-language-action"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2512.11047",
+        "code": "",
+        "project": "https://opendrivelab.com/WholeBodyVLA"
+      },
+      "notes": "Added from local Generalist Humanoid Policies folder: Vision-Language-Guided Policies/WholeBodyVLA.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "WholeBodyVLA",
+      "bib_key": "WholeBodyVLA"
     }
   ]
 }

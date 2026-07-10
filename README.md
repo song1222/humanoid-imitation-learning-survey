@@ -179,6 +179,7 @@ Broad-coverage policies, multi-skill controllers, and foundation/VLA-style human
 - RSS 2025, **LangWBC**: LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning (`Unspecified`; `Unspecified`)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2503.14734), **GR00T N1**: GR00T N1: An Open Foundation Model for Generalist Humanoid Robots (`Unspecified`; `Unspecified`)
 - arXiv 2025, **Humanoid-LLA**: Humanoid-LLA: Open-Vocabulary Humanoid Whole-Body Control with Large Language Action Model (`Unspecified`; `Unspecified`)
+- [arXiv 2025](https://arxiv.org/abs/2512.11047), **WholeBodyVLA**: WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Control, [website](https://opendrivelab.com/WholeBodyVLA) (`Video, Teleoperation`; `AgiBot X2`)
 - [CVPR 2026](https://arxiv.org/abs/2511.19236), **SENTINEL**: SENTINEL: A Fully End-to-End Language-Action Model for Humanoid Whole Body Control (`MoCap`; `Unitree G1`)
 - ICLR 2026, **BiBo**: BiBo (`MoCap`; `Isaac Gym`)
 - [ICRA 2026](https://arxiv.org/abs/2510.03022), **HumanoidExo**: HumanoidExo: Scalable Whole-Body Humanoid Manipulation via Wearable Exoskeleton, [website](https://humanoid-exo.github.io/) (`Teleoperation`; `Unitree G1`)
