@@ -2227,6 +2227,453 @@
       "notes": "Added from the survey Method section citation under Vision-Language-Guided Policies; data source and platform need verification.",
       "method_name": "GR00T N1",
       "bib_key": "GR00T-N1"
+    },
+    {
+      "id": "echo",
+      "title": "Robot Interaction Behavior Generation based on Social Motion Forecasting for Human-Robot Interaction",
+      "year": 2024,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-human-interaction",
+      "platforms": [
+        "JVRC-1",
+        "TIAGo++"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2402.04768",
+        "code": "",
+        "project": "https://evm7.github.io/ECHO"
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Human Interaction/ECHO.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "ECHO",
+      "bib_key": "ECHO"
+    },
+    {
+      "id": "it-takes-two",
+      "title": "It Takes Two: Learning Interactive Whole-Body Control Between Humanoid Robots",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-human-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2510.10206",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Human Interaction/it takes two.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "It Takes Two",
+      "bib_key": "ItTakesTwo"
+    },
+    {
+      "id": "rhino",
+      "title": "RHINO: Learning Real-Time Humanoid-Human-Object Interaction from Human Demonstrations",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-human-interaction",
+      "platforms": [
+        "Unitree H1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.13134",
+        "code": "",
+        "project": "https://humanoid-interaction.github.io"
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Human Interaction/RHINO.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "RHINO",
+      "bib_key": "RHINO"
+    },
+    {
+      "id": "catch-carry",
+      "title": "Catch & Carry: Reusable Neural Controllers for Vision-Guided Whole-Body Tasks",
+      "year": 2020,
+      "venue": "TOG",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3386569.3392474",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/Catch & Carry.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Catch & Carry",
+      "bib_key": "Catch-Carry"
+    },
+    {
+      "id": "embracing-bulky-objects",
+      "title": "Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning",
+      "year": 2026,
+      "venue": "ICRA",
+      "data_sources": [
+        "Learned Motion Priors"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unitree H1-2"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/Embracing?2026 ICRA?.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Embracing Bulky Objects",
+      "bib_key": "EmbracingBulkyObjects"
+    },
+    {
+      "id": "hmc",
+      "title": "HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation",
+      "year": 2026,
+      "venue": "ICRA",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2511.14756",
+        "code": "",
+        "project": "https://loco-hmc.github.io"
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/HMC(2026ICRA).pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "HMC",
+      "bib_key": "HMC"
+    },
+    {
+      "id": "hphp",
+      "title": "Humanoid Policy ~ Human Policy",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Teleoperation"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unitree H1",
+        "Unitree H1-2"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2503.13441",
+        "code": "",
+        "project": "https://human-as-robot.github.io/"
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/HPHP.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "HPHP",
+      "bib_key": "HPHP"
+    },
+    {
+      "id": "humanoid-everyday",
+      "title": "Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Teleoperation"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unitree humanoid"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning",
+        "dataset"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2510.08807",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/Humanoid Everyday.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Humanoid Everyday",
+      "bib_key": "Humanoid_Everyday"
+    },
+    {
+      "id": "idp3",
+      "title": "Generalizable Humanoid Manipulation with 3D Diffusion Policies",
+      "year": 2025,
+      "venue": "IROS",
+      "data_sources": [
+        "Teleoperation"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Fourier GR1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1109/IROS60139.2025.11246340",
+        "code": "",
+        "project": "https://humanoid-manipulation.github.io"
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/iDP3.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "iDP3",
+      "bib_key": "iDP3"
+    },
+    {
+      "id": "okami",
+      "title": "OKAMI: Teaching Humanoid Robots Manipulation Skills through Single Video Imitation",
+      "year": 2024,
+      "venue": "CoRL",
+      "data_sources": [
+        "Video"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Fourier GR1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://proceedings.mlr.press/v270/li25a.html",
+        "code": "",
+        "project": "https://ut-austin-rpl.github.io/OKAMI/"
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/OKAMI.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "OKAMI",
+      "bib_key": "OKAMI"
+    },
+    {
+      "id": "open-television",
+      "title": "Open-TeleVision: Teleoperation with Immersive Active Visual Feedback",
+      "year": 2024,
+      "venue": "CoRL",
+      "data_sources": [
+        "Teleoperation"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unitree H1",
+        "Fourier GR-1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning",
+        "teleoperation"
+      ],
+      "links": {
+        "paper": "https://proceedings.mlr.press/v270/cheng25b.html",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/Open-TeleVision.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Open-TeleVision",
+      "bib_key": "Open-TeleVision"
+    },
+    {
+      "id": "opt2skill",
+      "title": "Opt2Skill: Imitating Dynamically-feasible Whole-Body Trajectories for Versatile Humanoid Loco-Manipulation",
+      "year": 2025,
+      "venue": "RA-L",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Digit"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2409.20514",
+        "code": "",
+        "project": "https://opt2skill.github.io"
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/Opt2Skill.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Opt2Skill",
+      "bib_key": "Opt2Skill"
+    },
+    {
+      "id": "physhoi",
+      "title": "PhysHOI: Physics-Based Imitation of Dynamic Human-Object Interaction",
+      "year": 2023,
+      "venue": "arXiv",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2312.04393",
+        "code": "",
+        "project": "https://wyhuai.github.io/physhoi-page/"
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/PhysHOI.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "PhysHOI",
+      "bib_key": "PhysHOI"
+    },
+    {
+      "id": "distillation-ppo",
+      "title": "Distillation-PPO: A Novel Two-Stage Reinforcement Learning Framework for Humanoid Robot Perceptive Locomotion",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-scene-interaction",
+      "platforms": [
+        "Unspecified"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.48550/arXiv.2503.08299",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Scene Interaction/Distillation-PPO.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Distillation-PPO",
+      "bib_key": "Distillation-PPO"
+    },
+    {
+      "id": "gallant",
+      "title": "Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-scene-interaction",
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2511.14625",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Scene Interaction/Gallant.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "Gallant",
+      "bib_key": "Gallant"
+    },
+    {
+      "id": "doorman",
+      "title": "Opening the Sim-to-Real Door for Humanoid Pixel-to-Action Policy Transfer",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-scene-interaction",
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2512.01061",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Scene Interaction/open the door.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "DoorMan",
+      "bib_key": "OpenTheDoor"
+    },
+    {
+      "id": "samp",
+      "title": "Stochastic Scene-Aware Motion Prediction",
+      "year": 2021,
+      "venue": "ICCV",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-scene-interaction",
+      "platforms": [
+        "Virtual human"
+      ],
+      "tags": [
+        "local-folder-import",
+        "interaction-learning"
+      ],
+      "links": {
+        "paper": "",
+        "code": "",
+        "project": "https://samp.is.tue.mpg.de"
+      },
+      "notes": "Added from local Interaction Learning folder: Humanoid-Scene Interaction/SAMP.pdf; metadata inferred from local PDF and may need verification.",
+      "method_name": "SAMP",
+      "bib_key": "SAMP"
     }
   ]
 }

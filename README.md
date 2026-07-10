@@ -84,30 +84,47 @@ Object, scene, and human interaction behaviors.
 
 ### Humanoid-Object Interaction
 
+- [TOG 2020](https://doi.org/10.1145/3386569.3392474), **Catch & Carry**: Catch & Carry: Reusable Neural Controllers for Vision-Guided Whole-Body Tasks (`MoCap`; `Unspecified`)
+- [arXiv 2023](https://doi.org/10.48550/arXiv.2312.04393), **PhysHOI**: PhysHOI: Physics-Based Imitation of Dynamic Human-Object Interaction, [website](https://wyhuai.github.io/physhoi-page/) (`MoCap`; `Unspecified`)
+- [CoRL 2024](https://proceedings.mlr.press/v270/li25a.html), **OKAMI**: OKAMI: Teaching Humanoid Robots Manipulation Skills through Single Video Imitation, [website](https://ut-austin-rpl.github.io/OKAMI/) (`Video`; `Fourier GR1`)
 - [CoRL 2024](https://proceedings.mlr.press/v270/he25b.html), **OmniH2O**: OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning, [website](https://omni.human2humanoid.com/) / [code](https://github.com/LeCAR-Lab/human2humanoid) (`MoCap, Teleoperation`; `Unitree H1`)
+- [CoRL 2024](https://proceedings.mlr.press/v270/cheng25b.html), **Open-TeleVision**: Open-TeleVision: Teleoperation with Immersive Active Visual Feedback (`Teleoperation`; `Unitree H1, Fourier GR-1`)
 - [CVPR 2025](https://arxiv.org/abs/2502.20390), **InterMimic**: InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions (`MoCap`; `Isaac Gym`)
 - [ICRA 2025](https://doi.org/10.1109/ICRA55743.2025.11127809), **DexMimicGen**: DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning (`Unspecified`; `Unspecified`)
 - [ICRA 2025](https://doi.org/10.1109/ICRA55743.2025.11128549), **HOVER**: HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots (`Unspecified`; `Unspecified`)
+- [IROS 2025](https://doi.org/10.1109/IROS60139.2025.11246340), **iDP3**: Generalizable Humanoid Manipulation with 3D Diffusion Policies, [website](https://humanoid-manipulation.github.io) (`Teleoperation`; `Fourier GR1`)
+- [RA-L 2025](https://arxiv.org/abs/2409.20514), **Opt2Skill**: Opt2Skill: Imitating Dynamically-feasible Whole-Body Trajectories for Versatile Humanoid Loco-Manipulation, [website](https://opt2skill.github.io) (`Unspecified`; `Digit`)
 - [RSS 2025](https://arxiv.org/abs/2505.03738), **AMO**: AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control, [website](https://amo-humanoid.github.io/) (`MoCap`; `Unitree G1`)
+- [arXiv 2025](https://doi.org/10.48550/arXiv.2503.13441), **HPHP**: Humanoid Policy ~ Human Policy, [website](https://human-as-robot.github.io/) (`Teleoperation`; `Unitree H1, Unitree H1-2`)
+- [arXiv 2025](https://doi.org/10.48550/arXiv.2510.08807), **Humanoid Everyday**: Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation (`Teleoperation`; `Unitree humanoid`)
 - arXiv 2025, **SimGenHOI**: SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and Reinforcement Learning (`Unspecified`; `Unspecified`)
 - [CVPR 2026](https://arxiv.org/abs/2511.15200), **VIRAL**: VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation (`Teleoperation`; `Unitree G1`)
 - [ICRA 2026](https://arxiv.org/abs/2509.14353), **DreamControl**: DreamControl: Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion (`Learned Motion Priors`; `Unitree G1`)
+- ICRA 2026, **Embracing Bulky Objects**: Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning (`Learned Motion Priors`; `Unitree H1-2`)
+- [ICRA 2026](https://arxiv.org/abs/2511.14756), **HMC**: HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation, [website](https://loco-hmc.github.io) (`Unspecified`; `Unitree G1`)
 - [RSS 2026](https://arxiv.org/abs/2602.11758), **HAIC**: HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model, [website](https://haic-humanoid.github.io/) (`MoCap`; `Unitree G1`)
 - arXiv 2026, **Pro-HOI**: Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction (`Unspecified`; `Unspecified`)
 
 ### Humanoid-Scene Interaction
 
+- ICCV 2021, **SAMP**: Stochastic Scene-Aware Motion Prediction, [website](https://samp.is.tue.mpg.de) (`MoCap`; `Virtual human`)
 - SIGGRAPH 2023, **InterPhys**: InterPhys (`MoCap`; `Isaac Gym`)
 - [ICLR 2024](https://arxiv.org/abs/2309.07918), **UniHSI**: Unified Human-Scene Interaction via Prompted Chain-of-Contacts, [website](https://github.com/OpenRobotLab/UniHSI) (`MoCap`; `Isaac Gym`)
 - [arXiv 2024](https://doi.org/10.48550/arXiv.2412.17730), **MimickingBench**: Mimicking-Bench: A Benchmark for Generalizable Humanoid-Scene Interaction Learning via Human Mimicking (`Unspecified`; `Unspecified`)
 - [CVPR 2025](https://arxiv.org/abs/2503.19901), **TokenHSI**: TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization, [website](https://liangpan99.github.io/TokenHSI/) (`MoCap`; `Isaac Gym`)
+- [arXiv 2025](https://doi.org/10.48550/arXiv.2503.08299), **Distillation-PPO**: Distillation-PPO: A Novel Two-Stage Reinforcement Learning Framework for Humanoid Robot Perceptive Locomotion (`Unspecified`; `Unspecified`)
+- [arXiv 2025](https://arxiv.org/abs/2512.01061), **DoorMan**: Opening the Sim-to-Real Door for Humanoid Pixel-to-Action Policy Transfer (`Unspecified`; `Unitree G1`)
+- [arXiv 2025](https://arxiv.org/abs/2511.14625), **Gallant**: Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains (`Unspecified`; `Unitree G1`)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2506.13751), **LeVERB**: LeVERB: Humanoid Whole-Body Control with Latent Vision-Language Instruction (`Unspecified`; `Unspecified`)
 - arXiv 2025, **PhysHSI**: PhysHSI: Towards a Real-World Generalizable and Natural Humanoid-Scene Interaction System (`Unspecified`; `Unspecified`)
 
 ### Humanoid-Human Interaction
 
 - [RAL 2024](https://doi.org/10.1109/LRA.2024.3495577), **XGB**: XBG: End-to-End Imitation Learning for Autonomous Behaviour in Human-Robot Interaction and Collaboration (`Teleoperation`; `ErgoCub`)
+- [arXiv 2024](https://arxiv.org/abs/2402.04768), **ECHO**: Robot Interaction Behavior Generation based on Social Motion Forecasting for Human-Robot Interaction, [website](https://evm7.github.io/ECHO) (`Unspecified`; `JVRC-1, TIAGo++`)
 - ICCV 2025, **Human-X**: Towards Immersive Human-X Interaction: A Real-Time Framework for Physically Plausible Motion Synthesis (`Unspecified`; `Unspecified`)
+- [arXiv 2025](https://doi.org/10.48550/arXiv.2510.10206), **It Takes Two**: It Takes Two: Learning Interactive Whole-Body Control Between Humanoid Robots (`Unspecified`; `Unspecified`)
+- [arXiv 2025](https://arxiv.org/abs/2502.13134), **RHINO**: RHINO: Learning Real-Time Humanoid-Human-Object Interaction from Human Demonstrations, [website](https://humanoid-interaction.github.io) (`Unspecified`; `Unitree H1`)
 - [CVPR 2026](https://arxiv.org/abs/2508.08241), **Beyond Mimicry**: BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion (`MoCap`; `Unitree G1`)
 - arXiv 2026, **D-STAR**: Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations (`Unspecified`; `Unspecified`)
 - arXiv 2026, **SynAgent**: SynAgent: Generalizable Cooperative Humanoid Manipulation via Solo-to-Cooperative Agent Synergy (`Unspecified`; `Unspecified`)
