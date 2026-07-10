@@ -39,19 +39,38 @@ Human-to-robot motion transfer, retargeting, and physics-based reference trackin
 
 #### Physics-based Motion Tracking
 
-- [SIGGRAPH 2018](https://doi.org/10.1145/3197517.3201311), **DeepMimic**: DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills (`MoCap`; `Bullet`)
-- [SIGGRAPH Asia 2018](https://arxiv.org/abs/1810.03599), **SFV**: SFV: Reinforcement Learning of Physical Skills from Videos (`Video`; `Bullet`)
+- [CoRL 2017](https://arxiv.org/abs/1703.09327), **DART**: DART: Noise Injection for Robust Imitation Learning (`Unspecified`; `MuJoCo, Toyota HSR`)
+- [arXiv 2017](https://arxiv.org/abs/1707.02747), **Robust Imitation**: Robust Imitation of Diverse Behaviors (`MoCap`; `MuJoCo`)
+- [SIGGRAPH 2018](https://doi.org/10.1145/3197517.3201311), **DeepMimic**: DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills, [website](https://xbpeng.github.io/projects/DeepMimic/index.html) / [code](https://github.com/xbpeng/DeepMimic) (`MoCap`; `Bullet`)
+- [SIGGRAPH Asia 2018](https://arxiv.org/abs/1810.03599), **SFV**: SFV: Reinforcement Learning of Physical Skills from Videos, [website](https://xbpeng.github.io/projects/SFV/index.html) / [code](https://github.com/akanazawa/motion_reconstruction) (`Video`; `Bullet`)
 - [ICLR 2019](https://openreview.net/forum?id=BJfYvo09Y7), **HVC**: Hierarchical Visuomotor Control of Humanoids (`Unspecified`; `Unspecified`)
 - [ICLR 2019](https://openreview.net/forum?id=BJl6TjRcY7), **NPMP**: Neural Probabilistic Motor Primitives for Humanoid Control (`MoCap`; `MuJoCo`)
-- [SIGGRAPH 2021](https://doi.org/10.1145/3450626.3459670), **AMP**: AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control (`MoCap`; `Bullet`)
-- [ICCV 2023](https://doi.org/10.1109/ICCV51070.2023.01000), **PHC**: Perpetual Humanoid Control for Real-Time Simulated Avatars (`MoCap`; `Isaac Gym`)
+- [SIGGRAPH Asia 2019](https://doi.org/10.1145/3355089.3356536), **DReCon**: DReCon: Data-Driven Responsive Control of Physics-Based Characters (`MoCap`; `Bullet`)
+- [arXiv 2019](https://arxiv.org/abs/1812.05905), **SAC**: Soft Actor-Critic Algorithms and Applications (`Unspecified`; `MuJoCo, Minitaur`)
+- [arXiv 2019](https://arxiv.org/abs/1905.11108), **SQIL**: SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards (`Unspecified`; `MuJoCo`)
+- [ICML 2020](https://proceedings.mlr.press/v119/hasenclever20a.html), **CoMic**: CoMic: Complementary Task Learning & Mimicry for Reusable Skills (`MoCap`; `dm_control`)
+- [CVPR 2021](https://arxiv.org/abs/2104.00683), **SimPoE**: SimPoE: Simulated Character Control for 3D Human Pose Estimation, [website](https://ye-yuan.com/simpoe/) (`Video`; `MuJoCo`)
+- [SIGGRAPH 2021](https://arxiv.org/abs/2104.02180), **AMP**: AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control, [website](https://xbpeng.github.io/projects/AMP/index.html) / [code](https://github.com/xbpeng/DeepMimic) (`MoCap`; `Bullet`)
+- [NeurIPS 2022](https://arxiv.org/abs/2208.07363), **MoCapAct**: MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control, [website](https://microsoft.github.io/MoCapAct/) / [code](https://github.com/microsoft/MoCapAct) (`MoCap`; `dm_control`)
+- [ICCV 2023](https://doi.org/10.1109/ICCV51070.2023.01000), **PHC**: Perpetual Humanoid Control for Real-Time Simulated Avatars, [website](https://github.com/ZhengyiLuo/PHC) / [code](https://github.com/ZhengyiLuo/PHC) (`MoCap`; `Isaac Gym`)
+- [SIGGRAPH Asia 2023](https://doi.org/10.1145/3618375), **AdaptNet**: AdaptNet: Policy Adaptation for Physics-Based Character Control, [website](https://motion-lab.github.io/AdaptNet/) / [code](https://github.com/xupei0610/AdaptNet) (`MoCap`; `Isaac Gym`)
+- [CoRL 2024](https://arxiv.org/abs/2410.01968), **Bi-Level**: Bi-Level Motion Imitation for Humanoid Robots, [website](https://sites.google.com/view/bmi-corl2024) / [code](https://github.com/wenshuaizhao/bmi) (`MoCap`; `MIT Humanoid, Isaac Gym`)
 - [NeurIPS 2024](http://papers.nips.cc/paper_files/paper/2024/hash/90afd20dc776bc8849c31d61a0763a0b-Abstract-Conference.html), **Next Token**: Humanoid Locomotion as Next Token Prediction (`Unspecified`; `Unspecified`)
-- [SIGGRAPH Asia 2024](https://doi.org/10.1145/3680528.3687683), **PDP**: PDP: Physics-Based Character Animation via Diffusion Policy (`MoCap`; `MuJoCo`)
-- [CoRL 2025](https://arxiv.org/abs/2505.02833), **TWIST**: TWIST: Teleoperated Whole-Body Imitation System (`MoCap`; `Unitree G1`)
+- [RSS 2024](https://arxiv.org/abs/2402.16796), **ExBody**: Expressive Whole-Body Control for Humanoid Robots, [website](https://expressive-humanoid.github.io/) / [code](https://github.com/chengxuxin/expressive-humanoid) (`MoCap`; `Unitree H1, Isaac Gym`)
+- [SIGGRAPH Asia 2024](https://dl.acm.org/doi/full/10.1145/3680528.3687683), **PDP**: PDP: Physics-Based Character Animation via Diffusion Policy, [website](https://tml.stanford.edu/PDP.github.io/) / [code](https://github.com/Stanford-TML/PDP) (`MoCap`; `MuJoCo`)
+- [CoRL 2025](https://arxiv.org/abs/2505.02833), **TWIST**: TWIST: Teleoperated Whole-Body Imitation System, [website](https://yanjieze.com/projects/TWIST/) / [code](https://github.com/YanjieZe/TWIST) (`MoCap`; `Unitree G1`)
+- [RSS 2025](https://arxiv.org/abs/2502.08378), **HoST**: Learning Humanoid Standing-up Control across Diverse Postures, [website](https://taohuang13.github.io/humanoid-standingup.github.io/) / [code](https://github.com/InternRobotics/HoST) (`Unspecified`; `Unitree G1`)
 - [SIGGRAPH 2025](https://doi.org/10.1145/3731206), **Diffuse-CLoC**: Diffuse-CLoC: Guided Diffusion for Physics-Based Character Look-Ahead Control (`MoCap`; `Isaac Gym`)
+- [arXiv 2025](https://arxiv.org/abs/2503.00923), **HWC-Loco**: HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion (`MoCap`; `Unitree H1, Unitree G1, Isaac Gym`)
+- [arXiv 2025](https://arxiv.org/abs/2503.10626), **NIL**: NIL: No-data Imitation Learning by Leveraging Pre-trained Video Diffusion Models (`Video`; `Unitree H1, Unitree G1, Talos, Unitree A1`)
+- [arXiv 2025](https://arxiv.org/abs/2502.14814), **VB-Com**: VB-Com: Learning Vision-Blind Composite Humanoid Locomotion Against Deficient Perception (`Unspecified`; `Unitree G1, Unitree H1`)
 - [AAAI 2026](https://arxiv.org/abs/2509.13833), **Any2Track**: Track Any Motions under Any Disturbances, [website](https://zzk273.github.io/Any2Track/) (`MoCap`; `Unitree G1`)
 - [CVPR 2026](https://arxiv.org/abs/2512.13093), **PvP**: PvP: Data-Efficient Humanoid Robot Learning with Proprioceptive-Privileged Contrastive Representations (`MoCap`; `LimX Oli`)
 - [ICRA 2026](https://arxiv.org/abs/2510.14454), **AdaMimic**: AdaMimic: Towards Adaptable Humanoid Control via Adaptive Motion Tracking, [website](https://taohuang13.github.io/adamimic.github.io/) (`Video`; `Unitree G1`)
+- [ICRA 2026](https://arxiv.org/abs/2505.24266), **SignBot**: SignBot: Learning Human-to-Humanoid Sign Language Interaction, [website](https://qiaoguanren.github.io/SignBot-demo/) / [code](https://github.com/qiaoguanren/Signbot) (`Unspecified`; `Unitree H1, W1, Isaac Gym`)
+- [arXiv 2026](https://arxiv.org/abs/2512.23650), **RoboPerform**: Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control (`MoCap`; `Unitree G1, Isaac Gym, MuJoCo`)
+- [arXiv 2026](https://arxiv.org/abs/2511.07820), **SONIC**: SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control, [website](https://nvlabs.github.io/GEAR-SONIC/) / [code](https://github.com/NVlabs/GR00T-WholeBodyControl) (`MoCap, Video, Teleoperation`; `Unitree G1, Isaac Lab, MuJoCo`)
+- [arXiv 2026](https://arxiv.org/abs/2506.01141), **Standing Tall**: Standing Tall: Sim to Real Fall Classification and Lead Time Prediction for Bipedal Robots (`Unspecified`; `Digit`)
 
 ### Skill Acquisition
 
@@ -60,9 +79,9 @@ Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behav
 #### Sports Skills
 
 - [arXiv 2021](https://arxiv.org/abs/2105.12196), **Humanoid Football**: From Motor Control to Team Play in Simulated Humanoid Football (`MoCap`; `MuJoCo`)
-- ICRA 2022, **DanceHAT**: DanceHAT (`MoCap`; `NAO`)
+- [ICRA 2022](https://ieeexplore.ieee.org/document/9811649), **DanceHAT**: DanceHAT: Generate Stable Dances for Humanoid Robots with Adversarial Training (`MoCap`; `NAO`)
 - [SIGGRAPH 2022](https://doi.org/10.1145/3528233.3530735), **Learning Soccer Juggling**: Learning Soccer Juggling Skills with Layer-wise Mixture-of-Experts, [code](https://github.com/ZhaomingXie/soccer_juggle_release) (`MoCap`; `Physics-based simulation`)
-- [SIGGRAPH 2023](https://doi.org/10.1145/3592408), **Tennis Skills**: Learning Physically Simulated Tennis Skills from Broadcast Videos (`MoCap, Video`; `Isaac Gym`)
+- [SIGGRAPH 2023](https://doi.org/10.1145/3592408), **Tennis Skills**: Learning Physically Simulated Tennis Skills from Broadcast Videos, [website](https://research.nvidia.com/labs/toronto-ai/vid2player3d/) / [code](https://github.com/nv-tlabs/vid2player3d) (`MoCap, Video`; `Isaac Gym`)
 - [SIGGRAPH 2024](https://doi.org/10.1145/3641519.3657437), **Table Tennis Skill**: Strategy and Skill Learning for Physics-based Table Tennis Animation, [website](https://jiashunwang.github.io/) (`MoCap`; `Isaac Gym`)
 - [SIGGRAPH 2025](https://doi.org/10.1145/3721238.3730616), **PARC**: PARC: Physics-Based Augmentation with Reinforcement Learning for Character Controllers (`Learned Motion Priors`; `Isaac Gym`)
 - [SIGGRAPH Asia 2025](https://doi.org/10.1145/3763367), **Learning to Ball**: Learning to Ball: Composing Policies for Long-Horizon Basketball Moves (`MoCap, Video`; `Isaac Gym`)
@@ -73,7 +92,7 @@ Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behav
 
 #### Acrobatic Skills
 
-- [NIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/f76a89f0cb91bc419542ce9fa43902dc-Abstract.html), **RFC**: Residual Force Control for Agile Human Behavior Imitation and Extended Motion Synthesis (`MoCap`; `MuJoCo`)
+- [NIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/f76a89f0cb91bc419542ce9fa43902dc-Abstract.html), **RFC**: Residual Force Control for Agile Human Behavior Imitation and Extended Motion Synthesis, [website](https://ye-yuan.com/rfc/) / [code](https://github.com/Khrylx/RFC) (`MoCap`; `MuJoCo`)
 - CoRL 2023, **Robot Parkour**: Robot Parkour Learning (`Unspecified`; `Unspecified`)
 - [CoRL 2024](https://proceedings.mlr.press/v270/zhuang25a.html), **Humanoid Parkour**: Humanoid Parkour Learning, [website](https://humanoid4parkour.github.io) (`Unspecified`; `Unitree H1, Isaac Gym`)
 - ICRA 2024, **Extreme Parkour**: Extreme Parkour with Legged Robots (`Unspecified`; `Unspecified`)
@@ -102,9 +121,9 @@ Object, scene, and human interaction behaviors.
 - [TOG 2020](https://doi.org/10.1145/3386569.3392474), **Catch & Carry**: Catch & Carry: Reusable Neural Controllers for Vision-Guided Whole-Body Tasks (`MoCap`; `Unspecified`)
 - [arXiv 2023](https://doi.org/10.48550/arXiv.2312.04393), **PhysHOI**: PhysHOI: Physics-Based Imitation of Dynamic Human-Object Interaction, [website](https://wyhuai.github.io/physhoi-page/) (`MoCap`; `Unspecified`)
 - [CoRL 2024](https://proceedings.mlr.press/v270/li25a.html), **OKAMI**: OKAMI: Teaching Humanoid Robots Manipulation Skills through Single Video Imitation, [website](https://ut-austin-rpl.github.io/OKAMI/) (`Video`; `Fourier GR1`)
-- [CoRL 2024](https://proceedings.mlr.press/v270/he25b.html), **OmniH2O**: OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning, [website](https://omni.human2humanoid.com/) / [code](https://github.com/LeCAR-Lab/human2humanoid) (`MoCap, Teleoperation`; `Unitree H1`)
+- [CoRL 2024](https://arxiv.org/abs/2406.08858), **OmniH2O**: OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning, [website](https://omni.human2humanoid.com/) / [code](https://github.com/LeCAR-Lab/human2humanoid) (`MoCap, Teleoperation`; `Unitree H1`)
 - [CoRL 2024](https://proceedings.mlr.press/v270/cheng25b.html), **Open-TeleVision**: Open-TeleVision: Teleoperation with Immersive Active Visual Feedback (`Teleoperation`; `Unitree H1, Fourier GR-1`)
-- [CVPR 2025](https://arxiv.org/abs/2502.20390), **InterMimic**: InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions (`MoCap`; `Isaac Gym`)
+- [CVPR 2025](https://arxiv.org/abs/2502.20390), **InterMimic**: InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions, [website](https://sirui-xu.github.io/InterMimic/) / [code](https://github.com/Sirui-Xu/InterMimic) (`MoCap`; `Isaac Gym`)
 - [ICRA 2025](https://doi.org/10.1109/ICRA55743.2025.11127809), **DexMimicGen**: DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning (`Unspecified`; `Unspecified`)
 - [ICRA 2025](https://doi.org/10.1109/ICRA55743.2025.11128549), **HOVER**: HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots (`Unspecified`; `Unspecified`)
 - [IROS 2025](https://doi.org/10.1109/IROS60139.2025.11246340), **iDP3**: Generalizable Humanoid Manipulation with 3D Diffusion Policies, [website](https://humanoid-manipulation.github.io) (`Teleoperation`; `Fourier GR1`)
@@ -123,10 +142,10 @@ Object, scene, and human interaction behaviors.
 #### Humanoid-Scene Interaction
 
 - ICCV 2021, **SAMP**: Stochastic Scene-Aware Motion Prediction, [website](https://samp.is.tue.mpg.de) (`MoCap`; `Virtual human`)
-- SIGGRAPH 2023, **InterPhys**: InterPhys (`MoCap`; `Isaac Gym`)
-- [ICLR 2024](https://arxiv.org/abs/2309.07918), **UniHSI**: Unified Human-Scene Interaction via Prompted Chain-of-Contacts, [website](https://github.com/OpenRobotLab/UniHSI) (`MoCap`; `Isaac Gym`)
+- [SIGGRAPH 2023](https://arxiv.org/abs/2302.00883), **InterPhys**: Synthesizing Physical Character-Scene Interactions, [website](https://arxiv.org/abs/2302.00883) (`MoCap`; `Isaac Gym`)
+- [ICLR 2024](https://arxiv.org/abs/2309.07918), **UniHSI**: Unified Human-Scene Interaction via Prompted Chain-of-Contacts, [website](https://xizaoqu.github.io/unihsi/) / [code](https://github.com/InternRobotics/UniHSI) (`MoCap`; `Isaac Gym`)
 - [arXiv 2024](https://doi.org/10.48550/arXiv.2412.17730), **MimickingBench**: Mimicking-Bench: A Benchmark for Generalizable Humanoid-Scene Interaction Learning via Human Mimicking (`Unspecified`; `Unspecified`)
-- [CVPR 2025](https://arxiv.org/abs/2503.19901), **TokenHSI**: TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization, [website](https://liangpan99.github.io/TokenHSI/) (`MoCap`; `Isaac Gym`)
+- [CVPR 2025](https://arxiv.org/abs/2503.19901), **TokenHSI**: TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization, [website](https://liangpan99.github.io/TokenHSI/) / [code](https://github.com/liangpan99/TokenHSI) (`MoCap`; `Isaac Gym`)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2503.08299), **Distillation-PPO**: Distillation-PPO: A Novel Two-Stage Reinforcement Learning Framework for Humanoid Robot Perceptive Locomotion (`Unspecified`; `Unspecified`)
 - [arXiv 2025](https://arxiv.org/abs/2512.01061), **DoorMan**: Opening the Sim-to-Real Door for Humanoid Pixel-to-Action Policy Transfer (`Unspecified`; `Unitree G1`)
 - [arXiv 2025](https://arxiv.org/abs/2511.14625), **Gallant**: Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains (`Unspecified`; `Unitree G1`)
@@ -135,7 +154,7 @@ Object, scene, and human interaction behaviors.
 
 #### Humanoid-Human Interaction
 
-- [RAL 2024](https://doi.org/10.1109/LRA.2024.3495577), **XGB**: XBG: End-to-End Imitation Learning for Autonomous Behaviour in Human-Robot Interaction and Collaboration (`Teleoperation`; `ErgoCub`)
+- [RAL 2024](https://arxiv.org/abs/2406.15833), **XGB**: XBG: End-to-End Imitation Learning for Autonomous Behaviour in Human-Robot Interaction and Collaboration, [website](https://ami-iit.github.io/xbg/) / [code](https://github.com/ami-iit/paper_cardenas_2024_ral_xbg) (`Teleoperation`; `ErgoCub`)
 - [arXiv 2024](https://arxiv.org/abs/2402.04768), **ECHO**: Robot Interaction Behavior Generation based on Social Motion Forecasting for Human-Robot Interaction, [website](https://evm7.github.io/ECHO) (`Unspecified`; `JVRC-1, TIAGo++`)
 - ICCV 2025, **Human-X**: Towards Immersive Human-X Interaction: A Real-Time Framework for Physically Plausible Motion Synthesis (`Unspecified`; `Unspecified`)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2510.10206), **It Takes Two**: It Takes Two: Learning Interactive Whole-Body Control Between Humanoid Robots (`Unspecified`; `Unspecified`)
@@ -150,8 +169,8 @@ Broad-coverage policies, multi-skill controllers, and foundation/VLA-style human
 
 #### Skill-Guided Policies
 
-- [SIGGRAPH Asia 2022](https://doi.org/10.1145/3550454.3555434), **ControlVAE**: ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters (`MoCap`; `ODE`)
-- [CVPR 2025](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SkillMimic_Learning_Basketball_Interaction_Skills_from_Demonstrations_CVPR_2025_paper.html), **SkillMimic**: SkillMimic: Learning Basketball Interaction Skills from Demonstrations (`MoCap, Video`; `Isaac Gym`)
+- [SIGGRAPH Asia 2022](https://doi.org/10.1145/3550454.3555434), **ControlVAE**: ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters, [website](https://heyuanyao-pku.github.io/Control-VAE/) / [code](https://github.com/heyuanYao-pku/Control-VAE) (`MoCap`; `ODE`)
+- [CVPR 2025](https://arxiv.org/abs/2408.15270), **SkillMimic**: SkillMimic: Learning Basketball Interaction Skills from Demonstrations, [website](https://ingrid789.github.io/SkillMimic/) / [code](https://github.com/wyhuai/SkillMimic) (`MoCap, Video`; `Isaac Gym`)
 - [SIGGRAPH 2025](https://doi.org/10.1145/3721238.3730640), **SkillMimic-V2**: SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations (`Unspecified`; `Unspecified`)
 - [arXiv 2025](https://arxiv.org/abs/2505.10918), **R2S2**: Unleashing Humanoid Reaching Potential via Real-world-Ready Skill Space (`Unspecified`; `Unspecified`)
 - arXiv 2025, **SkillBlender**: SkillBlender: Towards Versatile Humanoid Whole-Body Loco-Manipulation via Skill Blending (`Unspecified`; `Unspecified`)
@@ -163,11 +182,11 @@ Broad-coverage policies, multi-skill controllers, and foundation/VLA-style human
 
 #### Task-Guided Policies
 
-- [SIGGRAPH 2022](https://doi.org/10.1145/3528223.3530110), **ASE**: ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters (`MoCap`; `Isaac Gym`)
-- [SIGGRAPH 2023](https://doi.org/10.1145/3588432.3591541), **CALM**: CALM: Conditional Adversarial Latent Models for Directable Virtual Characters (`MoCap`; `Isaac Gym`)
+- [SIGGRAPH 2022](https://arxiv.org/abs/2205.01906), **ASE**: ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters, [website](https://research.nvidia.com/labs/toronto-ai/ASE/) / [code](https://github.com/nv-tlabs/ASE) (`MoCap`; `Isaac Gym`)
+- [SIGGRAPH 2023](https://arxiv.org/abs/2305.02195), **CALM**: CALM: Conditional Adversarial Latent Models for Directable Virtual Characters, [website](https://xbpeng.github.io/projects/CALM/index.html) / [code](https://github.com/NVlabs/CALM/) (`MoCap`; `Isaac Gym`)
 - [arXiv 2023](https://doi.org/10.48550/arXiv.2309.11351), **C-ASE**: C-ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters (`Unspecified`; `Unspecified`)
-- [ECCV 2024](https://arxiv.org/abs/2502.05641), **MHC**: Generating Physically Realistic and Directable Human Motions from Multi-Modal Inputs, [website](https://masked-humanoid.github.io/mhc/) (`MoCap`; `Isaac Gym`)
-- [SIGGRAPH Asia 2024](https://doi.org/10.1145/3687951), **MaskedMimic**: MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting (`MoCap`; `Isaac Gym`)
+- [ECCV 2024](https://arxiv.org/abs/2502.05641), **MHC**: Generating Physically Realistic and Directable Human Motions from Multi-Modal Inputs, [website](https://idigitopia.github.io/projects/mhc/) / [code](https://github.com/osudrl/masked-humanoid-controller) (`MoCap`; `Isaac Gym`)
+- [SIGGRAPH Asia 2024](https://doi.org/10.1145/3687951), **MaskedMimic**: MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting, [code](https://github.com/DanielTruong99/MaskedMimic) (`MoCap`; `Isaac Gym`)
 - [arXiv 2024](https://doi.org/10.48550/arXiv.2412.04368), **FB-AW**: Finer Behavioral Foundation Models via Auto-Regressive Features and Advantage Weighting (`Unspecified`; `Unspecified`)
 - [ICLR 2025](https://openreview.net/forum?id=9sOR0nYLtz), **MOTIVO**: Zero-Shot Whole-Body Humanoid Control via Behavioral Foundation Models (`Unspecified`; `Unspecified`)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2509.13780), **BFM-for-HR**: Behavior Foundation Model for Humanoid Robots (`Unspecified`; `Unspecified`)
@@ -175,8 +194,8 @@ Broad-coverage policies, multi-skill controllers, and foundation/VLA-style human
 
 #### Vision-Language-Guided Policies
 
-- [NIPS 2023](https://arxiv.org/abs/2312.17135), **InsActor**: InsActor: Instruction-Driven Physics-Based Characters (`MoCap`; `Brax`)
-- [CoRL 2024](https://proceedings.mlr.press/v270/fu25a.html), **HumanPlus**: HumanPlus: Humanoid Shadowing and Imitation from Humans, [website](https://humanoid-ai.github.io/) / [code](https://github.com/MarkFzp/humanplus) (`MoCap, Teleoperation`; `Unitree H1`)
+- [NIPS 2023](https://arxiv.org/abs/2312.17135), **InsActor**: InsActor: Instruction-Driven Physics-Based Characters, [website](https://jiawei-ren.github.io/projects/insactor/index.html) / [code](https://github.com/MotrixLab/insactor) (`MoCap`; `Brax`)
+- [CoRL 2024](https://arxiv.org/abs/2406.10454), **HumanPlus**: HumanPlus: Humanoid Shadowing and Imitation from Humans, [website](https://humanoid-ai.github.io/) / [code](https://github.com/MarkFzp/humanplus) (`MoCap, Teleoperation`; `Unitree H1`)
 - [NIPS 2024](https://arxiv.org/abs/2502.14795), **HumanVLA**: Humanoid-VLA: Towards Universal Humanoid Control with Visual Integration (`MoCap`; `Isaac Gym`)
 - [ICLR 2025](https://openreview.net/forum?id=pZISppZSTv), **CLoSD**: CLoSD: Closing the Loop between Simulation and Diffusion for Multi-Task Character Control (`Learned Motion Priors`; `Isaac Gym`)
 - RSS 2025, **LangWBC**: LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning (`Unspecified`; `Unspecified`)

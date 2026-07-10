@@ -563,7 +563,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2505.02833",
-        "code": "https://arxiv.org/abs/2505.02833",
+        "code": "https://github.com/YanjieZe/TWIST",
         "project": "https://yanjieze.com/projects/TWIST/"
       },
       "notes": "",
@@ -591,7 +591,7 @@
       "links": {
         "paper": "https://arxiv.org/abs/2408.15270",
         "code": "https://github.com/wyhuai/SkillMimic",
-        "project": "SkillMimic: Learning Basketball Interaction Skills from Demonstrations"
+        "project": "https://ingrid789.github.io/SkillMimic/"
       },
       "notes": "Video spelling normalized from the survey table.",
       "method_name": "SkillMimic",
@@ -3027,7 +3027,526 @@
       "notes": "",
       "method_name": "WholeBodyVLA",
       "bib_key": "WholeBodyVLA"
+    },
+    {
+      "id": "robust-imitation",
+      "title": "Robust Imitation of Diverse Behaviors",
+      "year": 2017,
+      "venue": "arXiv",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "MuJoCo"
+      ],
+      "tags": [
+        "local-folder-import",
+        "adversarial-imitation",
+        "motion-tracking"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/1707.02747",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "Robust Imitation",
+      "bib_key": "Robust-Imitation"
+    },
+    {
+      "id": "dart",
+      "title": "DART: Noise Injection for Robust Imitation Learning",
+      "year": 2017,
+      "venue": "CoRL",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "MuJoCo",
+        "Toyota HSR"
+      ],
+      "tags": [
+        "local-folder-import"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/1703.09327",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "DART",
+      "bib_key": "DART"
+    },
+    {
+      "id": "comic",
+      "title": "CoMic: Complementary Task Learning & Mimicry for Reusable Skills",
+      "year": 2020,
+      "venue": "ICML",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "dm_control"
+      ],
+      "tags": [
+        "local-folder-import",
+        "motion-tracking",
+        "latent-skill"
+      ],
+      "links": {
+        "paper": "https://proceedings.mlr.press/v119/hasenclever20a.html",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "CoMic",
+      "bib_key": "CoMic"
+    },
+    {
+      "id": "drecon",
+      "title": "DReCon: Data-Driven Responsive Control of Physics-Based Characters",
+      "year": 2019,
+      "venue": "SIGGRAPH Asia",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Bullet"
+      ],
+      "tags": [
+        "local-folder-import",
+        "physics-based-tracking",
+        "motion-tracking"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3355089.3356536",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "DReCon",
+      "bib_key": "DReCon"
+    },
+    {
+      "id": "sqil",
+      "title": "SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards",
+      "year": 2019,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "MuJoCo"
+      ],
+      "tags": [
+        "local-folder-import"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/1905.11108",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "SQIL",
+      "bib_key": "SQIL"
+    },
+    {
+      "id": "sac",
+      "title": "Soft Actor-Critic Algorithms and Applications",
+      "year": 2019,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "MuJoCo",
+        "Minitaur"
+      ],
+      "tags": [
+        "local-folder-import"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/1812.05905",
+        "code": "",
+        "project": ""
+      },
+      "notes": "Local PDF is the arXiv Algorithms and Applications version.",
+      "method_name": "SAC",
+      "bib_key": "SAC"
+    },
+    {
+      "id": "simpoe",
+      "title": "SimPoE: Simulated Character Control for 3D Human Pose Estimation",
+      "year": 2021,
+      "venue": "CVPR",
+      "data_sources": [
+        "Video"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "MuJoCo"
+      ],
+      "tags": [
+        "local-folder-import",
+        "video-based",
+        "physics-based-tracking"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2104.00683",
+        "code": "",
+        "project": "https://ye-yuan.com/simpoe/"
+      },
+      "notes": "",
+      "method_name": "SimPoE",
+      "bib_key": "SimPoE"
+    },
+    {
+      "id": "mocapact",
+      "title": "MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control",
+      "year": 2022,
+      "venue": "NeurIPS",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "dm_control"
+      ],
+      "tags": [
+        "local-folder-import",
+        "dataset",
+        "motion-tracking"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2208.07363",
+        "code": "https://github.com/microsoft/MoCapAct",
+        "project": "https://microsoft.github.io/MoCapAct/"
+      },
+      "notes": "",
+      "method_name": "MoCapAct",
+      "bib_key": "MoCapAct"
+    },
+    {
+      "id": "adaptnet",
+      "title": "AdaptNet: Policy Adaptation for Physics-Based Character Control",
+      "year": 2023,
+      "venue": "SIGGRAPH Asia",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Isaac Gym"
+      ],
+      "tags": [
+        "local-folder-import",
+        "physics-based-tracking",
+        "adaptive-tracking"
+      ],
+      "links": {
+        "paper": "https://doi.org/10.1145/3618375",
+        "code": "https://github.com/xupei0610/AdaptNet",
+        "project": "https://motion-lab.github.io/AdaptNet/"
+      },
+      "notes": "",
+      "method_name": "AdaptNet",
+      "bib_key": "AdaptNet"
+    },
+    {
+      "id": "exbody",
+      "title": "Expressive Whole-Body Control for Humanoid Robots",
+      "year": 2024,
+      "venue": "RSS",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unitree H1",
+        "Isaac Gym"
+      ],
+      "tags": [
+        "local-folder-import",
+        "physics-based-tracking",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2402.16796",
+        "code": "https://github.com/chengxuxin/expressive-humanoid",
+        "project": "https://expressive-humanoid.github.io/"
+      },
+      "notes": "",
+      "method_name": "ExBody",
+      "bib_key": "ExBody"
+    },
+    {
+      "id": "bi-level-motion-imitation",
+      "title": "Bi-Level Motion Imitation for Humanoid Robots",
+      "year": 2024,
+      "venue": "CoRL",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "MIT Humanoid",
+        "Isaac Gym"
+      ],
+      "tags": [
+        "local-folder-import",
+        "physics-based-tracking",
+        "motion-tracking"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2410.01968",
+        "code": "https://github.com/wenshuaizhao/bmi",
+        "project": "https://sites.google.com/view/bmi-corl2024"
+      },
+      "notes": "",
+      "method_name": "Bi-Level",
+      "bib_key": "Bi-Level"
+    },
+    {
+      "id": "host",
+      "title": "Learning Humanoid Standing-up Control across Diverse Postures",
+      "year": 2025,
+      "venue": "RSS",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.08378",
+        "code": "https://github.com/InternRobotics/HoST",
+        "project": "https://taohuang13.github.io/humanoid-standingup.github.io/"
+      },
+      "notes": "",
+      "method_name": "HoST",
+      "bib_key": "HoST"
+    },
+    {
+      "id": "hwc-loco",
+      "title": "HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unitree H1",
+        "Unitree G1",
+        "Isaac Gym"
+      ],
+      "tags": [
+        "local-folder-import",
+        "physics-based-tracking",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2503.00923",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "HWC-Loco",
+      "bib_key": "HWC-Loco"
+    },
+    {
+      "id": "nil",
+      "title": "NIL: No-data Imitation Learning by Leveraging Pre-trained Video Diffusion Models",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Video"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unitree H1",
+        "Unitree G1",
+        "Talos",
+        "Unitree A1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "video-based"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2503.10626",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "NIL",
+      "bib_key": "NIL"
+    },
+    {
+      "id": "signbot",
+      "title": "SignBot: Learning Human-to-Humanoid Sign Language Interaction",
+      "year": 2026,
+      "venue": "ICRA",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unitree H1",
+        "W1",
+        "Isaac Gym"
+      ],
+      "tags": [
+        "local-folder-import",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.24266",
+        "code": "https://github.com/qiaoguanren/Signbot",
+        "project": "https://qiaoguanren.github.io/SignBot-demo/"
+      },
+      "notes": "",
+      "method_name": "SignBot",
+      "bib_key": "SignBot"
+    },
+    {
+      "id": "vb-com",
+      "title": "VB-Com: Learning Vision-Blind Composite Humanoid Locomotion Against Deficient Perception",
+      "year": 2025,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unitree G1",
+        "Unitree H1"
+      ],
+      "tags": [
+        "local-folder-import",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.14814",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "VB-Com",
+      "bib_key": "VB-Com"
+    },
+    {
+      "id": "roboperform",
+      "title": "Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unitree G1",
+        "Isaac Gym",
+        "MuJoCo"
+      ],
+      "tags": [
+        "local-folder-import",
+        "physics-based-tracking",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2512.23650",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "RoboPerform",
+      "bib_key": "RoboPerform"
+    },
+    {
+      "id": "standing-tall",
+      "title": "Standing Tall: Sim to Real Fall Classification and Lead Time Prediction for Bipedal Robots",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Digit"
+      ],
+      "tags": [
+        "local-folder-import",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2506.01141",
+        "code": "",
+        "project": ""
+      },
+      "notes": "",
+      "method_name": "Standing Tall",
+      "bib_key": "Standing-Tall"
+    },
+    {
+      "id": "sonic",
+      "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": [
+        "MoCap",
+        "Video",
+        "Teleoperation"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+        "Unitree G1",
+        "Isaac Lab",
+        "MuJoCo"
+      ],
+      "tags": [
+        "local-folder-import",
+        "motion-tracking",
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2511.07820",
+        "code": "https://github.com/NVlabs/GR00T-WholeBodyControl",
+        "project": "https://nvlabs.github.io/GEAR-SONIC/"
+      },
+      "notes": "",
+      "method_name": "SONIC",
+      "bib_key": "SONIC"
     }
-    
   ]
 }
