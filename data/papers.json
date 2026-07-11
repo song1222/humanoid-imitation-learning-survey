@@ -1397,7 +1397,7 @@
       "links": {
         "paper": "http://papers.nips.cc/paper_files/paper/2024/hash/90afd20dc776bc8849c31d61a0763a0b-Abstract-Conference.html",
         "code": "",
-        "project": "Humanoid Locomotion as Next Token Prediction"
+        "project": "https://humanoid-next-token-prediction.github.io/"
       },
       "notes": "Added from the survey Method section citation under Physics-based Motion Tracking; data source and platform need verification.",
       "method_name": "Next Token",
@@ -1597,7 +1597,7 @@
       "links": {
         "paper": "https://doi.org/10.1109/ICRA55743.2025.11128549",
         "code": "https://github.com/NVlabs/HOVER/",
-        "project": "HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots"
+        "project": "https://hover-versatile-humanoid.github.io/"
       },
       "notes": "",
       "method_name": "HOVER",
@@ -1821,7 +1821,7 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
+        "paper": "https://arxiv.org/abs/2602.02473",
         "code": "",
         "project": ""
       },
@@ -1847,8 +1847,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1145/3721238.3730640",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/Ingrid789/SkillMimic-V2",
+        "project": "https://ingrid789.github.io/SkillMimicV2/"
       },
       "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
       "method_name": "SkillMimic-V2",
@@ -1873,7 +1873,7 @@
       "links": {
         "paper": "https://www.mdpi.com/2076-0825/15/4/212",
         "code": "",
-        "project": ""
+        "project": "https://vsislab.github.io/haml/"
       },
       "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
       "method_name": "HAML",
@@ -1921,7 +1921,7 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
+        "paper": "CodeAct: Codebook-Guided Multi-Skill Integration for Dynamic Humanoid Whole-Body Control",
         "code": "",
         "project": ""
       },
@@ -1946,9 +1946,9 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2506.09366",
+        "code": "https://github.com/Humanoid-SkillBlender/SkillBlender",
+        "project": "https://usc-gvl.github.io/SkillBlender-web/"
       },
       "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
       "method_name": "SkillBlender",
@@ -1972,8 +1972,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2505.10918",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/GalaxyGeneralRobotics/OpenWBT",
+        "project": "https://zzk273.github.io/R2S2/"
       },
       "notes": "Added from the survey Method section citation under Skill-Guided Policies; data source and platform need verification.",
       "method_name": "R2S2",
@@ -1998,7 +1998,7 @@
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2309.11351",
         "code": "",
-        "project": ""
+        "project": "https://github.com/Frank-ZY-Dou/CASE"
       },
       "notes": "Added from the survey Method section citation under Task-Guided Policies; data source and platform need verification.",
       "method_name": "C-ASE",
@@ -2072,8 +2072,8 @@
       ],
       "links": {
         "paper": "https://openreview.net/forum?id=9sOR0nYLtz",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/facebookresearch/metamotivo",
+        "project": "https://metamotivo.metademolab.com/"
       },
       "notes": "Added from the survey Method section citation under Task-Guided Policies; data source and platform need verification.",
       "method_name": "MOTIVO",
@@ -2096,9 +2096,9 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2511.04131",
+        "code": "https://github.com/LeCAR-Lab/BFM-Zero",
+        "project": "https://lecar-lab.github.io/BFM-Zero/"
       },
       "notes": "Added from the survey Method section citation under Task-Guided Policies; data source and platform need verification.",
       "method_name": "BFM-Zero",
@@ -2106,7 +2106,7 @@
     },
     {
       "id": "humanoid-lla",
-      "title": "Humanoid-LLA: Open-Vocabulary Humanoid Whole-Body Control with Large Language Action Model",
+      "title": "Commanding Humanoid by Free-form Language: A Large Language Action Model with Unified Motion Vocabulary",
       "year": 2025,
       "venue": "arXiv",
       "data_sources": [
@@ -2121,9 +2121,9 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
+        "paper": "https://arxiv.org/abs/2511.22963",
         "code": "",
-        "project": ""
+        "project": "https://humanoidlla.github.io/"
       },
       "notes": "Added from the survey Method section citation under Vision-Language-Guided Policies; data source and platform need verification.",
       "method_name": "Humanoid-LLA",
@@ -2146,9 +2146,9 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2504.21738",
+        "code": "https://github.com/YiyangShao2003/LangWBC",
+        "project": "https://langwbc.github.io/"
       },
       "notes": "Added from the survey Method section citation under Vision-Language-Guided Policies; data source and platform need verification.",
       "method_name": "LangWBC",
@@ -2171,9 +2171,9 @@
         "method-section-citation"
       ],
       "links": {
-        "paper": "",
-        "code": "",
-        "project": ""
+        "paper": "https://arxiv.org/abs/2603.12263",
+        "code": "https://github.com/physical-superintelligence-lab/Psi0",
+        "project": "https://psi-lab.ai/Psi0/"
       },
       "notes": "Added from the survey Method section citation under Vision-Language-Guided Policies; data source and platform need verification.",
       "method_name": "Psi0",
@@ -2197,8 +2197,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2503.14734",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/NVIDIA/Isaac-GR00T",
+        "project": "https://developer.nvidia.com/isaac/gr00t"
       },
       "notes": "Added from the survey Method section citation under Vision-Language-Guided Policies; data source and platform need verification.",
       "method_name": "GR00T N1",
@@ -2276,7 +2276,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2502.13134",
-        "code": "",
+        "code": "https://github.com/TimerChen/RHINO",
         "project": "https://humanoid-interaction.github.io"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Human Interaction/RHINO.pdf; metadata inferred from local PDF and may need verification.",
@@ -2327,7 +2327,7 @@
         "interaction-learning"
       ],
       "links": {
-        "paper": "",
+        "paper": "https://arxiv.org/abs/2509.13534",
         "code": "",
         "project": ""
       },
@@ -2381,7 +2381,7 @@
       ],
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2503.13441",
-        "code": "",
+        "code": "https://github.com/RogerQi/human-policy",
         "project": "https://human-as-robot.github.io/"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/HPHP.pdf; metadata inferred from local PDF and may need verification.",
@@ -2409,7 +2409,7 @@
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2510.08807",
         "code": "",
-        "project": ""
+        "project": "https://humanoideveryday.github.io/"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/Humanoid Everyday.pdf; metadata inferred from local PDF and may need verification.",
       "method_name": "Humanoid Everyday",
@@ -2434,7 +2434,7 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1109/IROS60139.2025.11246340",
-        "code": "",
+        "code": "https://github.com/YanjieZe/Improved-3D-Diffusion-Policy",
         "project": "https://humanoid-manipulation.github.io"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/iDP3.pdf; metadata inferred from local PDF and may need verification.",
@@ -2460,7 +2460,7 @@
       ],
       "links": {
         "paper": "https://proceedings.mlr.press/v270/li25a.html",
-        "code": "",
+        "code": "https://github.com/UT-Austin-RPL/OKAMI",
         "project": "https://ut-austin-rpl.github.io/OKAMI/"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/OKAMI.pdf; metadata inferred from local PDF and may need verification.",
@@ -2488,8 +2488,8 @@
       ],
       "links": {
         "paper": "https://proceedings.mlr.press/v270/cheng25b.html",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/OpenTeleVision/TeleVision",
+        "project": "https://robot-tv.github.io/"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/Open-TeleVision.pdf; metadata inferred from local PDF and may need verification.",
       "method_name": "Open-TeleVision",
@@ -2540,7 +2540,7 @@
       ],
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2312.04393",
-        "code": "",
+        "code": "https://github.com/wyhuai/PhysHOI",
         "project": "https://wyhuai.github.io/physhoi-page/"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Object Interaction/PhysHOI.pdf; metadata inferred from local PDF and may need verification.",
@@ -2576,8 +2576,8 @@
     {
       "id": "gallant",
       "title": "Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "CVPR",
       "data_sources": [
         "Unspecified"
       ],
@@ -2592,8 +2592,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2511.14625",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/InternRobotics/Gallant",
+        "project": "https://gallantloco.github.io/"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Scene Interaction/Gallant.pdf; metadata inferred from local PDF and may need verification.",
       "method_name": "Gallant",
@@ -2602,8 +2602,8 @@
     {
       "id": "doorman",
       "title": "Opening the Sim-to-Real Door for Humanoid Pixel-to-Action Policy Transfer",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "CVPR",
       "data_sources": [
         "Unspecified"
       ],
@@ -2618,8 +2618,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2512.01061",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/NVlabs/GR00T-VisualSim2Real",
+        "project": "https://doorman-humanoid.github.io/"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Scene Interaction/open the door.pdf; metadata inferred from local PDF and may need verification.",
       "method_name": "DoorMan",
@@ -2643,8 +2643,8 @@
         "interaction-learning"
       ],
       "links": {
-        "paper": "",
-        "code": "",
+        "paper": "https://arxiv.org/abs/2108.08284",
+        "code": "https://github.com/mohamedhassanmus/SAMP",
         "project": "https://samp.is.tue.mpg.de"
       },
       "notes": "Added from local Interaction Learning folder: Humanoid-Scene Interaction/SAMP.pdf; metadata inferred from local PDF and may need verification.",
@@ -2655,7 +2655,7 @@
       "id": "beamdojo",
       "title": "BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds",
       "year": 2025,
-      "venue": "arXiv",
+      "venue": "RSS",
       "data_sources": [
         "Unspecified"
       ],
@@ -2725,8 +2725,8 @@
         "teleoperation"
       ],
       "links": {
-        "paper": "",
-        "code": "",
+        "paper": "https://arxiv.org/abs/2506.08931",
+        "code": "https://github.com/humanoid-clone/CLONE",
         "project": "https://humanoid-clone.github.io/"
       },
       "notes": "Added from local Skill Acquisition folder: Long-Horizon Skills/Clone.pdf; metadata inferred from local PDF and may need verification.",
@@ -2780,7 +2780,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2602.21723",
-        "code": "",
+        "code": "https://github.com/Yutang-Lin/LessMimic",
         "project": "https://lessmimic.github.io"
       },
       "notes": "Added from local Skill Acquisition folder: Long-Horizon Skills/LessMimic.pdf; metadata inferred from local PDF and may need verification.",
@@ -2847,7 +2847,7 @@
       "id": "humanoid-football",
       "title": "From Motor Control to Team Play in Simulated Humanoid Football",
       "year": 2021,
-      "venue": "arXiv",
+      "venue": "SR",
       "data_sources": [
         "MoCap"
       ],
@@ -2889,8 +2889,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2510.18002",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/InternRobotics/Humanoid-Goalkeeper",
+        "project": "https://humanoid-goalkeeper.github.io/Goalkeeper/"
       },
       "notes": "Added from local Skill Acquisition folder: Sports Skills/Humanoid Goalkeeper.pdf; metadata inferred from local PDF and may need verification.",
       "method_name": "Humanoid Goalkeeper",
@@ -2942,8 +2942,8 @@
         "skill-acquisition"
       ],
       "links": {
-        "paper": "",
-        "code": "",
+        "paper": "https://events.infovaya.com/uploads/documents/pdfviewer/64/ee/218252-2281.pdf",
+        "code": "https://github.com/SII-ZZ/MAKP",
         "project": ""
       },
       "notes": "Added from local Skill Acquisition folder: Sports Skills/MAKP.pdf; metadata inferred from local PDF and may need verification.",
@@ -2969,8 +2969,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.1145/3641519.3657437",
-        "code": "",
-        "project": "https://jiashunwang.github.io/"
+        "code": "https://github.com/jiashunwang/PhysicsPingPong",
+        "project": "https://jiashunwang.github.io/PhysicsPingPong/"
       },
       "notes": "",
       "method_name": "Table Tennis Skill",
@@ -3008,7 +3008,7 @@
       "id": "robust-imitation",
       "title": "Robust Imitation of Diverse Behaviors",
       "year": 2017,
-      "venue": "arXiv",
+      "venue": "NIPS",
       "data_sources": [
         "MoCap"
       ],
@@ -3155,7 +3155,7 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/1812.05905",
-        "code": "",
+        "code": "https://github.com/haarnoja/sac",
         "project": ""
       },
       "notes": "Local PDF is the arXiv Algorithms and Applications version.",
@@ -3347,8 +3347,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2503.00923",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/EDEM-AI/HWC_Loco",
+        "project": "https://simonlinsx.github.io/HWC_Loco/"
       },
       "notes": "",
       "method_name": "HWC-Loco",
@@ -3357,8 +3357,8 @@
     {
       "id": "nil",
       "title": "NIL: No-data Imitation Learning by Leveraging Pre-trained Video Diffusion Models",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "CVPR",
       "data_sources": [
         "Video"
       ],
@@ -3377,7 +3377,7 @@
       "links": {
         "paper": "https://arxiv.org/abs/2503.10626",
         "code": "",
-        "project": ""
+        "project": "https://mertalbaba.github.io/projects/nil/"
       },
       "notes": "",
       "method_name": "NIL",
@@ -3432,7 +3432,7 @@
       "links": {
         "paper": "https://arxiv.org/abs/2502.14814",
         "code": "",
-        "project": ""
+        "project": "https://renjunli99.github.io/vbcom.github.io/"
       },
       "notes": "",
       "method_name": "VB-Com",
@@ -3442,7 +3442,7 @@
       "id": "roboperform",
       "title": "Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control",
       "year": 2026,
-      "venue": "arXiv",
+      "venue": "CVPR",
       "data_sources": [
         "MoCap"
       ],
@@ -3460,8 +3460,8 @@
       ],
       "links": {
         "paper": "https://arxiv.org/abs/2512.23650",
-        "code": "",
-        "project": ""
+        "code": "https://github.com/gentlefress/RoboPerform",
+        "project": "https://gentlefress.github.io/RoboPerform-proj/"
       },
       "notes": "",
       "method_name": "RoboPerform",
@@ -3471,7 +3471,7 @@
       "id": "standing-tall",
       "title": "Standing Tall: Sim to Real Fall Classification and Lead Time Prediction for Bipedal Robots",
       "year": 2026,
-      "venue": "arXiv",
+      "venue": "ICRA",
       "data_sources": [
         "Unspecified"
       ],
