@@ -70,11 +70,8 @@ def paper_line(paper: dict) -> str:
     if code:
         extras.append(f"[code]({code})")
 
-    data_sources = ", ".join(paper.get("data_sources", []))
-    platforms = ", ".join(paper.get("platforms", []))
-    meta = f"`{data_sources}`; `{platforms}`"
     suffix = f", {' / '.join(extras)}" if extras else ""
-    return f"- {venue_part}, **{method}**: {title}{suffix} ({meta})"
+    return f"- {venue_part}, **{method}**: {title}{suffix}"
 
 
 def main() -> int:
@@ -93,9 +90,8 @@ def main() -> int:
         "and organizes them according to the survey's **Methods of Humanoid Imitation Learning** "
         "taxonomy.",
         "",
-        "Data source, simulator, robot platform, project links, and code links are kept as "
-        "metadata in `data/papers.json`, but the README classification follows only the "
-        "method categories and subcategories used in the paper.",
+        "Supporting metadata is kept in `data/papers.json`, but the README classification "
+        "follows only the method categories and subcategories used in the paper.",
         "",
         "## Contents",
         "",
@@ -128,8 +124,8 @@ def main() -> int:
             "## Data Format",
             "",
             "The canonical data file is [`data/papers.json`](data/papers.json). Each entry keeps "
-            "the full paper title, method name, venue, year, data source, method category, "
-            "method subcategory, platform, and links.",
+            "the full paper title, method name, venue, year, method category, method "
+            "subcategory, and links.",
             "",
             "```json",
             "{",
@@ -137,10 +133,8 @@ def main() -> int:
             '  "title": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",',
             '  "year": 2018,',
             '  "venue": "SIGGRAPH",',
-            '  "data_sources": ["MoCap"],',
             '  "primary_category": "motion-retargeting-and-tracking",',
             '  "subcategory": "physics-based-motion-tracking",',
-            '  "platforms": ["Bullet"],',
             '  "links": {"paper": "https://doi.org/10.1145/3197517.3201311", "code": "", "project": ""}',
             "}",
             "```",
@@ -148,7 +142,7 @@ def main() -> int:
             "## Contributing",
             "",
             "Please keep exactly one `primary_category` and one `subcategory` per paper. If a paper "
-            "spans multiple ideas, put the overlap in `data_sources`, `tags`, `platforms`, `links`, "
+            "spans multiple ideas, put the overlap in metadata fields such as `tags`, `links`, "
             "and `notes`.",
             "",
             "After editing `data/papers.json`, regenerate and validate the list:",
