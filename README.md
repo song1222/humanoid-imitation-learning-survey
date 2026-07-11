@@ -173,7 +173,7 @@ Broad-coverage policies, multi-skill controllers, and foundation/VLA-style human
 - [arXiv 2025](https://arxiv.org/abs/2506.09366), **SkillBlender**: SkillBlender: Towards Versatile Humanoid Whole-Body Loco-Manipulation via Skill Blending, [website](https://usc-gvl.github.io/SkillBlender-web/) / [code](https://github.com/Humanoid-SkillBlender/SkillBlender)
 - [Actuators 2026](https://www.mdpi.com/2076-0825/15/4/212), **HAML**: HAML: Humanoid Adversarial Multi-Skill Learning via a Single Policy, [website](https://vsislab.github.io/haml/)
 - [ICLR 2026](https://arxiv.org/abs/2412.13196), **ExBody2**: ExBody2: Advanced Expressive Humanoid Whole-Body Control, [website](https://exbody2.github.io/)
-- [RA-L 2026](CodeAct: Codebook-Guided Multi-Skill Integration for Dynamic Humanoid Whole-Body Control), **CodeAct**: CodeAct: Codebook-Guided Multi-Skill Integration for Dynamic Humanoid Whole-Body Control
+- [RA-L 2026](https://ieeexplore.ieee.org/abstract/document/11539976), **CodeAct**: CodeAct: Codebook-Guided Multi-Skill Integration for Dynamic Humanoid Whole-Body Control
 - [arXiv 2026](https://arxiv.org/abs/2602.02473), **HumanX**: HumanX: Toward Agile and Generalizable Humanoid Interaction Skills from Human Videos
 - [arXiv 2026](https://doi.org/10.48550/arXiv.2605.24592), **MuGen**: MuGen: Multi-Skill Generative Locomotion Controller for Humanoid Robots
 
