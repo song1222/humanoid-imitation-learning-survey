@@ -20,14 +20,14 @@ CATEGORY_ORDER = [
 
 CATEGORY_SCOPE = {
     "motion-retargeting-and-tracking": (
-        "Human-to-robot motion transfer, retargeting, and physics-based reference tracking."
+        "Human-to-Humanoid motion retargeting, and physics-based reference tracking."
     ),
     "skill-acquisition": (
-        "Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behavior."
+        "humanoid skills such as sports, acrobatics, and long-horizon behavior."
     ),
     "interaction-learning": "Object, scene, and human interaction behaviors.",
     "generalist-humanoid-policies": (
-        "Broad-coverage policies, multi-skill controllers, and foundation/VLA-style humanoid policies."
+        "General strategies encompassing versatile skill mastery, multi-task adaptability, and situational flexibility."
     ),
 }
 
@@ -101,7 +101,7 @@ def main() -> int:
     for _, name in CATEGORY_ORDER:
         anchor = name.lower().replace(" ", "-")
         lines.append(f"  - [{name}](#{anchor})")
-    lines.extend(["- [Data Format](#data-format)", "- [Contributing](#contributing)", "", "---", ""])
+    lines.extend(["- [Data Format](#data-format)", "", "---", ""])
     lines.extend(["## Awesome Humanoid Imitation Learning", ""])
 
     for category_id, category_name in CATEGORY_ORDER:
@@ -137,19 +137,6 @@ def main() -> int:
             '  "subcategory": "physics-based-motion-tracking",',
             '  "links": {"paper": "https://doi.org/10.1145/3197517.3201311", "code": "", "project": ""}',
             "}",
-            "```",
-            "",
-            "## Contributing",
-            "",
-            "Please keep exactly one `primary_category` and one `subcategory` per paper. If a paper "
-            "spans multiple ideas, put the overlap in metadata fields such as `tags`, `links`, "
-            "and `notes`.",
-            "",
-            "After editing `data/papers.json`, regenerate and validate the list:",
-            "",
-            "```bash",
-            "python scripts/generate_readme.py",
-            "python scripts/validate_papers.py",
             "```",
             "",
             "## Citation",

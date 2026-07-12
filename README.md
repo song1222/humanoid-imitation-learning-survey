@@ -16,7 +16,6 @@ Supporting metadata is kept in `data/papers.json`, but the README classification
   - [Interaction Learning](#interaction-learning)
   - [Generalist Humanoid Policies](#generalist-humanoid-policies)
 - [Data Format](#data-format)
-- [Contributing](#contributing)
 
 ---
 
@@ -24,7 +23,7 @@ Supporting metadata is kept in `data/papers.json`, but the README classification
 
 ### Motion Retargeting and Tracking
 
-Human-to-robot motion transfer, retargeting, and physics-based reference tracking.
+Human-to-Humanoid motion retargeting, and physics-based reference tracking.
 
 #### Motion Retargeting
 
@@ -74,7 +73,7 @@ Human-to-robot motion transfer, retargeting, and physics-based reference trackin
 
 ### Skill Acquisition
 
-Task-oriented humanoid skills such as sports, acrobatics, and long-horizon behavior.
+humanoid skills such as sports, acrobatics, and long-horizon behavior.
 
 #### Sports Skills
 
@@ -162,7 +161,7 @@ Object, scene, and human interaction behaviors.
 
 ### Generalist Humanoid Policies
 
-Broad-coverage policies, multi-skill controllers, and foundation/VLA-style humanoid policies.
+General strategies encompassing versatile skill mastery, multi-task adaptability, and situational flexibility.
 
 #### Skill-Guided Policies
 
@@ -220,17 +219,6 @@ The canonical data file is [`data/papers.json`](data/papers.json). Each entry ke
   "subcategory": "physics-based-motion-tracking",
   "links": {"paper": "https://doi.org/10.1145/3197517.3201311", "code": "", "project": ""}
 }
-```
-
-## Contributing
-
-Please keep exactly one `primary_category` and one `subcategory` per paper. If a paper spans multiple ideas, put the overlap in metadata fields such as `tags`, `links`, and `notes`.
-
-After editing `data/papers.json`, regenerate and validate the list:
-
-```bash
-python scripts/generate_readme.py
-python scripts/validate_papers.py
 ```
 
 ## Citation
