@@ -31,7 +31,7 @@ Human-to-Humanoid motion retargeting, and physics-based reference tracking.
 - [Humanoids 2019](https://doi.org/10.1109/Humanoids43949.2019.9035059), **Whole-Body Geometric Retargeting**: Whole-Body Geometric Retargeting for Humanoid Robots
 - [ICRA 2021](https://arxiv.org/abs/2103.06447), **S3LE**: Self-Supervised Motion Retargeting with Safety Guarantee
 - [SIGGRAPH Asia 2023](https://doi.org/10.1145/3610548.3618206), **SAME**: SAME: Skeleton-Agnostic Motion Embedding for Character Animation, [code](https://github.com/sunny-Codes/SAME)
-- [arXiv 2025](https://doi.org/10.48550/arXiv.2510.02252), **GMR**: Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking, [code](https://github.com/YanjieZe/GMR)
+- [ICRA 2026](https://doi.org/10.48550/arXiv.2510.02252), **GMR**: Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking, [website](https://jaraujo98.github.io/retargeting_matters/) / [code](https://github.com/YanjieZe/GMR)
 - [ICRA 2026](https://arxiv.org/abs/2509.26633), **OmniRetarget**: OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction, [website](https://omniretarget.github.io/) / [code](https://github.com/amazon-far/holosoma)
 - [arXiv 2026](https://arxiv.org/html/2606.03476), **Human2Humanoid**: Human2Humanoid: Physics-Aware Cross-Morphology Motion Retargeting for Humanoid Robots
 - [arXiv 2026](https://doi.org/10.48550/arXiv.2603.22201), **NMR**: Make Tracking Easy: Neural Motion Retargeting for Humanoid Whole-body Control, [website](https://nju3dv-humanoidgroup.github.io/nmr.github.io/) / [code](https://github.com/NJU3DV-HumanoidGroup/MakeTrackingEasy)
@@ -60,15 +60,15 @@ Human-to-Humanoid motion retargeting, and physics-based reference tracking.
 - [CoRL 2025](https://arxiv.org/abs/2505.02833), **TWIST**: TWIST: Teleoperated Whole-Body Imitation System, [website](https://yanjieze.com/projects/TWIST/) / [code](https://github.com/YanjieZe/TWIST)
 - [RSS 2025](https://arxiv.org/abs/2502.08378), **HoST**: Learning Humanoid Standing-up Control across Diverse Postures, [website](https://taohuang13.github.io/humanoid-standingup.github.io/) / [code](https://github.com/InternRobotics/HoST)
 - [SIGGRAPH 2025](https://arxiv.org/abs/2503.11801), **Diffuse-CLoC**: Diffuse-CLoC: Guided Diffusion for Physics-Based Character Look-Ahead Control
-- [arXiv 2025](https://arxiv.org/abs/2503.00923), **HWC-Loco**: HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion, [website](https://simonlinsx.github.io/HWC_Loco/) / [code](https://github.com/EDEM-AI/HWC_Loco)
-- [arXiv 2025](https://arxiv.org/abs/2502.14814), **VB-Com**: VB-Com: Learning Vision-Blind Composite Humanoid Locomotion Against Deficient Perception, [website](https://renjunli99.github.io/vbcom.github.io/)
 - [AAAI 2026](https://arxiv.org/abs/2509.13833), **Any2Track**: Track Any Motions under Any Disturbances, [website](https://zzk273.github.io/Any2Track/) / [code](https://github.com/GalaxyGeneralRobotics/OpenTrack)
 - [CVPR 2026](https://arxiv.org/abs/2503.10626), **NIL**: NIL: No-data Imitation Learning by Leveraging Pre-trained Video Diffusion Models, [website](https://mertalbaba.github.io/projects/nil/)
 - [CVPR 2026](https://arxiv.org/abs/2512.13093), **PvP**: PvP: Data-Efficient Humanoid Robot Learning with Proprioceptive-Privileged Contrastive Representations
 - [CVPR 2026](https://arxiv.org/abs/2512.23650), **RoboPerform**: Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control, [website](https://gentlefress.github.io/RoboPerform-proj/) / [code](https://github.com/gentlefress/RoboPerform)
+- [ICLR 2026](https://arxiv.org/abs/2503.00923), **HWC-Loco**: HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion, [website](https://simonlinsx.github.io/HWC_Loco/) / [code](https://github.com/EDEM-AI/HWC_Loco)
 - [ICRA 2026](https://arxiv.org/abs/2510.14454), **AdaMimic**: AdaMimic: Towards Adaptable Humanoid Control via Adaptive Motion Tracking, [website](https://taohuang13.github.io/adamimic.github.io/) / [code](https://github.com/InternRobotics/AdaMimic)
 - [ICRA 2026](https://arxiv.org/abs/2505.24266), **SignBot**: SignBot: Learning Human-to-Humanoid Sign Language Interaction, [website](https://qiaoguanren.github.io/SignBot-demo/) / [code](https://github.com/qiaoguanren/Signbot)
 - [ICRA 2026](https://arxiv.org/abs/2506.01141), **Standing Tall**: Standing Tall: Sim to Real Fall Classification and Lead Time Prediction for Bipedal Robots
+- [ICRA 2026](https://arxiv.org/abs/2502.14814), **VB-Com**: VB-Com: Learning Vision-Blind Composite Humanoid Locomotion Against Deficient Perception, [website](https://renjunli99.github.io/vbcom.github.io/)
 - [arXiv 2026](https://arxiv.org/abs/2511.07820), **SONIC**: SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control, [website](https://nvlabs.github.io/GEAR-SONIC/) / [code](https://github.com/NVlabs/GR00T-WholeBodyControl)
 
 ### Skill Acquisition
@@ -97,7 +97,7 @@ humanoid skills such as sports, acrobatics, and long-horizon behavior.
 - [CoRL 2024](https://proceedings.mlr.press/v270/zhuang25a.html), **Humanoid Parkour**: Humanoid Parkour Learning, [website](https://humanoid4parkour.github.io)
 - [NIPS 2025](https://arxiv.org/abs/2506.12851), **KungfuBot**: KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills, [website](https://kungfu-bot.github.io/) / [code](https://github.com/TeleHuman/PBHC)
 - [RSS 2025](https://arxiv.org/abs/2502.10363), **BeamDojo**: BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds, [website](https://why618188.github.io/beamdojo)
-- [arXiv 2025](https://doi.org/10.48550/arXiv.2509.16638), **KungfuBot2**: KungfuBot2: Learning Versatile Motion Skills for Humanoid Whole-Body Control, [website](https://kungfubot2-humanoid.github.io/) / [code](https://github.com/TeleHuman/PBHC)
+- [ICRA 2026](https://doi.org/10.48550/arXiv.2509.16638), **KungfuBot2**: KungfuBot2: Learning Versatile Motion Skills for Humanoid Whole-Body Control, [website](https://kungfubot2-humanoid.github.io/) / [code](https://github.com/TeleHuman/PBHC)
 
 #### Long-Horizon Skills
 
@@ -107,9 +107,9 @@ humanoid skills such as sports, acrobatics, and long-horizon behavior.
 - [CoRL 2025](https://arxiv.org/abs/2506.08931), **CLONE**: CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks, [website](https://humanoid-clone.github.io/) / [code](https://github.com/humanoid-clone/CLONE)
 - [arXiv 2025](https://arxiv.org/abs/2509.20717), **RobotDancing**: RobotDancing: Residual-Action Reinforcement Learning Enables Robust Long-Horizon Humanoid Motion Tracking
 - [ICLR 2026](https://arxiv.org/abs/2512.14696), **CRISP**: CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives, [website](https://crisp-real2sim.github.io/CRISP-Real2Sim/) / [code](https://github.com/Z1hanW/CRISP-Real2Sim)
+- [ICRA 2026](https://doi.org/10.48550/arXiv.2604.14834), **Switch**: Switch: Learning Agile Skills Switching for Humanoid Robots
 - [arXiv 2026](https://arxiv.org/abs/2602.06341), **HiWET**: HiWET: Hierarchical World-Frame End-Effector Tracking for Long-Horizon Humanoid Loco-Manipulation
 - [arXiv 2026](https://arxiv.org/abs/2602.21723), **LessMimic**: LessMimic: Long-Horizon Humanoid Interaction with Unified Distance Field Representations, [website](https://lessmimic.github.io) / [code](https://github.com/Yutang-Lin/LessMimic)
-- [arXiv 2026](https://doi.org/10.48550/arXiv.2604.14834), **Switch**: Switch: Learning Agile Skills Switching for Humanoid Robots
 
 ### Interaction Learning
 
@@ -128,11 +128,11 @@ Object, scene, and human interaction behaviors.
 - [RA-L 2025](https://arxiv.org/abs/2409.20514), **Opt2Skill**: Opt2Skill: Imitating Dynamically-feasible Whole-Body Trajectories for Versatile Humanoid Loco-Manipulation, [website](https://opt2skill.github.io)
 - [RSS 2025](https://arxiv.org/abs/2505.03738), **AMO**: AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control, [website](https://amo-humanoid.github.io/) / [code](https://github.com/OpenTeleVision/AMO)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2503.13441), **HPHP**: Humanoid Policy ~ Human Policy, [website](https://human-as-robot.github.io/) / [code](https://github.com/RogerQi/human-policy)
-- [arXiv 2025](https://doi.org/10.48550/arXiv.2510.08807), **Humanoid Everyday**: Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation, [website](https://humanoideveryday.github.io/)
 - [arXiv 2025](https://arxiv.org/abs/2508.14120), **SimGenHOI**: SimGenHOI: Physically Realistic Whole-Body Humanoid-Object Interaction via Generative Modeling and Reinforcement Learning, [website](https://xingxingzuo.github.io/simgen_hoi/)
 - [ICRA 2026](https://arxiv.org/abs/2509.14353), **DreamControl**: DreamControl: Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion, [website](https://genrobo.github.io/DreamControl/) / [code](https://github.com/GenRobo/DreamControl/tree/main)
 - [ICRA 2026](https://arxiv.org/abs/2509.13534), **Embracing Bulky Objects**: Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning
 - [ICRA 2026](https://arxiv.org/abs/2511.14756), **HMC**: HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation, [website](https://loco-hmc.github.io)
+- [ICRA 2026](https://doi.org/10.48550/arXiv.2510.08807), **Humanoid Everyday**: Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation, [website](https://humanoideveryday.github.io/)
 - [RSS 2026](https://arxiv.org/abs/2602.11758), **HAIC**: HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model, [website](https://haic-humanoid.github.io/) / [code](https://github.com/ldt29/HAIC)
 - [arXiv 2026](https://arxiv.org/abs/2603.01126), **Pro-HOI**: Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction
 
@@ -167,8 +167,8 @@ General strategies encompassing versatile skill mastery, multi-task adaptability
 
 - [SIGGRAPH Asia 2022](https://doi.org/10.1145/3550454.3555434), **ControlVAE**: ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters, [website](https://heyuanyao-pku.github.io/Control-VAE/) / [code](https://github.com/heyuanYao-pku/Control-VAE)
 - [CVPR 2025](https://arxiv.org/abs/2408.15270), **SkillMimic**: SkillMimic: Learning Basketball Interaction Skills from Demonstrations, [website](https://ingrid789.github.io/SkillMimic/) / [code](https://github.com/wyhuai/SkillMimic)
+- [RA-L 2025](https://arxiv.org/abs/2505.10918), **R2S2**: Unleashing Humanoid Reaching Potential via Real-world-Ready Skill Space, [website](https://zzk273.github.io/R2S2/) / [code](https://github.com/GalaxyGeneralRobotics/OpenWBT)
 - [SIGGRAPH 2025](https://doi.org/10.1145/3721238.3730640), **SkillMimic-V2**: SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations, [website](https://ingrid789.github.io/SkillMimicV2/) / [code](https://github.com/Ingrid789/SkillMimic-V2)
-- [arXiv 2025](https://arxiv.org/abs/2505.10918), **R2S2**: Unleashing Humanoid Reaching Potential via Real-world-Ready Skill Space, [website](https://zzk273.github.io/R2S2/) / [code](https://github.com/GalaxyGeneralRobotics/OpenWBT)
 - [arXiv 2025](https://arxiv.org/abs/2506.09366), **SkillBlender**: SkillBlender: Towards Versatile Humanoid Whole-Body Loco-Manipulation via Skill Blending, [website](https://usc-gvl.github.io/SkillBlender-web/) / [code](https://github.com/Humanoid-SkillBlender/SkillBlender)
 - [Actuators 2026](https://www.mdpi.com/2076-0825/15/4/212), **HAML**: HAML: Humanoid Adversarial Multi-Skill Learning via a Single Policy, [website](https://vsislab.github.io/haml/)
 - [ICLR 2026](https://arxiv.org/abs/2412.13196), **ExBody2**: ExBody2: Advanced Expressive Humanoid Whole-Body Control, [website](https://exbody2.github.io/)
@@ -180,14 +180,14 @@ General strategies encompassing versatile skill mastery, multi-task adaptability
 
 - [SIGGRAPH 2022](https://arxiv.org/abs/2205.01906), **ASE**: ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters, [website](https://research.nvidia.com/labs/toronto-ai/ASE/) / [code](https://github.com/nv-tlabs/ASE)
 - [SIGGRAPH 2023](https://arxiv.org/abs/2305.02195), **CALM**: CALM: Conditional Adversarial Latent Models for Directable Virtual Characters, [website](https://xbpeng.github.io/projects/CALM/index.html) / [code](https://github.com/NVlabs/CALM/)
-- [arXiv 2023](https://doi.org/10.48550/arXiv.2309.11351), **C-ASE**: C-ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters, [website](https://github.com/Frank-ZY-Dou/CASE)
+- [SIGGRAPH Asia 2023](https://doi.org/10.48550/arXiv.2309.11351), **C-ASE**: C-ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters, [code](https://github.com/Frank-ZY-Dou/CASE)
 - [ECCV 2024](https://arxiv.org/abs/2502.05641), **MHC**: Generating Physically Realistic and Directable Human Motions from Multi-Modal Inputs, [website](https://idigitopia.github.io/projects/mhc/) / [code](https://github.com/osudrl/masked-humanoid-controller)
 - [SIGGRAPH Asia 2024](https://doi.org/10.1145/3687951), **MaskedMimic**: MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting, [code](https://github.com/DanielTruong99/MaskedMimic)
 - [arXiv 2024](https://doi.org/10.48550/arXiv.2412.04368), **FB-AW**: Finer Behavioral Foundation Models via Auto-Regressive Features and Advantage Weighting
 - [ICLR 2025](https://openreview.net/forum?id=9sOR0nYLtz), **MOTIVO**: Zero-Shot Whole-Body Humanoid Control via Behavioral Foundation Models, [website](https://metamotivo.metademolab.com/) / [code](https://github.com/facebookresearch/metamotivo)
 - [ICRA 2025](https://doi.org/10.1109/ICRA55743.2025.11128549), **HOVER**: HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots, [website](https://hover-versatile-humanoid.github.io/) / [code](https://github.com/NVlabs/HOVER/)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2509.13780), **BFM-for-HR**: Behavior Foundation Model for Humanoid Robots
-- [arXiv 2025](https://arxiv.org/abs/2511.04131), **BFM-Zero**: BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning, [website](https://lecar-lab.github.io/BFM-Zero/) / [code](https://github.com/LeCAR-Lab/BFM-Zero)
+- [ICLR 2026](https://arxiv.org/abs/2511.04131), **BFM-Zero**: BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning, [website](https://lecar-lab.github.io/BFM-Zero/) / [code](https://github.com/LeCAR-Lab/BFM-Zero)
 
 #### Vision-Language-Guided Policies
 
@@ -198,10 +198,10 @@ General strategies encompassing versatile skill mastery, multi-task adaptability
 - [RSS 2025](https://arxiv.org/abs/2504.21738), **LangWBC**: LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning, [website](https://langwbc.github.io/) / [code](https://github.com/YiyangShao2003/LangWBC)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2503.14734), **GR00T N1**: GR00T N1: An Open Foundation Model for Generalist Humanoid Robots, [website](https://developer.nvidia.com/isaac/gr00t) / [code](https://github.com/NVIDIA/Isaac-GR00T)
 - [arXiv 2025](https://arxiv.org/abs/2511.22963), **Humanoid-LLA**: Commanding Humanoid by Free-form Language: A Large Language Action Model with Unified Motion Vocabulary, [website](https://humanoidlla.github.io/)
-- [arXiv 2025](https://arxiv.org/abs/2512.11047), **WholeBodyVLA**: WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Control, [website](https://opendrivelab.com/WholeBodyVLA)
 - [CVPR 2026](https://arxiv.org/abs/2511.19236), **SENTINEL**: SENTINEL: A Fully End-to-End Language-Action Model for Humanoid Whole Body Control
 - [CVPR 2026](https://arxiv.org/abs/2511.15200), **VIRAL**: VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation
 - [ICLR 2026](https://arxiv.org/abs/2511.00041), **BiBo**: Endowing GPT-4 with a Humanoid Body: Building the Bridge Between Off-the-Shelf VLMs and the Physical World, [code](https://github.com/Shadow-Dream/BiBo)
+- [ICLR 2026](https://arxiv.org/abs/2512.11047), **WholeBodyVLA**: WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Control, [website](https://opendrivelab.com/WholeBodyVLA)
 - [ICRA 2026](https://arxiv.org/abs/2510.03022), **HumanoidExo**: HumanoidExo: Scalable Whole-Body Humanoid Manipulation via Wearable Exoskeleton, [website](https://humanoid-exo.github.io/)
 - [arXiv 2026](https://arxiv.org/abs/2603.12263), **Psi0**: Psi0: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation, [website](https://psi-lab.ai/Psi0/) / [code](https://github.com/physical-superintelligence-lab/Psi0)
 

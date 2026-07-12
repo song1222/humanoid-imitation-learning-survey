@@ -1231,8 +1231,8 @@
     {
       "id": "gmr",
       "title": "Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "ICRA",
       "data_sources": [
         "Unspecified"
       ],
@@ -1247,7 +1247,7 @@
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2510.02252",
         "code": "https://github.com/YanjieZe/GMR",
-        "project": ""
+        "project": "https://jaraujo98.github.io/retargeting_matters/"
       },
       "notes": "Added from the survey Method section citation under Motion Retargeting; data source and platform need verification.",
       "method_name": "GMR",
@@ -1456,8 +1456,8 @@
     {
       "id": "kungfubot2",
       "title": "KungfuBot2: Learning Versatile Motion Skills for Humanoid Whole-Body Control",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "ICRA",
       "data_sources": [
         "Unspecified"
       ],
@@ -1557,7 +1557,7 @@
       "id": "switch",
       "title": "Switch: Learning Agile Skills Switching for Humanoid Robots",
       "year": 2026,
-      "venue": "arXiv",
+      "venue": "ICRA",
       "data_sources": [
         "Unspecified"
       ],
@@ -1958,7 +1958,7 @@
       "id": "r2s2",
       "title": "Unleashing Humanoid Reaching Potential via Real-world-Ready Skill Space",
       "year": 2025,
-      "venue": "arXiv",
+      "venue": "RA-L",
       "data_sources": [
         "Unspecified"
       ],
@@ -1983,7 +1983,7 @@
       "id": "c-ase",
       "title": "C-ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters",
       "year": 2023,
-      "venue": "arXiv",
+      "venue": "SIGGRAPH Asia",
       "data_sources": [
         "Unspecified"
       ],
@@ -1997,8 +1997,8 @@
       ],
       "links": {
         "paper": "https://doi.org/10.48550/arXiv.2309.11351",
-        "code": "",
-        "project": "https://github.com/Frank-ZY-Dou/CASE"
+        "code": "https://github.com/Frank-ZY-Dou/CASE",
+        "project": ""
       },
       "notes": "Added from the survey Method section citation under Task-Guided Policies; data source and platform need verification.",
       "method_name": "C-ASE",
@@ -2082,8 +2082,8 @@
     {
       "id": "bfm-zero",
       "title": "BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "ICLR",
       "data_sources": [
         "Unspecified"
       ],
@@ -2391,8 +2391,8 @@
     {
       "id": "humanoid-everyday",
       "title": "Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "ICRA",
       "data_sources": [
         "Teleoperation"
       ],
@@ -2979,8 +2979,8 @@
     {
       "id": "wholebodyvla",
       "title": "WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Control",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "ICLR",
       "data_sources": [
         "Video",
         "Teleoperation"
@@ -3328,8 +3328,8 @@
     {
       "id": "hwc-loco",
       "title": "HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "ICLR",
       "data_sources": [
         "MoCap"
       ],
@@ -3414,8 +3414,8 @@
     {
       "id": "vb-com",
       "title": "VB-Com: Learning Vision-Blind Composite Humanoid Locomotion Against Deficient Perception",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "ICRA",
       "data_sources": [
         "Unspecified"
       ],
@@ -3524,5 +3524,6 @@
       "method_name": "SONIC",
       "bib_key": "SONIC"
     }
+    
   ]
 }
