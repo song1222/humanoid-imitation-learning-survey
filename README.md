@@ -84,8 +84,8 @@ humanoid skills such as sports, acrobatics, and long-horizon behavior.
 - [SIGGRAPH 2024](https://doi.org/10.1145/3641519.3657437), **Table Tennis Skill**: Strategy and Skill Learning for Physics-based Table Tennis Animation, [website](https://jiashunwang.github.io/PhysicsPingPong/) / [code](https://github.com/jiashunwang/PhysicsPingPong)
 - [SIGGRAPH 2025](https://arxiv.org/abs/2505.04002), **PARC**: PARC: Physics-Based Augmentation with Reinforcement Learning for Character Controllers, [website](https://michaelx.io/parc/) / [code](https://github.com/mshoe/PARC)
 - [SIGGRAPH Asia 2025](https://doi.org/10.1145/3763367), **Learning to Ball**: Learning to Ball: Composing Policies for Long-Horizon Basketball Moves, [website](https://pei-xu.github.io/basketball) / [code](https://github.com/xupei0610/basketball)
-- [arXiv 2025](https://doi.org/10.48550/arXiv.2508.21043), **HITTER**: HITTER: A HumanoId Table TEnnis Robot via Hierarchical Planning and Learning, [website](https://humanoid-table-tennis.github.io)
 - [ICRA 2026](https://arxiv.org/abs/2505.12679), **Dribble Master**: Dribble Master: Learning Agile Humanoid Dribbling Through Legged Locomotion
+- [ICRA 2026](https://doi.org/10.48550/arXiv.2508.21043), **HITTER**: HITTER: A HumanoId Table TEnnis Robot via Hierarchical Planning and Learning, [website](https://humanoid-table-tennis.github.io)
 - [ICRA 2026](https://events.infovaya.com/uploads/documents/pdfviewer/64/ee/218252-2281.pdf), **MAKP**: MAKP: Multi-Mode Accurate Kicking Policy for Humanoid Robots, [code](https://github.com/SII-ZZ/MAKP)
 - [ICRA 2026](https://arxiv.org/abs/2509.21690), **pace**: PACE: Physics Augmentation for Coordinated End-to-end Reinforcement Learning toward Versatile Humanoid Table Tennis, [website](https://purdue-tracelab.github.io/ttrobot.github.io/) / [code](https://github.com/purdue-tracelab/PACE-ICRA2026)
 - [arXiv 2026](https://arxiv.org/abs/2510.18002), **Humanoid Goalkeeper**: Humanoid Goalkeeper: Learning from Position Conditioned Task-Motion Constraints, [website](https://humanoid-goalkeeper.github.io/Goalkeeper/) / [code](https://github.com/InternRobotics/Humanoid-Goalkeeper)
@@ -203,7 +203,7 @@ General strategies encompassing versatile skill mastery, multi-task adaptability
 - [ICLR 2026](https://arxiv.org/abs/2511.00041), **BiBo**: Endowing GPT-4 with a Humanoid Body: Building the Bridge Between Off-the-Shelf VLMs and the Physical World, [code](https://github.com/Shadow-Dream/BiBo)
 - [ICLR 2026](https://arxiv.org/abs/2512.11047), **WholeBodyVLA**: WholeBodyVLA: Towards Unified Latent VLA for Whole-Body Loco-Manipulation Control, [website](https://opendrivelab.com/WholeBodyVLA)
 - [ICRA 2026](https://arxiv.org/abs/2510.03022), **HumanoidExo**: HumanoidExo: Scalable Whole-Body Humanoid Manipulation via Wearable Exoskeleton, [website](https://humanoid-exo.github.io/)
-- [arXiv 2026](https://arxiv.org/abs/2603.12263), **Psi0**: Psi0: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation, [website](https://psi-lab.ai/Psi0/) / [code](https://github.com/physical-superintelligence-lab/Psi0)
+- [RSS 2026](https://arxiv.org/abs/2603.12263), **Psi0**: Psi0: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation, [website](https://psi-lab.ai/Psi0/) / [code](https://github.com/physical-superintelligence-lab/Psi0)
 
 ## Data Format
 

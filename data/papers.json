@@ -2158,7 +2158,7 @@
       "id": "psi0",
       "title": "Psi0: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
       "year": 2026,
-      "venue": "arXiv",
+      "venue": "RSS",
       "data_sources": [
         "Unspecified"
       ],
@@ -2819,8 +2819,8 @@
     {
       "id": "hitter",
       "title": "HITTER: A HumanoId Table TEnnis Robot via Hierarchical Planning and Learning",
-      "year": 2025,
-      "venue": "arXiv",
+      "year": 2026,
+      "venue": "ICRA",
       "data_sources": [
         "MoCap"
       ],
