@@ -3498,5 +3498,29 @@
       "method_name": "HugWBC",
       "bib_key": "HugWBC"
     }
+    {
+      "id": "smp",
+      "title": "SMP: Reusable Score-Matching Motion Priors for Physics-Based Character Control",
+      "year": 2026,
+      "venue": "SIGGRAPH",
+      "data_sources": [
+        "Learned Motion Priors"
+      ],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": [
+      ],
+      "tags": [
+        
+      ],
+      "links": {
+        "paper": "https://xbpeng.github.io/projects/SMP/SMP_2026.pdf",
+        "code": "https://github.com/xbpeng/MimicKit",
+        "project": "https://yxmu.foo/smp-page/"
+      },
+      "notes": "",
+      "method_name": "SMP",
+      "bib_key": "SMP"
+    }
   ]
 }
