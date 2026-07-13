@@ -3472,7 +3472,31 @@
       "notes": "",
       "method_name": "SONIC",
       "bib_key": "SONIC"
+    },
+    {
+      "id": "hugwbc",
+      "title": "A Unified and General Humanoid Whole-Body Controller for Versatile Locomotion",
+      "year": 2025,
+      "venue": "RSS",
+      "data_sources": [
+        "MoCap"
+      ],
+      "primary_category": "generalist-humanoid-policies",
+      "subcategory": "skill-guided-policies",
+      "platforms": [
+        "Unitree H1"
+      ],
+      "tags": [
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://hugwbc.github.io/resources/HugWBC.pdf",
+        "code": "https://github.com/InternRobotics/HugWBC",
+        "project": "https://hugwbc.github.io/"
+      },
+      "notes": "",
+      "method_name": "HugWBC",
+      "bib_key": "HugWBC"
     }
-    
   ]
 }
