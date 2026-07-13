@@ -87,17 +87,18 @@ humanoid skills such as sports, acrobatics, and long-horizon behavior.
 - [ICRA 2026](https://arxiv.org/abs/2505.12679), **Dribble Master**: Dribble Master: Learning Agile Humanoid Dribbling Through Legged Locomotion
 - [ICRA 2026](https://doi.org/10.48550/arXiv.2508.21043), **HITTER**: HITTER: A HumanoId Table TEnnis Robot via Hierarchical Planning and Learning, [website](https://humanoid-table-tennis.github.io)
 - [ICRA 2026](https://events.infovaya.com/uploads/documents/pdfviewer/64/ee/218252-2281.pdf), **MAKP**: MAKP: Multi-Mode Accurate Kicking Policy for Humanoid Robots, [code](https://github.com/SII-ZZ/MAKP)
-- [ICRA 2026](https://arxiv.org/abs/2509.21690), **pace**: PACE: Physics Augmentation for Coordinated End-to-end Reinforcement Learning toward Versatile Humanoid Table Tennis, [website](https://purdue-tracelab.github.io/ttrobot.github.io/) / [code](https://github.com/purdue-tracelab/PACE-ICRA2026)
 - [arXiv 2026](https://arxiv.org/abs/2510.18002), **Humanoid Goalkeeper**: Humanoid Goalkeeper: Learning from Position Conditioned Task-Motion Constraints, [website](https://humanoid-goalkeeper.github.io/Goalkeeper/) / [code](https://github.com/InternRobotics/Humanoid-Goalkeeper)
 
 #### Acrobatic Skills
 
 - [NIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/f76a89f0cb91bc419542ce9fa43902dc-Abstract.html), **RFC**: Residual Force Control for Agile Human Behavior Imitation and Extended Motion Synthesis, [website](https://ye-yuan.com/rfc/) / [code](https://github.com/Khrylx/RFC)
-- [CoRL 2023](https://arxiv.org/abs/2406.10759), **HumanoidParkour**: Humanoid Parkour Learning
+- [ICRA 2022](https://dl.acm.org/doi/10.1109/ICRA46639.2022.9811649), **DanceHAT**: DanceHAT: Generate Stable Dances for Humanoid Robots with Adversarial Training
 - [CoRL 2024](https://proceedings.mlr.press/v270/zhuang25a.html), **Humanoid Parkour**: Humanoid Parkour Learning, [website](https://humanoid4parkour.github.io)
 - [NIPS 2025](https://arxiv.org/abs/2506.12851), **KungfuBot**: KungfuBot: Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills, [website](https://kungfu-bot.github.io/) / [code](https://github.com/TeleHuman/PBHC)
 - [RSS 2025](https://arxiv.org/abs/2502.10363), **BeamDojo**: BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds, [website](https://why618188.github.io/beamdojo)
+- [ICLR 2026](https://arxiv.org/abs/2512.14696), **CRISP**: CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives, [website](https://crisp-real2sim.github.io/CRISP-Real2Sim/) / [code](https://github.com/Z1hanW/CRISP-Real2Sim)
 - [ICRA 2026](https://doi.org/10.48550/arXiv.2509.16638), **KungfuBot2**: KungfuBot2: Learning Versatile Motion Skills for Humanoid Whole-Body Control, [website](https://kungfubot2-humanoid.github.io/) / [code](https://github.com/TeleHuman/PBHC)
+- [ICRA 2026](https://arxiv.org/abs/2509.21690), **pace**: PACE: Physics Augmentation for Coordinated End-to-end Reinforcement Learning toward Versatile Humanoid Table Tennis, [website](https://purdue-tracelab.github.io/ttrobot.github.io/) / [code](https://github.com/purdue-tracelab/PACE-ICRA2026)
 
 #### Long-Horizon Skills
 
@@ -106,7 +107,7 @@ humanoid skills such as sports, acrobatics, and long-horizon behavior.
 - [ICRA 2024](https://doi.org/10.1109/ICRA57147.2024.10610977), **Box Loco-Manipulation**: Sim-to-Real Learning for Humanoid Box Loco-Manipulation
 - [CoRL 2025](https://arxiv.org/abs/2506.08931), **CLONE**: CLONE: Closed-Loop Whole-Body Humanoid Teleoperation for Long-Horizon Tasks, [website](https://humanoid-clone.github.io/) / [code](https://github.com/humanoid-clone/CLONE)
 - [arXiv 2025](https://arxiv.org/abs/2509.20717), **RobotDancing**: RobotDancing: Residual-Action Reinforcement Learning Enables Robust Long-Horizon Humanoid Motion Tracking
-- [ICLR 2026](https://arxiv.org/abs/2512.14696), **CRISP**: CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives, [website](https://crisp-real2sim.github.io/CRISP-Real2Sim/) / [code](https://github.com/Z1hanW/CRISP-Real2Sim)
+- [arXiv 2025](https://arxiv.org/abs/2506.09366), **SkillBlender**: SkillBlender: Towards Versatile Humanoid Whole-Body Loco-Manipulation via Skill Blending, [website](https://usc-gvl.github.io/SkillBlender-web/) / [code](https://github.com/Humanoid-SkillBlender/SkillBlender)
 - [ICRA 2026](https://doi.org/10.48550/arXiv.2604.14834), **Switch**: Switch: Learning Agile Skills Switching for Humanoid Robots
 - [arXiv 2026](https://arxiv.org/abs/2602.06341), **HiWET**: HiWET: Hierarchical World-Frame End-Effector Tracking for Long-Horizon Humanoid Loco-Manipulation
 - [arXiv 2026](https://arxiv.org/abs/2602.21723), **LessMimic**: LessMimic: Long-Horizon Humanoid Interaction with Unified Distance Field Representations, [website](https://lessmimic.github.io) / [code](https://github.com/Yutang-Lin/LessMimic)
@@ -169,7 +170,6 @@ General strategies encompassing versatile skill mastery, multi-task adaptability
 - [CVPR 2025](https://arxiv.org/abs/2408.15270), **SkillMimic**: SkillMimic: Learning Basketball Interaction Skills from Demonstrations, [website](https://ingrid789.github.io/SkillMimic/) / [code](https://github.com/wyhuai/SkillMimic)
 - [RA-L 2025](https://arxiv.org/abs/2505.10918), **R2S2**: Unleashing Humanoid Reaching Potential via Real-world-Ready Skill Space, [website](https://zzk273.github.io/R2S2/) / [code](https://github.com/GalaxyGeneralRobotics/OpenWBT)
 - [SIGGRAPH 2025](https://doi.org/10.1145/3721238.3730640), **SkillMimic-V2**: SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations, [website](https://ingrid789.github.io/SkillMimicV2/) / [code](https://github.com/Ingrid789/SkillMimic-V2)
-- [arXiv 2025](https://arxiv.org/abs/2506.09366), **SkillBlender**: SkillBlender: Towards Versatile Humanoid Whole-Body Loco-Manipulation via Skill Blending, [website](https://usc-gvl.github.io/SkillBlender-web/) / [code](https://github.com/Humanoid-SkillBlender/SkillBlender)
 - [Actuators 2026](https://www.mdpi.com/2076-0825/15/4/212), **HAML**: HAML: Humanoid Adversarial Multi-Skill Learning via a Single Policy, [website](https://vsislab.github.io/haml/)
 - [ICLR 2026](https://arxiv.org/abs/2412.13196), **ExBody2**: ExBody2: Advanced Expressive Humanoid Whole-Body Control, [website](https://exbody2.github.io/)
 - [RA-L 2026](https://ieeexplore.ieee.org/abstract/document/11539976), **CodeAct**: CodeAct: Codebook-Guided Multi-Skill Integration for Dynamic Humanoid Whole-Body Control

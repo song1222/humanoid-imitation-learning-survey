@@ -937,7 +937,7 @@
       "notes": "",
       "method_name": "CRISP",
       "bib_key": "CRISP",
-      "subcategory": "long-horizon-skills"
+      "subcategory": "acrobatic-skills"
     },
     {
       "id": "bibo",
@@ -1404,29 +1404,29 @@
       "bib_key": "HumanoidLocoTransformer"
     },
     {
-      "id": "HumanoidParkour",
-      "title": "Humanoid Parkour Learning",
-      "year": 2023,
-      "venue": "CoRL",
+      "id": "DanceHAT",
+      "title": "DanceHAT: Generate Stable Dances for Humanoid Robots with Adversarial Training",
+      "year": 2022,
+      "venue": "ICRA",
       "data_sources": [
         "Unspecified"
       ],
       "primary_category": "skill-acquisition",
       "subcategory": "acrobatic-skills",
       "platforms": [
-        "Unitree H1"
+        "ROBOTIS OP2"
       ],
       "tags": [
-        "method-section-citation"
+        ""
       ],
       "links": {
-        "paper": "https://arxiv.org/abs/2406.10759",
+        "paper": "https://dl.acm.org/doi/10.1109/ICRA46639.2022.9811649",
         "code": "",
         "project": ""
       },
       "notes": "Added from the survey Method section citation under Acrobatic Skills; data source and platform need verification.",
-      "method_name": "HumanoidParkour",
-      "bib_key": "HumanoidParkour"
+      "method_name": "DanceHAT",
+      "bib_key": "DanceHAT"
     },
     {
       "id": "pace",
@@ -1437,7 +1437,7 @@
         "Unspecified"
       ],
       "primary_category": "skill-acquisition",
-      "subcategory": "sports-skills",
+      "subcategory": "acrobatic-skills",
       "platforms": [
         "Unspecified"
       ],
@@ -1937,8 +1937,8 @@
       "data_sources": [
         "Unspecified"
       ],
-      "primary_category": "generalist-humanoid-policies",
-      "subcategory": "skill-guided-policies",
+      "primary_category": "skill-acquisition",
+      "subcategory": "long-horizon-skills",
       "platforms": [
         "Unspecified"
       ],
