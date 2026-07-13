@@ -3112,57 +3112,6 @@
       "bib_key": "DReCon"
     },
     {
-      "id": "sqil",
-      "title": "SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards",
-      "year": 2019,
-      "venue": "arXiv",
-      "data_sources": [
-        "Unspecified"
-      ],
-      "primary_category": "motion-retargeting-and-tracking",
-      "subcategory": "physics-based-motion-tracking",
-      "platforms": [
-        "MuJoCo"
-      ],
-      "tags": [
-        "local-folder-import"
-      ],
-      "links": {
-        "paper": "https://arxiv.org/abs/1905.11108",
-        "code": "",
-        "project": ""
-      },
-      "notes": "",
-      "method_name": "SQIL",
-      "bib_key": "SQIL"
-    },
-    {
-      "id": "sac",
-      "title": "Soft Actor-Critic Algorithms and Applications",
-      "year": 2019,
-      "venue": "arXiv",
-      "data_sources": [
-        "Unspecified"
-      ],
-      "primary_category": "motion-retargeting-and-tracking",
-      "subcategory": "physics-based-motion-tracking",
-      "platforms": [
-        "MuJoCo",
-        "Minitaur"
-      ],
-      "tags": [
-        "local-folder-import"
-      ],
-      "links": {
-        "paper": "https://arxiv.org/abs/1812.05905",
-        "code": "https://github.com/haarnoja/sac",
-        "project": ""
-      },
-      "notes": "Local PDF is the arXiv Algorithms and Applications version.",
-      "method_name": "SAC",
-      "bib_key": "SAC"
-    },
-    {
       "id": "simpoe",
       "title": "SimPoE: Simulated Character Control for 3D Human Pose Estimation",
       "year": 2021,

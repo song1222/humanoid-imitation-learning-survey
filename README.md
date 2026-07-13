@@ -45,8 +45,6 @@ Human-to-Humanoid motion retargeting, and physics-based reference tracking.
 - [ICLR 2019](https://arxiv.org/abs/1811.09656), **HVC**: Hierarchical Visuomotor Control of Humanoids
 - [ICLR 2019](https://openreview.net/forum?id=BJl6TjRcY7), **NPMP**: Neural Probabilistic Motor Primitives for Humanoid Control
 - [SIGGRAPH Asia 2019](https://doi.org/10.1145/3355089.3356536), **DReCon**: DReCon: Data-Driven Responsive Control of Physics-Based Characters
-- [arXiv 2019](https://arxiv.org/abs/1812.05905), **SAC**: Soft Actor-Critic Algorithms and Applications, [code](https://github.com/haarnoja/sac)
-- [arXiv 2019](https://arxiv.org/abs/1905.11108), **SQIL**: SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards
 - [ICML 2020](https://proceedings.mlr.press/v119/hasenclever20a.html), **CoMic**: CoMic: Complementary Task Learning & Mimicry for Reusable Skills
 - [CVPR 2021](https://arxiv.org/abs/2104.00683), **SimPoE**: SimPoE: Simulated Character Control for 3D Human Pose Estimation, [website](https://ye-yuan.com/simpoe/)
 - [SIGGRAPH 2021](https://arxiv.org/abs/2104.02180), **AMP**: AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control, [website](https://xbpeng.github.io/projects/AMP/index.html) / [code](https://github.com/xbpeng/DeepMimic)
