@@ -150,8 +150,8 @@ Object, scene, and human interaction behaviors.
 
 #### Humanoid-Human Interaction
 
+- [ICRA 2024](https://arxiv.org/abs/2402.04768), **ECHO**: Robot Interaction Behavior Generation based on Social Motion Forecasting for Human-Robot Interaction, [website](https://evm7.github.io/ECHO)
 - [RAL 2024](https://arxiv.org/abs/2406.15833), **XGB**: XBG: End-to-End Imitation Learning for Autonomous Behaviour in Human-Robot Interaction and Collaboration, [website](https://ami-iit.github.io/xbg/) / [code](https://github.com/ami-iit/paper_cardenas_2024_ral_xbg)
-- [arXiv 2024](https://arxiv.org/abs/2402.04768), **ECHO**: Robot Interaction Behavior Generation based on Social Motion Forecasting for Human-Robot Interaction, [website](https://evm7.github.io/ECHO)
 - [ICCV 2025](https://arxiv.org/abs/2508.02106), **Human-X**: Towards Immersive Human-X Interaction: A Real-Time Framework for Physically Plausible Motion Synthesis, [website](https://humanx-interaction.github.io/) / [code](https://github.com/humanx-interaction/Human-X-Interaction)
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2510.10206), **It Takes Two**: It Takes Two: Learning Interactive Whole-Body Control Between Humanoid Robots
 - [arXiv 2025](https://arxiv.org/abs/2502.13134), **RHINO**: RHINO: Learning Real-Time Humanoid-Human-Object Interaction from Human Demonstrations, [website](https://humanoid-interaction.github.io) / [code](https://github.com/TimerChen/RHINO)
