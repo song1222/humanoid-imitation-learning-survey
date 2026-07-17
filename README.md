@@ -98,6 +98,7 @@ humanoid skills such as sports, acrobatics, and long-horizon behavior.
 - [ICLR 2026](https://arxiv.org/abs/2512.14696), **CRISP**: CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives, [website](https://crisp-real2sim.github.io/CRISP-Real2Sim/) / [code](https://github.com/Z1hanW/CRISP-Real2Sim)
 - [ICRA 2026](https://doi.org/10.48550/arXiv.2509.16638), **KungfuBot2**: KungfuBot2: Learning Versatile Motion Skills for Humanoid Whole-Body Control, [website](https://kungfubot2-humanoid.github.io/) / [code](https://github.com/TeleHuman/PBHC)
 - [ICRA 2026](https://arxiv.org/abs/2509.21690), **pace**: PACE: Physics Augmentation for Coordinated End-to-end Reinforcement Learning toward Versatile Humanoid Table Tennis, [website](https://purdue-tracelab.github.io/ttrobot.github.io/) / [code](https://github.com/purdue-tracelab/PACE-ICRA2026)
+- [RSS 2026](https://php-parkour.github.io/static/images/paper.pdf), **PHP**: Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching, [website](https://php-parkour.github.io/)
 
 #### Long-Horizon Skills
 

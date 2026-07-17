@@ -3315,9 +3315,7 @@
       "subcategory": "physics-based-motion-tracking",
       "platforms": [
         "Unitree H1",
-        "Unitree G1",
-        "Talos",
-        "Unitree A1"
+        "Unitree G1"
       ],
       "tags": [
         "local-folder-import",
@@ -3520,6 +3518,27 @@
       "notes": "",
       "method_name": "SMP",
       "bib_key": "SMP"
+    },
+    {
+      "id": "PHP",
+      "title": "Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching",
+      "year": 2026,
+      "venue": "RSS",
+      "data_sources": [],
+      "primary_category": "skill-acquisition",
+      "subcategory": "acrobatic-skills",
+      "platforms": ["Unitree G1"],
+      "tags": [
+        
+      ],
+      "links": {
+        "paper": "https://php-parkour.github.io/static/images/paper.pdf",
+        "code": "",
+        "project": "https://php-parkour.github.io/"
+      },
+      "notes": "",
+      "method_name": "PHP",
+      "bib_key": "PHP"
     }
   ]
 }
