@@ -88,6 +88,7 @@ humanoid skills such as sports, acrobatics, and long-horizon behavior.
 - [ICRA 2026](https://doi.org/10.48550/arXiv.2508.21043), **HITTER**: HITTER: A HumanoId Table TEnnis Robot via Hierarchical Planning and Learning, [website](https://humanoid-table-tennis.github.io)
 - [ICRA 2026](https://events.infovaya.com/uploads/documents/pdfviewer/64/ee/218252-2281.pdf), **MAKP**: MAKP: Multi-Mode Accurate Kicking Policy for Humanoid Robots, [code](https://github.com/SII-ZZ/MAKP)
 - [arXiv 2026](https://arxiv.org/abs/2510.18002), **Humanoid Goalkeeper**: Humanoid Goalkeeper: Learning from Position Conditioned Task-Motion Constraints, [website](https://humanoid-goalkeeper.github.io/Goalkeeper/) / [code](https://github.com/InternRobotics/Humanoid-Goalkeeper)
+- [arXiv 2026](https://zzk273.github.io/LATENT/static/scripts/Humanoid_Tennis.pdf), **LATENT**: Learning Athletic Humanoid Tennis Skills from Imperfect HumanMotionData, [website](https://zzk273.github.io/LATENT/) / [code](https://github.com/GalaxyGeneralRobotics/LATENT)
 
 #### Acrobatic Skills
 

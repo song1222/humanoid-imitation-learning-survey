@@ -3579,6 +3579,25 @@
       "notes": "",
       "method_name": "TrajBooster",
       "bib_key": "TrajBooster"
+    },
+    {
+      "id": "LATENT",
+      "title": "Learning Athletic Humanoid Tennis Skills from Imperfect HumanMotionData",
+      "year": 2026,
+      "venue": "arXiv",
+      "data_sources": ["MoCap"],
+      "primary_category": "skill-acquisition",
+      "subcategory": "sports-skills",
+      "platforms": ["Unitree G1"],
+      "tags": [],
+      "links": {
+        "paper": "https://zzk273.github.io/LATENT/static/scripts/Humanoid_Tennis.pdf",
+        "code": "https://github.com/GalaxyGeneralRobotics/LATENT",
+        "project": "https://zzk273.github.io/LATENT/"
+      },
+      "notes": "",
+      "method_name": "LATENT",
+      "bib_key": "LATENT"
     }
   ]
 }
