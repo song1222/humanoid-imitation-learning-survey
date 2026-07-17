@@ -3588,7 +3588,7 @@
       "data_sources": ["MoCap"],
       "primary_category": "skill-acquisition",
       "subcategory": "sports-skills",
-      "platforms": ["Unitree G1"],
+      "platforms": ["Unitree G1", "MuJoCo"],
       "tags": [],
       "links": {
         "paper": "https://zzk273.github.io/LATENT/static/scripts/Humanoid_Tennis.pdf",
