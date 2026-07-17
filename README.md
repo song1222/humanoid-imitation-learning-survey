@@ -135,6 +135,7 @@ Object, scene, and human interaction behaviors.
 - [ICRA 2026](https://arxiv.org/abs/2509.13534), **Embracing Bulky Objects**: Embracing Bulky Objects with Humanoid Robots: Whole-Body Manipulation with Reinforcement Learning
 - [ICRA 2026](https://arxiv.org/abs/2511.14756), **HMC**: HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation, [website](https://loco-hmc.github.io)
 - [ICRA 2026](https://doi.org/10.48550/arXiv.2510.08807), **Humanoid Everyday**: Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation, [website](https://humanoideveryday.github.io/)
+- [ICRA 2026](https://arxiv.org/pdf/2509.11839), **TrajBooster**: TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning, [website](https://jiachengliu3.github.io/TrajBooster/) / [code](https://github.com/OpenHelix-Team/OpenTrajBooster)
 - [RSS 2026](https://arxiv.org/abs/2602.11758), **HAIC**: HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model, [website](https://haic-humanoid.github.io/) / [code](https://github.com/ldt29/HAIC)
 - [arXiv 2026](https://arxiv.org/abs/2603.01126), **Pro-HOI**: Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction
 

@@ -3560,6 +3560,26 @@
       "notes": "",
       "method_name": "Ego-VCP",
       "bib_key": "Ego-VCP"
+    },
+    {
+      "id": "TrajBooster",
+      "title": "TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning",
+      "year": 2026,
+      "venue": "ICRA",
+      "data_sources": [],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-object-interaction",
+      "platforms": ["Unitree G1"],
+      "tags": [
+      ],
+      "links": {
+        "paper": "https://arxiv.org/pdf/2509.11839",
+        "code": "https://github.com/OpenHelix-Team/OpenTrajBooster",
+        "project": "https://jiachengliu3.github.io/TrajBooster/"
+      },
+      "notes": "",
+      "method_name": "TrajBooster",
+      "bib_key": "TrajBooster"
     }
   ]
 }
