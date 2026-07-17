@@ -67,6 +67,7 @@ Human-to-Humanoid motion retargeting, and physics-based reference tracking.
 - [ICRA 2026](https://arxiv.org/abs/2505.24266), **SignBot**: SignBot: Learning Human-to-Humanoid Sign Language Interaction, [website](https://qiaoguanren.github.io/SignBot-demo/) / [code](https://github.com/qiaoguanren/Signbot)
 - [ICRA 2026](https://arxiv.org/abs/2506.01141), **Standing Tall**: Standing Tall: Sim to Real Fall Classification and Lead Time Prediction for Bipedal Robots
 - [ICRA 2026](https://arxiv.org/abs/2502.14814), **VB-Com**: VB-Com: Learning Vision-Blind Composite Humanoid Locomotion Against Deficient Perception, [website](https://renjunli99.github.io/vbcom.github.io/)
+- [SIGGRAPH 2026](https://xbpeng.github.io/projects/SMP/SMP_2026.pdf), **SMP**: SMP: Reusable Score-Matching Motion Priors for Physics-Based Character Control, [website](https://yxmu.foo/smp-page/) / [code](https://github.com/xbpeng/MimicKit)
 - [arXiv 2026](https://arxiv.org/abs/2511.07820), **SONIC**: SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control, [website](https://nvlabs.github.io/GEAR-SONIC/) / [code](https://github.com/NVlabs/GR00T-WholeBodyControl)
 
 ### Skill Acquisition

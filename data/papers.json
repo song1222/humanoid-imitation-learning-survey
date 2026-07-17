@@ -3497,7 +3497,7 @@
       "notes": "",
       "method_name": "HugWBC",
       "bib_key": "HugWBC"
-    }
+    },
     {
       "id": "smp",
       "title": "SMP: Reusable Score-Matching Motion Priors for Physics-Based Character Control",
@@ -3508,8 +3508,7 @@
       ],
       "primary_category": "motion-retargeting-and-tracking",
       "subcategory": "physics-based-motion-tracking",
-      "platforms": [
-      ],
+      "platforms": ["Isaac Gym"],
       "tags": [
         
       ],
