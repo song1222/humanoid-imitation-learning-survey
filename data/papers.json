@@ -3539,6 +3539,27 @@
       "notes": "",
       "method_name": "PHP",
       "bib_key": "PHP"
+    },
+    {
+      "id": "Ego-VCP",
+      "title": "Ego-Vision World Model for Humanoid Contact Planning",
+      "year": 2026,
+      "venue": "ICRA",
+      "data_sources": [],
+      "primary_category": "motion-retargeting-and-tracking",
+      "subcategory": "physics-based-motion-tracking",
+      "platforms": ["Unitree G1"],
+      "tags": [
+        "World Model"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/pdf/2510.11682",
+        "code": "https://github.com/HybridRobotics/Ego-VCP",
+        "project": "https://ego-vcp.github.io/"
+      },
+      "notes": "",
+      "method_name": "Ego-VCP",
+      "bib_key": "Ego-VCP"
     }
   ]
 }
