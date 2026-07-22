@@ -6,6 +6,31 @@
   },
   "papers": [
     {
+      "id": "cola",
+      "title": "Learning Human-Humanoid Coordination for Collaborative Object Carrying",
+      "year": 2026,
+      "venue": "ICRA",
+      "data_sources": [
+        "Unspecified"
+      ],
+      "primary_category": "interaction-learning",
+      "subcategory": "humanoid-human-interaction",
+      "platforms": [
+        "Unitree G1"
+      ],
+      "tags": [
+        "real-robot"
+      ],
+      "links": {
+        "paper": "https://arxiv.org/abs/2510.14293",
+        "code": "",
+        "project": "https://yushi-du.github.io/COLA/"
+      },
+      "notes": "The official code repository is public, but implementation code has not yet been released.",
+      "method_name": "COLA",
+      "bib_key": "du2025learning"
+    },
+    {
       "id": "deepmimic",
       "title": "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills",
       "year": 2018,

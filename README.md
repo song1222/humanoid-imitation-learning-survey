@@ -161,6 +161,7 @@ Object, scene, and human interaction behaviors.
 - [arXiv 2025](https://doi.org/10.48550/arXiv.2510.10206), **It Takes Two**: It Takes Two: Learning Interactive Whole-Body Control Between Humanoid Robots
 - [arXiv 2025](https://arxiv.org/abs/2502.13134), **RHINO**: RHINO: Learning Real-Time Humanoid-Human-Object Interaction from Human Demonstrations, [website](https://humanoid-interaction.github.io) / [code](https://github.com/TimerChen/RHINO)
 - [CVPR 2026](https://arxiv.org/pdf/2601.09518), **Beyond Mimicry**: Beyond Mimicry: Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations
+- [ICRA 2026](https://arxiv.org/abs/2510.14293), **COLA**: Learning Human-Humanoid Coordination for Collaborative Object Carrying, [website](https://yushi-du.github.io/COLA/)
 - [arXiv 2026](https://arxiv.org/abs/2604.18557), **SynAgent**: SynAgent: Generalizable Cooperative Humanoid Manipulation via Solo-to-Cooperative Agent Synergy, [website](https://yw0208.github.io/synagent/) / [code](https://github.com/yw0208/SynAgent)
 
 ### Generalist Humanoid Policies
